@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping default-access="field">
+    <class name="com.ecpss.domain.Episode" table="episode" batch-size="20">
+        <comment>集数</comment>
+        <id name="id">
+            <column name="id" not-null="true">
+                <comment>主键</comment>
+            </column>
+            <generator class="identity">
+                <param name="primary_key">主键</param><!--可省略-->
+            </generator>
+        </id>
+
+
+        <property name="title">
+            <column name="title"  not-null="true">
+            </column>
+        </property>
+
+        <property name="num">
+            <column name="num" sql-type="integer">
+            </column>
+        </property>
+        <property name="duration">
+            <column name="duration">
+            </column>
+        </property>
+        <property name="coverImg">
+            <column name="cover_img">
+            </column>
+        </property>
+
+        <property name="videoId">
+            <column name="video_id">
+            </column>
+        </property>
+        <property name="summary">
+            <column name="summary">
+            </column>
+        </property>
+        <property name="chapterId" column="chapter_id">
+        </property>
+
+        <property name="createTime" type="date" update="false">
+            <column name="create_time" sql-type="timestamp">
+                <comment>创建时间</comment>
+            </column>
+        </property>
+    </class>
+</hibernate-mapping>
