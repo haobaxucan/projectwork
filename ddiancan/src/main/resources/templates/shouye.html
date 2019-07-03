@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link th:href="@{/button.css}" rel="stylesheet">
+    <link th:href="@{/webjars/bootstrap/3.0.1/css/bootstrap.min.css}" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="jquery.page.css">
+    <script th:src="@{/jquery.min.js}"></script>
+    <script src="jquery.page.js"></script>
+    <script src="/webjars/bootstrap/3.0.1/webjars-requirejs.js"></script>
+    <script src="/webjars/bootstrap/3.0.1/js/bootstrap.js"></script>
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/3.0.1/css/bootstrap-theme.css" rel="stylesheet">
+    <script type="text/javascript" th:src="@{/plugins/attention/zDialog/zDrag.js}"></script>
+    <script type="text/javascript" src="/plugins/attention/zDialog/zDialog.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span12">
+            <table class="table table-bordered">
+                <thead>
+                <tr>
+                    <th>
+                        序号
+                    </th>
+                    <th>
+                        姓名
+                    </th>
+                    <th>
+                        地址
+                    </th>
+                    <th>
+                        年龄
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                <!--如果是状态则更具状态去取-->
+                <!--<tr th:each="person:${page.getContent()}">-->
+                    <!--<td th:text="${personStat.count}"></td>-->
+                    <!--<td th:text="${person.name}"></td>-->
+                    <!--<td th:text="${person.addr1}"></td>-->
+                    <!--<td th:text="${person.age}"> </td>-->
+                <!--</tr>-->
+
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span12">
+
+             <ul>
+                <li>
+                    <a href="#">上一页</a>
+                </li>
+
+                <!--<div th:each="p:${1..page.getTotalPage()}">-->
+                    <!--<a th:href="@{/a/(cpage=${pStat.count},size=2)}"> <div th:text="${pStat.count}"></div> </a>-->
+                <!--</div>-->
+            <!--<div th:each="i: ${#numbers.sequence(1 ,page.getTotalPages())}">-->
+                <!--<div th:text="${i}"></div>-->
+            <!--</div>-->
+
+                <li>
+                    <a href="#">下一页</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+<button onclick="col()">收集信息</button>
+
+<script type="text/javascript">
+    function col() {
+        var diag = new Dialog();
+        diag.Drag = true;
+        diag.Width = 600;
+
+        diag.Height = 300;
+
+        diag.Title = "收集信息";
+
+        diag.URL = "http://www.baidu.com";
+
+        diag.CancelEvent = function()                {//关闭事件，在这里设置就ok
+            diag.close();
+            window.location.reload();
+        }
+
+        diag.show();
+//        Dialog.open({URL:"http://www.baidu.com"});
+
+
+    }
+</script>
+
+
+</body>
+</html>

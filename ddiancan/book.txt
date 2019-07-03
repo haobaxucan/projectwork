@@ -1,0 +1,66 @@
+数据库设计
+商品表 -商品属性
+product_info {id
+单价 mysql中decimal
+库存 int
+ 描述 desc
+ 图片 String
+ 类目编号 categoryno;
+ 创建时间
+
+}
+
+类目 表  --product_category{
+id int,
+名字
+类目编号 int
+}
+
+订单表  --Order_m{
+    id
+    买家名字
+    买家电话
+    买家地址
+    open_id varchar(32)
+    total_fee double
+
+    订单状态
+}
+
+
+订单详情表 order_detail{
+id
+订单id
+商品id
+商品名称
+商品价格
+商品数量
+商品图片 varchar(32) url
+创建时间
+更新时间
+}
+卖家表
+
+
+-------------------------微信部分----
+微信 支付文档地址
+https://pay.weixin.qq.com/wiki/doc/api/index.html
+
+----------
+微信普通商户 --开发
+首先设置域名
+1获取code
+https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx30de7e8ac3923ce2&redirect_uri=http://xucan.natapp1.cc/wx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+code=0616kY140j9mpJ1trs140Q652406kY1l
+
+第二步：通过code换取网页授权access_token  ---openid每一次都是一样的
+ String url="https://api.weixin.qq.com/sns/oauth2/access_token?appid=wx30de7e8ac3923ce2&secret=e98584dc55427d15b60c4937084e530d&code="+code+"&grant_type=authorization_code";
+        Map<String, Object> map = HttpUtils.doGet(url);
+        System.out.println(map);
+
+{access_token=22_ozAvSrq2TqZ8CpG5XozfpVJ3rvSJK0qePMyzbN11azIPBPUbaqMMrEtuhL8XuseuXyxWR-bnarPk5tLHaXrNhJjwJUhbTIHz41opvZgzku4,
+ refresh_token=22_FTzCAXA1damDpNY56R34RvbU5xEInkGyVnTTXuPK5moyyJkr0cR0fqwGvy22dmpiIVj4wO8n4wMhwctcvspRbUnr4TABlS6xVWH7GhJa1r0,
+ openid=oFm7l1BFG8jNNV1xgwNwP0xM2nHQ, scope=snsapi_base, expires_in=7200.0}
+
+------------微信支付------------sdk---
+

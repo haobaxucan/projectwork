@@ -5,6 +5,9 @@
       <list>
         <option value="$PROJECT_DIR$/testweixin/pom.xml" />
         <option value="$PROJECT_DIR$/avideo/pom.xml" />
+        <option value="$PROJECT_DIR$/bblog/pom.xml" />
+        <option value="$PROJECT_DIR$/ccardpage/pom.xml" />
+        <option value="$PROJECT_DIR$/ddiancan/pom.xml" />
       </list>
     </option>
   </component>

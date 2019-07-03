@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+
+
+  <title>收集</title>
+
+  <link th:href="@{/button.css}" rel="stylesheet">
+
+  <script type="text/javascript" th:src="@{/plugins/attention/zDialog/zDrag.js}"></script>
+  <script type="text/javascript" src="/plugins/attention/zDialog/zDialog.js"></script>
+
+  <script type="text/javascript">
+
+
+
+  </script>
+
+</head>
+
+<body><div id="forlogin">
+  <form action="/toCollect" method="post" id="Form" class="Form">
+    <table width="100%" border="0" align="center" cellpadding="4" cellspacing="4" bordercolor="#666666">
+
+      <tr>
+        <td colspan="2" bgcolor="#eeeeee">收集表单</td>
+      </tr>
+
+      <tr>
+        <td width="150" align="right">商户名称</td>
+        <td><input type="text" name="name" /></td>
+      </tr>
+
+      <tr>
+        <td width="150" align="right">商户号</td>
+        <td><input type="text" name="pwd" /></td>
+      </tr>
+
+      <tr>
+      <td align="right">身份证信息</td>
+      <td><input type="text"  /></td>
+    </tr>
+      <tr>
+        <td align="right">电话号码</td>
+        <td><input type="text"   /></td>
+      </tr>
+      <tr>
+        <td align="right">身份证信息</td>
+        <td><input type="text"  /></td>
+      </tr>
+      <tr>
+        <td align="right">身份证信息</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td colspan="3" align="left" style="padding-left:160px;">
+          <input type="submit" onclick="sub()" value="提交" class="buttonStyle" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input onClick="clos()" class="buttonStyle" type="button" value="关闭" /></td>
+      </tr>
+
+    </table>
+  </form>
+</div>
+<script type="text/javascript">
+    function sub() {
+        alert("确认提交?")
+        $("#Form").submit();
+
+    }
+    function clos()
+    {
+        parentDialog.close();
+    }
+</script>
+</body>
+</html>

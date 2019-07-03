@@ -7,11 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="avideo" />
+        <module name="bblog" />
+        <module name="ccardpage" />
+        <module name="ddiancan" />
         <module name="websocket_boot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="avideo" target="1.8" />
+      <module name="bblog" target="1.8" />
+      <module name="ccardpage" target="1.8" />
+      <module name="ddiancan" target="1.8" />
       <module name="websocket_boot" target="1.8" />
     </bytecodeTargetLevel>
   </component>
