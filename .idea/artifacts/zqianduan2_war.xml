@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="zqianduan2:war">
+    <output-path>$PROJECT_DIR$/zqianduan2/target</output-path>
+    <root id="archive" name="zqianduan2-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="zqianduan2:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,50 @@
+2019-07-05 11:16:05.244 INFO [restartedMain]com.ecpss.DdiancanApplication.logStarting:50 -Starting DdiancanApplication on xhost with PID 24884 (D:\workaddress\projectwork\ddiancan\target\classes started by Raytine in D:\workaddress\projectwork)
+2019-07-05 11:16:05.250 INFO [restartedMain]com.ecpss.DdiancanApplication.logStartupProfileInfo:646 -No active profile set, falling back to default profiles: default
+2019-07-05 11:16:05.416 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-05 11:16:05.416 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-05 11:16:10.875 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-05 11:16:10.876 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-05 11:16:11.105 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 157ms. Found 1 repository interfaces.
+2019-07-05 11:16:11.205 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-05 11:16:11.206 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-05 11:16:11.237 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:363 -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ecpss.service.qservice.PageResponsity.
+2019-07-05 11:16:11.237 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+2019-07-05 11:16:12.521 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6d31bce1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-05 11:16:14.542 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8083 (http)
+2019-07-05 11:16:14.622 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8083"]
+2019-07-05 11:16:14.656 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-07-05 11:16:14.656 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-05 11:16:14.956 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-07-05 11:16:14.957 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:283 -Root WebApplicationContext: initialization completed in 9540 ms
+2019-07-05 11:16:16.976 INFO [restartedMain]com.alibaba.druid.pool.DruidDataSource.init:923 -{dataSource-1} inited
+2019-07-05 11:16:18.040 INFO [restartedMain]org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-05 11:16:18.985 INFO [restartedMain]org.hibernate.Version.logVersion:46 -HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-05 11:16:18.987 INFO [restartedMain]org.hibernate.cfg.Environment.<clinit>:213 -HHH000206: hibernate.properties not found
+2019-07-05 11:16:20.191 INFO [restartedMain]org.hibernate.annotations.common.Version.<clinit>:49 -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-05 11:16:21.991 INFO [restartedMain]org.hibernate.dialect.Dialect.<init>:157 -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-05 11:16:25.860 INFO [restartedMain]o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory:415 -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-05 11:16:25.878 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-07-05 11:16:27.425 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-05 11:16:27.507 WARN [restartedMain]o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor:225 -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-05 11:16:27.724 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:54 -Adding welcome page: class path resource [static/index.html]
+2019-07-05 11:16:29.031 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8083"]
+2019-07-05 11:16:29.079 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8083 (http) with context path ''
+2019-07-05 11:16:29.081 INFO [restartedMain]com.ecpss.DdiancanApplication.logStarted:59 -Started DdiancanApplication in 24.861 seconds (JVM running for 30.328)
+2019-07-05 11:17:11.976 INFO [http-nio-8083-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-05 11:17:11.976 INFO [http-nio-8083-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-07-05 11:17:12.003 INFO [http-nio-8083-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 27 ms
+2019-07-05 11:17:12.120 INFO [http-nio-8083-exec-1]com.ecpss.controller.TestController.string:129 -cpage1,size=2
+2019-07-05 12:02:24.411 INFO [restartedMain]com.ecpss.DdiancanApplication.logStarting:50 -Starting DdiancanApplication on xhost with PID 23800 (D:\workaddress\projectwork\ddiancan\target\classes started by Raytine in D:\workaddress\projectwork)
+2019-07-05 12:02:24.478 INFO [restartedMain]com.ecpss.DdiancanApplication.logStartupProfileInfo:646 -No active profile set, falling back to default profiles: default
+2019-07-05 12:02:24.870 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-05 12:02:24.870 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-05 12:02:32.345 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-05 12:02:32.346 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-05 12:02:33.000 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 456ms. Found 1 repository interfaces.
+2019-07-05 12:02:33.175 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-05 12:02:33.176 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-05 12:02:33.391 INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:363 -Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ecpss.service.qservice.PageResponsity.
+2019-07-05 12:02:33.394 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 63ms. Found 0 repository interfaces.
+2019-07-05 12:02:35.819 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9a89f6ee] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>统计</title>
+    <script th:src="@{/jquey/jquery-3.1.0.js}"></script>
+</head>
+<body>
+<a th:href="@{/toTest}">进入test页面</a>
+
+<!--请输入您的昵称<input type="text" id="username">-->
+<!--<input type="button" value="连接" onclick="connect()"></input> <br>-->
+<form method="post" th:action="@{/aa/send}">
+    请填写要发送的内容<input type="hidden" id="msg" value="银行卡信息收集成功" name="msg">
+    <input type="submit" value="发送" onclick="sendMsg()"> <!--onclick="sendMsg()"-->
+</form>
+<script type="text/javascript">
+    var ws = null;
+    $(function () {
+
+        var path='[[${#httpServletRequest.getRequestURL()}]]'.replace("http","ws");
+        alert(path);
+        if ('WebSocket' in window){
+
+            ws = new WebSocket(path);
+        }
+        else if ('MozWebSocket' in window){
+            ws = new MozWebSocket(path);
+        }
+        else{
+            alert("该浏览器不支持websocket");
+        }
+
+        /**
+         *  //连接成功建立的回调方法
+         * @param evt
+         */
+        if(1==1) {
+            ws.onmessage = function (evt) {
+                alert(evt.data);
+            };
+        }
+        ws.onclose = function(evt) {
+            console.log("连接中断");
+        };
+
+        ws.onopen = function(evt) {
+            console.log("连接成功");
+        };
+
+    });
+
+    function sendMsg() {
+        ws.send($("#msg").val());
+    }
+</script>
+</body>
+</html>

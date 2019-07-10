@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <script th:src="@{/jquey/jquery-3.1.0.js}"></script>
+</head>
+<body>
+
+<form>
+    name:<input type="text" name="name" id="name" value="cc"><br/>
+    pass:<input type="text" name="pass" id="pass" value="12"><br/>
+    <input type="button" value="提交" id="sub">
+</form>
+
+<script>
+    $(function () {
+        $("#sub").click(function () {
+            $.post("/ajax",{
+                name:$("#name").val(),
+                pass:$("#pass").val()},function (data) {
+                if (data=='success'){
+                    alert("成功")
+                }
+            });
+        });
+    });
+
+</script>
+
+</body>
+</html>

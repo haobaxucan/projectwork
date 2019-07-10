@@ -10,7 +10,13 @@
         <module name="bblog" />
         <module name="ccardpage" />
         <module name="ddiancan" />
+        <module name="eerucka" />
+        <module name="eureka_consumer2" />
+        <module name="eureka_provider1" />
         <module name="websocket_boot" />
+        <module name="zqianduan" />
+        <module name="zqianduan2" />
+        <module name="zqianduan_html3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,7 +24,14 @@
       <module name="bblog" target="1.8" />
       <module name="ccardpage" target="1.8" />
       <module name="ddiancan" target="1.8" />
+      <module name="eerucka" target="1.8" />
+      <module name="eureka_consumer2" target="1.8" />
+      <module name="eureka_provider1" target="1.8" />
       <module name="websocket_boot" target="1.8" />
+      <module name="zqianduan" target="1.8" />
+      <module name="zqianduan2" target="1.8" />
+      <module name="zqianduan3_html" target="1.8" />
+      <module name="zqianduan_html3" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

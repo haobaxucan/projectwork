@@ -21,7 +21,10 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
@@ -34,6 +37,10 @@ import java.util.Map;
 public class TestController {
     @Autowired
     private OrderService orderService;
+    @RequestMapping("js")
+    public String js(){
+    return "js";
+    }
     
     /**
      * 备注：这里一个@Valid的参数后必须紧挨着一个BindingResult 参数，
@@ -169,8 +176,16 @@ public class TestController {
     }
     
     @RequestMapping("/index")
-    public String index(){
-        
+    public String index(HttpServletResponse res){
+        res.setCharacterEncoding("UTF-8");
+        res.setContentType("text/html; charset=utf-8");
+        PrintWriter out= null;
+        try {
+            out = res.getWriter();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        out.print("<script>alert('银行卡信息添加成功');</script>");
         return "index";
     }
 }

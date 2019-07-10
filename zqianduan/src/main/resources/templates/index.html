@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link th:href="@{/webjars/bootstrap/3.0.1/css/bootstrap.min.css}" rel="stylesheet">
+    <script th:src="@{/webjars/bootstrap/3.0.1/js/bootstrap.js}"></script>
+    <script th:src="@{/webjars/jquery/3.3.1/jquery.js}"></script>
+
+    <script th:src="@{/webjars/jquery-ui/1.12.1/jquery-ui.js}"></script>
+
+    <!--<script th:src="@{/webjars/jquery-ui/1.12.1/webjars-requirejs.js}"></script>-->
+    <!--<script th:src="@{/webjars/layui/2.4.5/lay/modules/layer.js}"></script>-->
+    <script th:src="@{/webjars/layer/src/layer.js}"></script>
+    <!--<script th:src="@{/layer.js}"></script>-->
+    <link th:href="@{/need/layer.css}" rel="stylesheet">
+    <script src="res/jqPaginator.min.js" type="text/javascript"></script>
+<style type="text/css">
+    .container{
+
+        /* background: red; */
+        color: #d6e9c6;
+        background-color: #faebcc;
+
+    }
+</style>
+
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr/>
+<script>
+    $(function () {
+        $("#upload").click(function () {
+            var formData = new FormData();
+            formData.append("myfile", document.getElementById("file").files[0]);
+            $.ajax({
+                url: "/import",
+                type: "POST",
+                data: formData,
+                /**
+                 *必须false才会自动加上正确的Content-Type
+                 */
+                contentType: false,
+                /**
+                 * 必须false才会避开jQuery对 formdata 的默认处理
+                 * XMLHttpRequest会对 formdata 进行正确的处理
+                 */
+                processData: false,
+                success: function (data) {
+                    if (data.status == "true") {
+                        alert("上传成功！");
+                    }
+                    if (data.status == "error") {
+                        alert(data.msg);
+                    }
+//                    $("#imgWait").hide();
+                },
+                error: function () {
+                    alert("上传失败！");
+//                    $("#imgWait").hide();
+                }
+            });
+        });
+    });
+</script>
+
+
+<script>
+    function uploadExcel(){
+        var formData = new FormData();
+        formData.append("myfile", document.getElementById("file1").files[0]);
+        var excelFile=$("#excelFile").val();
+        if(excelFile==""||excelFile.length==0){
+            alert("请选择文件路径!(.xlsx)");
+            return;
+        }
+        if(excelFile.indexOf(".xlsx")==-1){
+            alert("请选择正确格式文件!(.xlsx)");
+            return;
+        }
+        $.post("/import",formData,function (data) {
+            alert("导入成功");
+        });
+
+
+    }
+
+</script>
+
+<button onclick="fun()">点击</button>
+<a th:href="@{a.js}" id="aaa">aaa</a> <!--//静态资源中静态页面-->
+
+<form>
+    name:<input type="text" name="name" id="name" value="cc"><span id="message" style="color: red"></span><br/>
+    pass:<input type="text" name="pass" id="pass" value="12"><br/>
+    <input type="button" value="提交" class="ad">
+</form>
+
+<a th:href="@{/ajax}"> 点击</a>
+
+<hr/>
+
+<script>
+    $(function () {
+        $(".ad").click(function () {
+            alert("jj");
+           $.ajax({
+               type: 'post',
+               dataType: 'text',
+               data: $("form").serialize(),
+               url: '[[@{/ajax}]]',
+               success: function (data) {
+                   alert("成功");
+               }
+           });
+        });
+    });
+</script>
+
+<script>
+    $(function () {
+        $("#sub").click(function () {
+            $("form").serialize(); //name=cc&pass=12  --表单提交序列化
+            $("form").submit();
+        });
+    });
+</script>
+
+<script>
+    window.onload = function () {
+        var aa = document.getElementById("aa");//得到a标签
+        aa.onclick = function () {//为a标签绑定一个函数
+//            1创建一个XMLHttpRequest 对象
+            var request = new XMLHttpRequest();
+
+//            2创建发送请求的url
+            var url = this.href;
+            var method = "GET";
+//            var method="POST";
+//            3调用XMLHttpRequest 对象 open方法
+            request.open(method,url);
+//            4调用XMLHttpRequest 对象 send方法
+             request.send(null);
+//            request.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+//            request.send("xx=Henry&zz=Ford"); //post请求表单数据
+//            5为XMLHttpRequest 对象 添加onreadystatechange 响应函数
+//            6判断响应是否完成： XMLHttpRequest的 readyState属性值为4的时候
+
+//            7判断响应是否可用  XMLHttpRequest的对象status 属性值为200
+            request.onreadystatechange=function() {//alert(request.readyState) value为1 2 3 4
+                if(request.readyState==4){
+                if (request.status==304 || request.status==200){
+//                  var element = document.getElementById("div1");
+//                  element.innerHTML=request.responseText;  html格式
+//                    json格式
+                    var obj = request.responseText;
+
+                    var jsonObject=eval("("+obj+")");
+
+                    alert(jsonObject['age']);//xc
+                }
+            } }
+
+
+//            8打印响应结果    打印响应结果
+
+              return false;
+        }
+    }
+
+</script>
+
+
+<script>
+    function fun() {
+        layer.open({
+            title: '收集参数',
+            type: 2,
+            skin: 'layui-layer-rim', //加上边框
+            area: ['500px', '450px'],//弹框页面大小
+            shadeClose: true, //点击遮罩关闭
+            btn: ['保存', '取消'],
+            content: '/login', //url连接
+
+            yes: function (index, layero) { // 保存按钮回调函数
+                // 获取iframe层的body
+                var body = layer.getChildFrame('body', index);
+                // 找到隐藏的提交按钮模拟点击提交
+                body.find('#permissionSubmit').submit();
+            },
+            btn2: function (index, layero) { // 取消按钮回调函数
+                layer.close(index); // 关闭弹出层
+            }
+
+        });
+
+    }
+</script>
+
+<div id="div2"></div>
+</body>
+</html>

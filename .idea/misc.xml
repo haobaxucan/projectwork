@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/zqianduan2" />
+    <file type="web" url="file://$PROJECT_DIR$/zqianduan_html3" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -8,6 +12,13 @@
         <option value="$PROJECT_DIR$/bblog/pom.xml" />
         <option value="$PROJECT_DIR$/ccardpage/pom.xml" />
         <option value="$PROJECT_DIR$/ddiancan/pom.xml" />
+        <option value="$PROJECT_DIR$/zqianduan/pom.xml" />
+        <option value="$PROJECT_DIR$/eerucka/pom.xml" />
+        <option value="$PROJECT_DIR$/zqianduan2/pom.xml" />
+        <option value="$PROJECT_DIR$/zqianduan3_html/pom.xml" />
+        <option value="$PROJECT_DIR$/zqianduan_html3/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka_provider1/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka_consumer2/pom.xml" />
       </list>
     </option>
   </component>

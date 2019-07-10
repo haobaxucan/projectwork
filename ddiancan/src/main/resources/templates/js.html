@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>js验证</title>
+    <script th:src="@{/webjars/jquery/3.3.1/jquery.js}"></script>
+</head>
+<body>
+   <input type="button" value="a" onclick="cli()">
+<script>
+    function cli() {
+        var s="                ";
+        s=$.trim(s);
+        alert(s==null);//false
+        alert(s=='');//true
+
+    }
+</script>
+
+</body>
+</html>

@@ -6,8 +6,14 @@
       <module fileurl="file://$PROJECT_DIR$/bblog/bblog.iml" filepath="$PROJECT_DIR$/bblog/bblog.iml" />
       <module fileurl="file://$PROJECT_DIR$/ccardpage/ccardpage.iml" filepath="$PROJECT_DIR$/ccardpage/ccardpage.iml" />
       <module fileurl="file://$PROJECT_DIR$/ddiancan/ddiancan.iml" filepath="$PROJECT_DIR$/ddiancan/ddiancan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eerucka/eerucka.iml" filepath="$PROJECT_DIR$/eerucka/eerucka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka_consumer2/eureka_consumer2.iml" filepath="$PROJECT_DIR$/eureka_consumer2/eureka_consumer2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka_provider1/eureka_provider1.iml" filepath="$PROJECT_DIR$/eureka_provider1/eureka_provider1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/projectwork.iml" filepath="$PROJECT_DIR$/.idea/projectwork.iml" />
       <module fileurl="file://$PROJECT_DIR$/testweixin/websocket_boot.iml" filepath="$PROJECT_DIR$/testweixin/websocket_boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zqianduan/zqianduan.iml" filepath="$PROJECT_DIR$/zqianduan/zqianduan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zqianduan2/zqianduan2.iml" filepath="$PROJECT_DIR$/zqianduan2/zqianduan2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zqianduan_html3/zqianduan_html3.iml" filepath="$PROJECT_DIR$/zqianduan_html3/zqianduan_html3.iml" />
     </modules>
   </component>
 </project>
