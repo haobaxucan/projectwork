@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>index文件上传</title>
+    <script th:src="@{/res/jquery-1.7.2.min.js}"></script>
+    <script>
+
+        $(function () {
+            $("#sub").click(function () {
+                alert("cc");
+                $.post("/ajax",{
+                    name:$("#name").val(),
+                    pass:$("#pass").val()},function (data) {
+                    alert("添加成功");
+                });
+            });
+        });
+
+
+    </script>
+    <script>
+        function qrcode() {
+
+        }
+        
+    </script>
+</head>
+<body>
+
+<h3>测试ajax</h3>
+
+<form>
+    name:<input type="text" name="name" id="name" value="cc"><br/>
+    pass:<input type="text" name="pass" id="pass" value="12"><br/>
+    <input type="button" value="提交" id="sub">
+</form>
+
+<hr/>
+<a th:href="@{/uploadFile1}">进入文件上传页面</a><br/><br/><br/>
+<a th:href="@{/text}">text下载</a><br/><br/>
+
+
+<a  th:href="@{/qrcode}">生成二维码 </a><br/><br/>
+生成验证码
+<img  th:src="@{/yzmcode}" ></img><br/><br/>
+
+<!--<button onclick="qrcode()">生成二维码</button><br/><br/><br/>-->
+
+
+</body>
+</html>

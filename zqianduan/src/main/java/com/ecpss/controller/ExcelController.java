@@ -1,16 +1,12 @@
 package com.ecpss.controller;
 
-import com.ecpss.utils.ParseExcelUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.ConcurrentModel;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
-import org.thymeleaf.expression.Arrays;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
@@ -31,8 +27,8 @@ public class ExcelController {
             System.out.println("1111==========");
             log.info("a{}",file.getName());
             InputStream inputStream = file.getInputStream();
-            String s = ParseExcelUtil.readExcel(inputStream, file.getOriginalFilename(), 0, 2);
-            log.info("信息{}",s);
+//            String s = ParseExcelUtil.readExcel(inputStream, file.getOriginalFilename(), 0, 2);
+            log.info("信息{}");
     
     
         } catch (IOException e) {

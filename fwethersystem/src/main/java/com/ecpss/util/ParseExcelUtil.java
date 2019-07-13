@@ -1,4 +1,4 @@
-package com.ecpss.utils;
+package com.ecpss.util;
 
 import com.alibaba.fastjson.JSONObject;
 import org.apache.poi.hssf.usermodel.HSSFDateUtil;
@@ -82,7 +82,7 @@ public class ParseExcelUtil {
                 wb = null;
             }
         } else {
-            throw new RuntimeException("");
+            throw new RuntimeException("文件解析异常");
         }
         return wb;
     }

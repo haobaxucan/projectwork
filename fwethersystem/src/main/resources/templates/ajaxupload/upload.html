@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>上传文件</title>
+    <script th:src="@{/webjars/jquery/3.3.1/jquery.js}"></script>
+
+
+</head>
+<body>
+<form id="uploadForm" enctype="multipart/form-data">
+    <input type="file" name="file" id="fileText">
+    <input type="button" id="upload" value="上传">
+</form>
+<a th:href="@{/downExcel}">下载excel</a>
+<hr/>
+<h2>继续</h2>
+<form method="post" action="/testUser" enctype ="multipart/form-data">
+    <input type="file" name="file"/>
+    <input type="submit" value="测试提交">
+</form>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    $(function() {
+        $('#upload').click(function() {
+            var formData = new FormData($('#uploadForm')[0]);
+            var val=$("#fileText").val();
+            val=val.substring(val.lastIndexOf("."));
+            if(val!=''){
+                if(val.toLowerCase()==".xlsx"||!val.toLowerCase()==".xls"){
+                    $.ajax({
+                        contentType: false,
+                        type : 'POST',
+                        url : '/upload',
+                        data : formData,
+                        cache : false,
+                        processData : false, // jQuery不要去处理发送的数据
+                        contentType : false,  // jQuery不要去设置Content-Type请求头
+                        success: function (e) {
+                           alert(e.isSuccess);//true
+                           alert(e.msg);//成功
+                        },
+                        error: function (data) {
+                            alert(data);
+                        }
+
+                    });
+                }else {
+                    alert("请选.xslx或者.xsl格式的文件");
+                }
+
+            }else {
+                alert("请选择一个文件");
+            }
+
+        });
+
+    });
+
+</script>
+<script>
+
+</script>
+</body>
+</html>
