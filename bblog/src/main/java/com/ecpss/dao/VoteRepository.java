@@ -1,6 +1,6 @@
 package com.ecpss.dao;
 
-import com.ecpss.domain.Vote;
+import com.ecpss.spring.domain.Vote;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

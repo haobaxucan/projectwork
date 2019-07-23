@@ -1,15 +1,13 @@
 package com.ecpss.dao.impl;
 
 import com.ecpss.dao.UserDao;
-import com.ecpss.domain.User;
-import org.slf4j.LoggerFactory;
+import com.ecpss.spring.domain.User;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
-import java.util.logging.Logger;
 
 /**
  * Created by xc on 2019/6/20.

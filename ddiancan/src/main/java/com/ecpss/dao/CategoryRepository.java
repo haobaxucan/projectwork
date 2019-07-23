@@ -1,6 +1,6 @@
 package com.ecpss.dao;
 
-import com.ecpss.domain.ProductCategory;
+import com.ecpss.spring.domain.ProductCategory;
 
 import java.util.List;
 

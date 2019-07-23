@@ -1,6 +1,6 @@
 package com.ecpss.dao;
 
-import com.ecpss.domain.ProductInfo;
+import com.ecpss.spring.domain.ProductInfo;
 import com.ecpss.service.qservice.PageResponsity;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -9,15 +9,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Sort;
-import org.springframework.data.querydsl.QPageRequest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.math.BigDecimal;
 import java.util.Date;
 import java.util.List;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by xc on 2019/6/26.

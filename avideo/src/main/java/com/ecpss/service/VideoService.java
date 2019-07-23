@@ -1,6 +1,6 @@
 package com.ecpss.service;
 
-import com.ecpss.domain.Video;
+import com.ecpss.spring.domain.Video;
 
 import java.util.List;
 

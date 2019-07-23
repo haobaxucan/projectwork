@@ -1,7 +1,6 @@
 package com.ecpss.dao;
 
-import com.ecpss.controller.dto.CartDto;
-import com.ecpss.domain.ProductInfo;
+import com.ecpss.spring.domain.ProductInfo;
 
 import java.util.List;
 

@@ -3,22 +3,20 @@ package com.ecpss;
 import com.alibaba.fastjson.JSONObject;
 import com.ecpss.test.User;
 import com.ecpss.util.FastJsonUtils;
-import com.ecpss.util.ParseExcelUtil;
 import com.ecpss.util.utiltest.FileUtils;
 import com.ecpss.util.utiltest.NumberConvertUtil;
 import com.ecpss.util.utiltest.xml.ParseXmlUtil;
 import com.ecpss.util.utiltest.xml.XStreamUtil;
 import com.ecpss.util.utiltest.xml.XmlToJsonUtil;
-import com.ecpss.util.utiltest.xml.XmlUtil;
-import com.thoughtworks.xstream.XStream;
+import com.google.common.collect.Lists;
+
 import org.junit.Test;
+import org.springframework.util.CollectionUtils;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 /**
@@ -120,6 +118,14 @@ public class FileTest {
 //        user.setSub(strings);
 //        String s = XStreamUtil.pojoToXml(user);
 //        System.out.println(s);
+        ArrayList<Object> list =null;
+//        if( CollectionUtils.isNotEmpty(list)){
+//            System.out.println("aa");
+//        }
+        if(CollectionUtils.isEmpty(list)){
+            System.out.println("de ch");
+        }
+        
     }
     
 }

@@ -1,7 +1,7 @@
 package com.ecpss.service.impl;
 
 import com.ecpss.dao.UserDao;
-import com.ecpss.domain.User;
+import com.ecpss.spring.domain.User;
 import com.ecpss.exception.Response;
 import com.ecpss.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

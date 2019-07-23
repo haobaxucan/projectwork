@@ -1,9 +1,7 @@
 package com.ecpss.controller;
 
-import com.ecpss.config.WechatConfig;
-import com.ecpss.domain.User;
-import com.ecpss.domain.Video;
-import com.ecpss.domain.VideoOrder;
+import com.ecpss.spring.config.WechatConfig;
+import com.ecpss.spring.domain.User;
 import com.ecpss.service.UserService;
 import com.ecpss.utils.JsonData;
 import com.ecpss.utils.JwtUtils;
@@ -15,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import javax.servlet.ServletInputStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;

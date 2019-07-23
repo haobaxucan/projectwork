@@ -105,7 +105,7 @@ public class XStreamUtil {
      * @param xmlStr
      * @return
      */
-    public <T> T xmlToPojo(String xmlStr,Class<T> cls){
+    public static  <T> T xmlToObj(String xmlStr,Class<T> cls){
         if(null == xmlStr || xmlStr.length() == 0){
             return null;
         }
@@ -123,7 +123,7 @@ public class XStreamUtil {
      * @param reader
      * @return
      */
-    public <T> T xmlToPojo(Reader reader, Class<T> cls){
+    public static  <T> T xmlToPojo(Reader reader, Class<T> cls){
         if(null == reader ){
             return null;
         }

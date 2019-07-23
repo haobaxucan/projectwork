@@ -1,15 +1,13 @@
 package com.ecpss;
 
-import com.ecpss.domain.User;
+import com.ecpss.spring.domain.User;
 import com.ecpss.utils.JwtUtils;
 import com.ecpss.utils.WXPayUtil;
 import io.jsonwebtoken.Claims;
 import org.junit.Test;
-import org.slf4j.LoggerFactory;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.logging.Logger;
 
 /**
  * Created by xc on 2019/6/19.

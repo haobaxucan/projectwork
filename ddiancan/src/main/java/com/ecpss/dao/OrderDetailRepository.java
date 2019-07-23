@@ -1,6 +1,6 @@
 package com.ecpss.dao;
 
-import com.ecpss.domain.OrderDetail;
+import com.ecpss.spring.domain.OrderDetail;
 
 import java.util.List;
 

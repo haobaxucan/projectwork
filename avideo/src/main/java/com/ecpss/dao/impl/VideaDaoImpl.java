@@ -1,7 +1,7 @@
 package com.ecpss.dao.impl;
 
 import com.ecpss.dao.VideoDao;
-import com.ecpss.domain.Video;
+import com.ecpss.spring.domain.Video;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 

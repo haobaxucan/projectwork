@@ -1,8 +1,8 @@
 package com.ecpss.util.streamdemo;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
-import java.io.OutputStream;
+import java.io.*;
 
 /**
  * @Description:下载方法
@@ -11,39 +11,74 @@ import java.io.OutputStream;
  * @Version: V0.0.1
  */
 public class DownloadUtils {
+    
     /**
-     * 获得response输出流，用于下载
-     *
-     * @param fileName
+     * @param request
      * @param response
-     * @return
+     * @param is 输入流
+     * @param fileName 下载文件名（带文件后缀）
      */
-    public static OutputStream getResponseOutput(String fileName, HttpServletResponse response) {
-        // Set the content type
-        response.setContentType("application/x-msdownload");
+    public static void downloadFile(HttpServletRequest request, HttpServletResponse response, InputStream is, String fileName) {
+    
+        BufferedInputStream bis = null;
+        OutputStream os = null;
+        BufferedOutputStream bos = null;
         try {
-            //Set the content-disposition
-            response.addHeader("Content-disposition", "attachment;filename=" + new String(fileName.getBytes("GBK"), "iso-8859-1"));
-            //// Get the outputstream
-            return response.getOutputStream();
-        } catch (Exception e) {
-            new RuntimeException(e.getMessage(), e);
+//            File file=new File(downloadFile); //:文件的声明
+//            is = new FileInputStream(file);  //:文件流的声明
+            os = response.getOutputStream(); // 重点突出
+            bis = new BufferedInputStream(is);
+            bos = new BufferedOutputStream(os);
+    
+            if (request.getHeader("User-Agent").toLowerCase().indexOf("firefox") > 0) {
+                fileName = new String(fileName.getBytes("GB2312"), "ISO-8859-1");
+            } else {
+                // 对文件名进行编码处理中文问题
+                fileName = java.net.URLEncoder.encode(fileName, "UTF-8");// 处理中文文件名的问题
+                fileName = new String(fileName.getBytes("UTF-8"), "GBK");// 处理中文文件名的问题
+            }
+    
+            response.reset(); // 重点突出
+            response.setCharacterEncoding("UTF-8"); // 重点突出
+            response.setContentType("application/x-msdownload");// 不同类型的文件对应不同的MIME类型 // 重点突出
+            // inline在浏览器中直接显示，不提示用户下载
+            // attachment弹出对话框，提示用户进行下载保存本地
+            // 默认为inline方式
+            response.setHeader("Content-Disposition", "attachment;filename=" + fileName);
+            //  response.setHeader("Content-Disposition", "attachment; filename="+fileName); // 重点突出
+            int bytesRead = 0;
+            byte[] buffer = new byte[4096];// 4k或者8k
+            while ((bytesRead = bis.read(buffer)) != -1) { //重点
+                bos.write(buffer, 0, bytesRead);// 将文件发送到客户端
+            }
+    
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        } finally {
+            // 特别重要
+            // 1. 进行关闭是为了释放资源
+            // 2. 进行关闭会自动执行flush方法清空缓冲区内容
+            try {
+                if (null != bis) {
+                    bis.close();
+                    bis = null;
+                }
+                if (null != bos) {
+                    bos.close();
+                    bos = null;
+                }
+                if (null != is) {
+                    is.close();
+                    is = null;
+                }
+                if (null != os) {
+                    os.close();
+                    os = null;
+                }
+            } catch (Exception ex) {
+                ex.printStackTrace();
+            }
         }
-        return null;
     }
 
-    /**
-     * 关闭response输出流
-     *
-     * @param response
-     */
-    public static void closeResponseOutput(HttpServletResponse response) {
-        try {
-            OutputStream os = response.getOutputStream();
-            os.flush();
-            os.close();
-        } catch (IOException e) {
-            new RuntimeException(e.getMessage(), e);
-        }
-    }
 }

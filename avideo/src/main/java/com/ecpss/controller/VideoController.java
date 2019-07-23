@@ -1,6 +1,6 @@
 package com.ecpss.controller;
 
-import com.ecpss.domain.Video;
+import com.ecpss.spring.domain.Video;
 import com.ecpss.service.VideoService;
 import com.ecpss.utils.JpaPageHelper;
 import com.ecpss.utils.PageInfo;

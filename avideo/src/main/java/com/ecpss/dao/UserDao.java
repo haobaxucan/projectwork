@@ -1,6 +1,6 @@
 package com.ecpss.dao;
 
-import com.ecpss.domain.User;
+import com.ecpss.spring.domain.User;
 
 /**
  * Created by xc on 2019/6/20.

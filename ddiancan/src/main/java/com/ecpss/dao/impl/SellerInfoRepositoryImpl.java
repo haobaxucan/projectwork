@@ -1,7 +1,7 @@
 package com.ecpss.dao.impl;
 
 import com.ecpss.dao.SellerInfoRepository;
-import com.ecpss.domain.SellerInfo;
+import com.ecpss.spring.domain.SellerInfo;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 

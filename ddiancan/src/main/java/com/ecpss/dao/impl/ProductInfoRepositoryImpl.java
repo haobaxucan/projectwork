@@ -1,8 +1,7 @@
 package com.ecpss.dao.impl;
 
-import com.ecpss.controller.dto.CartDto;
 import com.ecpss.dao.ProductInfoRepository;
-import com.ecpss.domain.ProductInfo;
+import com.ecpss.spring.domain.ProductInfo;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 

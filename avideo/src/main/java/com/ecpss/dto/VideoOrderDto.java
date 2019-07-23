@@ -1,6 +1,6 @@
 package com.ecpss.dto;
 
-import com.ecpss.domain.VideoOrder;
+import com.ecpss.spring.domain.VideoOrder;
 
 /**
  * Created by xc on 2019/6/21.

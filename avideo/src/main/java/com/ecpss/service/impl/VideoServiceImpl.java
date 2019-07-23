@@ -1,7 +1,7 @@
 package com.ecpss.service.impl;
 
 import com.ecpss.dao.VideoDao;
-import com.ecpss.domain.Video;
+import com.ecpss.spring.domain.Video;
 import com.ecpss.service.VideoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

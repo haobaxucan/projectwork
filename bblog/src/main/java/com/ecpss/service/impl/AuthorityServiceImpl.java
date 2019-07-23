@@ -4,7 +4,7 @@
 package com.ecpss.service.impl;
 
 import com.ecpss.dao.AuthorityRepository;
-import com.ecpss.domain.Authority;
+import com.ecpss.spring.domain.Authority;
 import com.ecpss.service.AuthorityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

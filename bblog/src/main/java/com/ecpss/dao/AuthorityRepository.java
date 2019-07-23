@@ -1,6 +1,6 @@
 package com.ecpss.dao;
 
-import com.ecpss.domain.Authority;
+import com.ecpss.spring.domain.Authority;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

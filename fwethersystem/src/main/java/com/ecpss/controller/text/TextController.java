@@ -2,7 +2,6 @@ package com.ecpss.controller.text;
 
 import com.ecpss.util.AuthCodeUtil;
 import com.ecpss.util.streamdemo.DownloadUtils;
-import com.ecpss.util.streamdemo.QRCodeUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,6 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.ByteArrayInputStream;
 
 /**
  * Created by xc on 2019/7/13.
@@ -18,9 +18,11 @@ import javax.servlet.http.HttpServletResponse;
 @Controller
 public class TextController {
     @RequestMapping("/text")
-    public String text(HttpServletResponse response) {
-        DownloadUtils.getResponseOutput("C:\\Users\\Raytine\\Desktop\\xc.XLSX", response);
-        DownloadUtils.closeResponseOutput(response);
+    public String text(HttpServletResponse response,HttpServletRequest request) throws Exception{
+//        DownloadUtils.downloadFile(request,response,"C:\\Users\\Raytine\\Desktop\\xc.XLSX", "cc.XLSX");
+//        FileInputStream fileInputStream = new FileInputStream(new File("C:\\Users\\Raytine\\Desktop\\xc.XLSX"));
+        ByteArrayInputStream inputStream=new ByteArrayInputStream("sschas".getBytes("utf-8"));
+        DownloadUtils.downloadFile(request,response,inputStream,"aa.txt");
         return "index";
     }
     

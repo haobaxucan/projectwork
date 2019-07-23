@@ -1,6 +1,6 @@
 package com.ecpss.service;
 
-import com.ecpss.domain.Authority;
+import com.ecpss.spring.domain.Authority;
 
 /**
  * Authority 服务接口.

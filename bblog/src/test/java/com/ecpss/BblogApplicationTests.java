@@ -1,22 +1,17 @@
 package com.ecpss;
 
-import com.ecpss.domain.test.ArticeRes;
-import com.ecpss.domain.test.Article;
-import com.ecpss.domain.test.Book;
-import com.ecpss.domain.test.BookRepository;
+import com.ecpss.spring.domain.test.ArticeRes;
+import com.ecpss.spring.domain.test.Article;
+import com.ecpss.spring.domain.test.Book;
+import com.ecpss.spring.domain.test.BookRepository;
 import io.searchbox.client.JestClient;
 import io.searchbox.core.Index;
 import io.searchbox.core.Search;
 import io.searchbox.core.SearchResult;
-import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.querydsl.QPageRequest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.io.IOException;

@@ -1,12 +1,12 @@
 package com.ecpss.service.impl;
 
-import com.ecpss.config.WechatConfig;
+import com.ecpss.spring.config.WechatConfig;
 import com.ecpss.dao.UserDao;
 import com.ecpss.dao.VideoDao;
 import com.ecpss.dao.VideoOrderDao;
-import com.ecpss.domain.User;
-import com.ecpss.domain.Video;
-import com.ecpss.domain.VideoOrder;
+import com.ecpss.spring.domain.User;
+import com.ecpss.spring.domain.Video;
+import com.ecpss.spring.domain.VideoOrder;
 import com.ecpss.dto.VideoOrderDto;
 import com.ecpss.service.VideoOrderService;
 import com.ecpss.utils.CommonUtils;

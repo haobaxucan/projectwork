@@ -1,7 +1,7 @@
 package com.ecpss;
 
 import com.alibaba.fastjson.JSONObject;
-import com.ecpss.domain.WeatherResponse;
+import com.ecpss.spring.domain.WeatherResponse;
 import com.ecpss.test.User;
 import com.ecpss.util.excelutil.ExcelUtil;
 import com.ecpss.util.utiltest.CollectionUtils;
@@ -53,8 +53,7 @@ public class Default {
     }
     @Test
     public void test1(){
-        File fil=new File("a.txt");
-        System.out.println(fil.getPath()+" "+ fil.getAbsolutePath());
+    
     }
 
 }

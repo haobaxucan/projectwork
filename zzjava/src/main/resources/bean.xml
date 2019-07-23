@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--<bean id="instance1" clacom.ecpss.spring.domainmain.instance.instance1">-->
+        <!--<property name="instance2b" ref="instance2"></property>-->
+    <!--</bean>-->
+
+    <!--<bean id="instance2" clacom.ecpss.spring.domainmain.instance.instance2b">-->
+        <!--<property name="instance1" ref="instance1"></property>-->
+    <!--</bean>-->
+
+    <!--<bean id="instancea" clacom.ecpss.spring.domainmain.instance.instance1">-->
+        <!--<constructor-arg  ref="instanceb"></constructor-arg>-->
+    <!--</bean>-->
+
+    <!--<bean id="instanceb" clacom.ecpss.spring.domainmain.instance.instance2b">-->
+        <!--<constructor-arg  ref="instancea"></constructor-arg>-->
+    <!--</bean>-->
+
+    <!--运行这一段出现-->
+    <!--Error creating bean with name 'instancea':-->
+    <!--Requested bean is currently in creation: Is there an unresolvable circular reference?-->
+</beans>

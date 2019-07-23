@@ -1,7 +1,7 @@
 package com.ecpss.dao.impl;
 
 import com.ecpss.dao.UserDao;
-import com.ecpss.domain.User;
+import com.ecpss.spring.domain.User;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;

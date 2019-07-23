@@ -1,7 +1,7 @@
 package com.ecpss.dao.impl;
 
 import com.ecpss.dao.CouponsDao;
-import com.ecpss.domain.Coupons;
+import com.ecpss.spring.domain.Coupons;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;

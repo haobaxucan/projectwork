@@ -1,6 +1,6 @@
 package com.ecpss.service;
 
-import com.ecpss.domain.Vote;
+import com.ecpss.spring.domain.Vote;
 
 /**
  * Vote 服务接口.

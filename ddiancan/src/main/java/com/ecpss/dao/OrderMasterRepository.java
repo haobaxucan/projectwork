@@ -1,6 +1,6 @@
 package com.ecpss.dao;
 
-import com.ecpss.domain.OrderMaster;
+import com.ecpss.spring.domain.OrderMaster;
 
 /**
  * Created by xc on 2019/6/26.

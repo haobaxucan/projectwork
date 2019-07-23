@@ -1,6 +1,6 @@
 package com.ecpss.dao;
 
-import com.ecpss.domain.Merchants;
+import com.ecpss.spring.domain.Merchants;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

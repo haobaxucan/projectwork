@@ -1,7 +1,7 @@
 package com.ecpss.controller.dto;
 
-import com.ecpss.domain.OrderDetail;
-import com.ecpss.domain.OrderMaster;
+import com.ecpss.spring.domain.OrderDetail;
+import com.ecpss.spring.domain.OrderMaster;
 import lombok.Data;
 
 import java.util.List;

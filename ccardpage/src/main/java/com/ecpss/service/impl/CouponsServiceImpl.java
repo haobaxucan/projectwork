@@ -1,7 +1,7 @@
 package com.ecpss.service.impl;
 
 import com.ecpss.dao.CouponsDao;
-import com.ecpss.domain.Coupons;
+import com.ecpss.spring.domain.Coupons;
 import com.ecpss.service.CouponsService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

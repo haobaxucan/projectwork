@@ -81,6 +81,7 @@ public class ParseXmlUtil {
                 "\t</transferList>\n" +
                 "</yemadai>\n";
         Map<String, Object> map = ParseXmlUtil.xml2map(s);
+        System.out.println(map);
         String string = JSONObject.toJSONString(map.get("yemadai"));
         JSONObject jsonObject = JSONObject.parseObject(string);
         String transferList = jsonObject.getString("transferList");

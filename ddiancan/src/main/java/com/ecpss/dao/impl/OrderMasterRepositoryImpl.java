@@ -1,7 +1,7 @@
 package com.ecpss.dao.impl;
 
 import com.ecpss.dao.OrderMasterRepository;
-import com.ecpss.domain.OrderMaster;
+import com.ecpss.spring.domain.OrderMaster;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 

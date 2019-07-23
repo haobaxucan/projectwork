@@ -1,8 +1,7 @@
 package com.ecpss.dao.impl;
 
 import com.ecpss.dao.OrderDetailRepository;
-import com.ecpss.domain.OrderDetail;
-import com.ecpss.domain.ProductCategory;
+import com.ecpss.spring.domain.OrderDetail;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 

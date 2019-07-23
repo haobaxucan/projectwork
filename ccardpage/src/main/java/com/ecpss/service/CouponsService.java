@@ -1,6 +1,6 @@
 package com.ecpss.service;
 
-import com.ecpss.domain.Coupons;
+import com.ecpss.spring.domain.Coupons;
 
 /**
  * Created by xc on 2019/6/25.

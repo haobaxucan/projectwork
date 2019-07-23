@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.TypeReference;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.poi.ss.formula.functions.T;
 
 import java.util.List;
 import java.util.Map;
@@ -56,11 +57,26 @@ public class FastJsonUtils {
     }
     
     public static void main(String[] args) {
-        JSONObject json = FastJsonUtils.stringToJson("");
-//        json.
     
+
+    }
+    /**
+     * java 对象转成json 对象
+     */
+    public static JSON jsonToObject(Object object) {
+        return (JSON) JSON.toJSON(object);
     }
     
+    /**
+     * json 对象转成 java 对象
+     * @param jsonObject
+     * @param cls
+     * @param <T>
+     * @return
+     */
+    public static <T>T JsonToJava(JSONObject jsonObject,Class<T> cls){
+        return JSONObject.toJavaObject(jsonObject,cls);
+    }
     
     /**
      * 把JSON数据转换成指定的java对象列表
@@ -77,12 +93,6 @@ public class FastJsonUtils {
         });
     }
     
-    /**
-     * json 对象转成java 对象
-     */
-    public static JSON jsonToObject(Object object) {
-        return (JSON) JSON.toJSON(object);
-    }
     /**
      * String转成Object对象
      */

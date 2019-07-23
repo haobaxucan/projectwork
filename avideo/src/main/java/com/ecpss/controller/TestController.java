@@ -1,7 +1,7 @@
 package com.ecpss.controller;
 
-import com.ecpss.config.WechatConfig;
-import com.ecpss.domain.User;
+import com.ecpss.spring.config.WechatConfig;
+import com.ecpss.spring.domain.User;
 import com.ecpss.utils.IpUtils;
 import com.ecpss.utils.JwtUtils;
 import com.google.zxing.BarcodeFormat;
@@ -10,7 +10,6 @@ import com.google.zxing.MultiFormatWriter;
 import com.google.zxing.client.j2se.MatrixToImageWriter;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
-import org.apache.http.HttpResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

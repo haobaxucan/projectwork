@@ -1,6 +1,6 @@
 package com.ecpss.service;
 
-import com.ecpss.domain.User;
+import com.ecpss.spring.domain.User;
 import com.ecpss.exception.Response;
 
 /**

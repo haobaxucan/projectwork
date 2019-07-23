@@ -2,7 +2,7 @@ package com.ecpss.service.impl;
 
 import com.ecpss.controller.dto.CartDto;
 import com.ecpss.dao.ProductInfoRepository;
-import com.ecpss.domain.ProductInfo;
+import com.ecpss.spring.domain.ProductInfo;
 import com.ecpss.enums.ProductStatus;
 import com.ecpss.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;

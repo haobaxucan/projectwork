@@ -1,7 +1,7 @@
 package com.ecpss.service;
 
 import com.ecpss.dao.VoteRepository;
-import com.ecpss.domain.Vote;
+import com.ecpss.spring.domain.Vote;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,6 @@
 package com.ecpss.service;
 
-import com.ecpss.domain.VideoOrder;
+import com.ecpss.spring.domain.VideoOrder;
 import com.ecpss.dto.VideoOrderDto;
 
 import java.util.List;

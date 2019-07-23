@@ -1,7 +1,7 @@
 package com.ecpss.service;
 
 import com.ecpss.controller.dto.OrderDto;
-import com.ecpss.domain.OrderDetail;
+import com.ecpss.spring.domain.OrderDetail;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,8 +11,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by xc on 2019/6/26.

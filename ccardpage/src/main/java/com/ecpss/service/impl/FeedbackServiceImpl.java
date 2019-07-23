@@ -1,6 +1,6 @@
 package com.ecpss.service.impl;
 
-import com.ecpss.domain.Feedback;
+import com.ecpss.spring.domain.Feedback;
 import com.ecpss.exception.Response;
 import com.ecpss.service.FeedbackService;
 

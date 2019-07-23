@@ -1,7 +1,7 @@
 package com.ecpss.controller;
 
 import com.ecpss.controller.dto.ResultDto;
-import com.ecpss.domain.ProductInfo;
+import com.ecpss.spring.domain.ProductInfo;
 import com.ecpss.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

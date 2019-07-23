@@ -1,7 +1,9 @@
 package com.ecpss.service;
 
 
-import com.ecpss.domain.WeatherResponse;
+import com.ecpss.spring.domain.WeatherResponse;
+
+import java.util.Map;
 
 public interface WeatherDataService {
 	/**
@@ -18,6 +20,10 @@ public interface WeatherDataService {
 	 * @param cityName
 	 * @return
 	 */
-	WeatherResponse getDataByCityName(String cityName);
+	Map<String, Object> getDataByCityName(String cityName);
+	/**
+	 * 同步数据 放入缓存中
+	 */
+	 void syncDataByName(String name);
 	
 }

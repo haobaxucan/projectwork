@@ -2,7 +2,7 @@ package com.ecpss.dao;
 
 
 
-import com.ecpss.domain.VideoOrder;
+import com.ecpss.spring.domain.VideoOrder;
 
 import java.util.List;
 

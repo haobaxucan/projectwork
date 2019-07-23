@@ -1,6 +1,6 @@
 package com.ecpss.utils;
 
-import com.ecpss.domain.User;
+import com.ecpss.spring.domain.User;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

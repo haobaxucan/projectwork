@@ -2,6 +2,7 @@ package com.ecpss.util.utiltest;
 
 import lombok.extern.slf4j.Slf4j;
 
+import javax.swing.filechooser.FileSystemView;
 import java.io.*;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
@@ -19,10 +20,36 @@ public class ZipUtil {
 //        System.out.println(f);
         File file=new File("a.txt");
         file.createNewFile();
+        String absolutePath = FileSystemView.getFileSystemView().getHomeDirectory().getAbsolutePath();
+        System.out.println(absolutePath);
         
     }
     
     public ZipUtil() {
+    }
+    
+    /**
+     *   压缩 流文件
+     * @param name 源文件的名称
+     * @param zipName 压缩后的路劲
+     * @throws Exception
+     */
+    public static  void zipInstream(InputStream inputStream,String name,String zipName) throws Exception{
+        String absolutePath = FileSystemView.getFileSystemView().getHomeDirectory().getAbsolutePath();//系统路径
+        String path=absolutePath+"\\"+zipName+".zip";//压缩后路径
+        File zipFile = new File(path);
+        FileOutputStream fos = new FileOutputStream(zipFile);
+        ZipOutputStream zos = new ZipOutputStream(fos);
+        BufferedInputStream bis = new BufferedInputStream(inputStream);
+        ZipEntry entry = new ZipEntry( name);
+        zos.putNextEntry(entry);
+        int count;
+        byte[] buf = new byte[1024];
+        while ((count = bis.read(buf)) != -1) {
+            zos.write(buf, 0, count);
+        }
+        IOUtil.close(zos,fos);
+     
     }
     
     /**

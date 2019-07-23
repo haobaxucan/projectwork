@@ -1,13 +1,12 @@
 package com.ecpss.service.impl;
 
-import com.ecpss.config.WechatConfig;
+import com.ecpss.spring.config.WechatConfig;
 import com.ecpss.dao.UserDao;
-import com.ecpss.domain.User;
+import com.ecpss.spring.domain.User;
 import com.ecpss.service.UserService;
 import com.ecpss.utils.HttpUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.io.UnsupportedEncodingException;
 import java.util.Date;

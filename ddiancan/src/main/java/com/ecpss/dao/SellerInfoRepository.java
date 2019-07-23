@@ -1,6 +1,6 @@
 package com.ecpss.dao;
 
-import com.ecpss.domain.SellerInfo;
+import com.ecpss.spring.domain.SellerInfo;
 
 /**
  * Created by xc on 2019/6/26.
