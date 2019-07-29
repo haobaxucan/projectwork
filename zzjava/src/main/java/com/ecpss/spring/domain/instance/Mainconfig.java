@@ -9,7 +9,7 @@ import org.springframework.context.annotation.*;
  */
 
 @Configuration
-@ComponentScan
+@ComponentScan("com.ecpss")
 @ImportResource(locations = "classpath:bean.xml")
 public class Mainconfig {
     /**
@@ -20,4 +20,6 @@ public class Mainconfig {
     public User getUser(){
         return new User();
     }
+    
+//
 }

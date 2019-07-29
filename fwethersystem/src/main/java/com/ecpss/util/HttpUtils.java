@@ -45,6 +45,7 @@ public class HttpUtils {
            if(httpResponse.getStatusLine().getStatusCode() == 200){
 
               String jsonResult = EntityUtils.toString( httpResponse.getEntity());
+               System.out.println(jsonResult);
                map = JSONObject.parseObject(jsonResult);
            }
 

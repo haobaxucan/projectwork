@@ -1,7 +1,6 @@
 package com.ecpss.spring.config;
 
 import com.ecpss.spring.aop.Aopconfig;
-import com.ecpss.spring.aop.Cacu;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
@@ -10,10 +9,11 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class MainClass {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext ctx=new AnnotationConfigApplicationContext(Aopconfig.class);
-        Cacu cacu = (Cacu)ctx.getBean("cacu");
-        int add = cacu.add(1, 3);
-    
-        System.out.println(add);
+        
+//        Cacu cacu = (Cacu)ctx.getBean("cacu");
+//        int add = cacu.add(1, 3);
+//
+
         ctx.close();
     
     }

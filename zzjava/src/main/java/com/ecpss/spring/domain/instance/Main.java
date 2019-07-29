@@ -13,14 +13,15 @@ public class Main {
          * 创建ioc 容器
          */
         AnnotationConfigApplicationContext applicationContext=new AnnotationConfigApplicationContext(Mainconfig.class);
-        boolean user = applicationContext.containsBean("user");
-        boolean a = applicationContext.containsBean("getUser");
+//        boolean user = applicationContext.containsBean("user");
+//        boolean a = applicationContext.containsBean("getUser");
+//
+//        System.out.println("user="+user);
+//
+//        System.out.println("a="+a);
+
     
-        System.out.println("user="+user);
- 
-        System.out.println("a="+a);
-    
-//        instance1 bean = applicationContext.getBean(instance1.class);//直接从缓存中去拿
+        instance1 bean = applicationContext.getBean(instance1.class);//直接从缓存中去拿
         applicationContext.close();
         
     }

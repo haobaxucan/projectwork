@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/eureka_consumer2/eureka_consumer2.iml" filepath="$PROJECT_DIR$/eureka_consumer2/eureka_consumer2.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka_provider1/eureka_provider1.iml" filepath="$PROJECT_DIR$/eureka_provider1/eureka_provider1.iml" />
       <module fileurl="file://$PROJECT_DIR$/fwethersystem/fwethersystem.iml" filepath="$PROJECT_DIR$/fwethersystem/fwethersystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/grocketmq-cluster/grocketmq-cluster.iml" filepath="$PROJECT_DIR$/grocketmq-cluster/grocketmq-cluster.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/projectwork.iml" filepath="$PROJECT_DIR$/.idea/projectwork.iml" />
       <module fileurl="file://$PROJECT_DIR$/testweixin/websocket_boot.iml" filepath="$PROJECT_DIR$/testweixin/websocket_boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/zqianduan/zqianduan.iml" filepath="$PROJECT_DIR$/zqianduan/zqianduan.iml" />

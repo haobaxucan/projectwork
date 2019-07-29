@@ -5,7 +5,69 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="982b332e-cfa8-4c4c-8a5d-3d72ec10b71b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_36_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_oschina_zcx7878_fastdfs_client_java_1_27_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_client_4_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_common_4_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_remoting_4_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/demo/Produce_topic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/demo/asynmessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/demo/consumer/consumer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/demo/sysnmessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/filter/FilterConsumer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/filter/Filtermessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/order/Ordercon.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/order/Orderpro.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/pull/PullConsumerdemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/springboot/MQConsumeMsgListenerProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/springboot/MqConsumer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/springboot/RocketMQProducer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/springboot/perfect/MQConsumeResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/springboot/perfect/MQConsumeService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/springboot/perfect/MQMsgProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/springboot/perfect/MQMsgProcessorImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/springboot/test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/trans/TransConusmer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/trans/TransProducer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/trans/TransactionCheckListenerImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/trans/TransactionExecuterimpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testweixin/src/main/java/com/ecpss/spring/dependcy/Car.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testweixin/src/main/java/com/ecpss/spring/dependcy/Car1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testweixin/src/main/java/com/ecpss/spring/dependcy/Config.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testweixin/src/main/java/com/ecpss/spring/dependcy/Instantiat.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testweixin/src/main/java/com/ecpss/spring/dependcy/MainC.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testweixin/src/main/java/com/ecpss/spring/dependcy/Person.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testweixin/src/main/java/com/ecpss/spring/dependcy/aware/P.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testweixin/src/main/java/com/ecpss/spring/dependcy/aware/PostBeanFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testweixin/src/main/java/com/ecpss/spring/dependcy/aware/PostBeanprocess.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testweixin/src/main/java/com/ecpss/spring/dependcy/aware/TestAware.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testweixin/src/main/java/com/ecpss/spring/dependcy/aware/instanitiation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/config/FastConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/util/SFTPChannel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/util/SFTPUpload.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/util/SFTPUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/util/exception/ErrorCode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/util/exception/FastDFSException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zzjava/src/test/java/com/ecpss/collection/MapHash.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zzjava/src/test/java/com/ecpss/collection/Node.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zzjava/src/test/java/com/ecpss/collection/conn/AqsDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zzjava/src/test/java/com/ecpss/collection/conn/AtomicIntegerArrayDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fwethersystem/src/main/java/com/ecpss/util/HttpUtils.java" afterPath="$PROJECT_DIR$/fwethersystem/src/main/java/com/ecpss/util/HttpUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zzjava/pom.xml" afterPath="$PROJECT_DIR$/zzjava/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/ZzjavaApplication.java" afterPath="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/ZzjavaApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/config/RedissonConfig.java" afterPath="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/config/RedissonConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/controller/RedisController.java" afterPath="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/controller/RedisController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/spring/config/MainClass.java" afterPath="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/spring/config/MainClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/spring/domain/instance/Main.java" afterPath="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/spring/domain/instance/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/spring/domain/instance/Mainconfig.java" afterPath="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/spring/domain/instance/Mainconfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zzjava/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/zzjava/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zzjava/src/test/java/com/ecpss/DefaultTest.java" afterPath="$PROJECT_DIR$/zzjava/src/test/java/com/ecpss/DefaultTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/testweixin/target/" />
     <ignored path="$PROJECT_DIR$/avideo/target/" />
@@ -21,6 +83,7 @@
     <ignored path="$PROJECT_DIR$/eureka_consumer2/target/" />
     <ignored path="$PROJECT_DIR$/fwethersystem/target/" />
     <ignored path="$PROJECT_DIR$/zzjava/target/" />
+    <ignored path="$PROJECT_DIR$/grocketmq-cluster/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +95,9 @@
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/projectwork$MainClass.coverage" NAME="MainClass Coverage Results" MODIFIED="1564024597369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.ecpss.spring.config.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/projectwork$SFTPTest.coverage" NAME="SFTPTest Coverage Results" MODIFIED="1560779616911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.ecpss.util.file.one.*</FILTER>
     </SUITE>
@@ -50,7 +116,58 @@
     <favorites_list name="projectwork" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TransProducer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/trans/TransProducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="36" column="58" lean-forward="false" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;method#main#0;class#TransProducer#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransactionExecuterimpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/trans/TransactionExecuterimpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="691">
+              <caret line="41" column="51" lean-forward="false" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#TransactionExecuterimpl#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransactionCheckListenerImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/trans/TransactionCheckListenerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransConusmer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/trans/TransConusmer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,34 +175,17 @@
         <option value="JUnit4 Test Class" />
         <option value="Jsp File" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="JavaScript File" />
         <option value="FxmlFile" />
         <option value="spring-beans.schema" />
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>demo</find>
-      <find>getkey(</find>
-      <find>logger</find>
-      <find>no</find>
-      <find>build</find>
-      <find>gson</find>
-      <find>fastj</find>
-      <find>lom</find>
-      <find>fast</find>
-      <find>http</find>
-      <find>aa</find>
-      <find>aa(</find>
-      <find>mon</find>
-      <find>constant</find>
-      <find>object</find>
-      <find>Constan</find>
-      <find>infra</find>
       <find>dogetbea</find>
       <find>typeCheckOnly</find>
       <find>resolvev</find>
@@ -99,6 +199,23 @@
       <find>cache</find>
       <find>resolveBeforeInstantiation</find>
       <find>tableSizeFor(</find>
+      <find>dof</find>
+      <find>getadvisor</find>
+      <find>findAdvisorsThatCanApply</find>
+      <find>post</find>
+      <find>初始化方法</find>
+      <find>DEFAULT_INITIAL_CAPACITY</find>
+      <find>TREEIFY_THRESHOLD</find>
+      <find>resize</find>
+      <find>resize(</find>
+      <find>remove</find>
+      <find>remove(</find>
+      <find>keyset</find>
+      <find>putv</find>
+      <find>exclusive</find>
+      <find>exclusiveO</find>
+      <find>exclusiveo</find>
+      <find>rest</find>
     </findStrings>
     <replaceStrings>
       <replace>Exception</replace>
@@ -135,57 +252,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/test/lock/jvmStock.java" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/test/volatile1/VlatileTest.java" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/test/jvm/StringTest.java" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/test/jvm/GobleS.java" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/test/jvm/GobleString.java" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/test/jvm/jvmTest.java" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/spring/controller.java" />
-        <option value="$PROJECT_DIR$/avideo/src/main/java/com/ecpss/AvideoApplication.java" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/moshi/Myaspect.java" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/moshi/Tq.java" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/moshi/Testaop.java" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/resources/templates/bean.xml" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/domain/instance/Main.java" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/config/Mainconfig.java" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/domain/instance/instance2b.java" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/domain/instance/instance1.java" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/resources/bean.xml" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/spring/config/Cacu.java" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/spring/config/Aopconfig.java" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/spring/aop/Cacu.java" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/spring/aop/Aop.java" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/spring/aop/MainClass.java" />
-        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE-sources.jar!/org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.java" />
-        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java" />
-        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE-sources.jar!/org/springframework/aop/config/AopConfigUtils.java" />
-        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE-sources.jar!/org/springframework/aop/aspectj/autoproxy/AspectJAwareAdvisorAutoProxyCreator.java" />
-        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAdvisorAutoProxyCreator.java" />
-        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java" />
-        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AutoProxyUtils.java" />
-        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/BeanFactoryAdvisorRetrievalHelper.java" />
-        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE-sources.jar!/org/springframework/aop/aspectj/annotation/BeanFactoryAspectJAdvisorsBuilder.java" />
+        <option value="$PROJECT_DIR$/testweixin/src/main/java/com/ecpss/spring/dependcy/Car1.java" />
+        <option value="$PROJECT_DIR$/testweixin/src/main/java/com/ecpss/spring/dependcy/Car.java" />
+        <option value="$PROJECT_DIR$/testweixin/src/main/java/com/ecpss/spring/dependcy/Person.java" />
         <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/spring/config/MainClass.java" />
+        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/spring/config/Instantiat.java" />
         <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/spring/domain/instance/Main.java" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/spring/config/Mainconfig.java" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/spring/domain/instance/Mainconfig.java" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/spring/aop/Aopconfig.java" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/test/coll/HashMap.java" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/test/coll/HashMapdemo.java" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/test/user/User.java" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/eerucka/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/testweixin/src/main/java/com/ecpss/spring/dependcy/Instantiat.java" />
+        <option value="$PROJECT_DIR$/testweixin/src/main/java/com/ecpss/spring/dependcy/aware/Person.java" />
+        <option value="$PROJECT_DIR$/testweixin/src/main/java/com/ecpss/spring/dependcy/aware/P.java" />
+        <option value="$PROJECT_DIR$/testweixin/src/main/java/com/ecpss/spring/dependcy/MainC.java" />
+        <option value="$PROJECT_DIR$/testweixin/src/main/java/com/ecpss/spring/dependcy/aware/PostBeanFactory.java" />
+        <option value="$PROJECT_DIR$/testweixin/src/main/java/com/ecpss/spring/dependcy/aware/PostBeanprocess.java" />
+        <option value="$PROJECT_DIR$/testweixin/src/main/java/com/ecpss/spring/dependcy/aware/instanitiation.java" />
+        <option value="$PROJECT_DIR$/testweixin/src/main/java/com/ecpss/spring/dependcy/aware/TestAware.java" />
         <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/ZzjavaApplication.java" />
-        <option value="$PROJECT_DIR$/eureka_consumer2/src/main/java/com/ecpss/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/util/RedisLock.java" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/config/RedissonConfig.java" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/util/RedisUtil.java" />
-        <option value="$PROJECT_DIR$/zzjava/pom.xml" />
-        <option value="$PROJECT_DIR$/zzjava/src/test/java/com/ecpss/ZzjavaApplicationTests.java" />
         <option value="$PROJECT_DIR$/zzjava/src/test/java/com/ecpss/DefaultTest.java" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/controller/RedisController.java" />
+        <option value="$PROJECT_DIR$/zzjava/src/test/java/com/ecpss/collection/Node.java" />
+        <option value="$PROJECT_DIR$/zzjava/src/test/java/com/ecpss/collection/MapHash.java" />
+        <option value="$PROJECT_DIR$/zzjava/src/test/java/com/ecpss/collection/conn/AtomicInteger.java" />
+        <option value="$PROJECT_DIR$/zzjava/src/test/java/com/ecpss/collection/conn/Atomicdemo.java" />
+        <option value="$PROJECT_DIR$/zzjava/src/test/java/com/ecpss/collection/conn/AtomicIntegerArrayDemo.java" />
+        <option value="$PROJECT_DIR$/zzjava/src/test/java/com/ecpss/collection/conn/AqsDemo.java" />
+        <option value="$PROJECT_DIR$/fwethersystem/src/main/java/com/ecpss/util/HttpUtils.java" />
+        <option value="$PROJECT_DIR$/grocketmq-cluster/pom.xml" />
+        <option value="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/demo/Produce.java" />
+        <option value="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/demo/Produce_topic.java" />
+        <option value="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/demo/asynmessage.java" />
+        <option value="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/filter/Filtermessage.java" />
+        <option value="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/filter/FilterConsumer.java" />
+        <option value="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/order/OrderProducer.java" />
+        <option value="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/order/OrderConsumer.java" />
+        <option value="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/order/Ordercon.java" />
+        <option value="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/order/Orderpro.java" />
+        <option value="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/trans/TransConusmer.java" />
+        <option value="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/trans/TransProducer.java" />
+        <option value="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/trans/TransactionCheckListenerImpl.java" />
+        <option value="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/trans/TransactionExecuterimpl.java" />
+        <option value="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/springboot/RocketMQProducer.java" />
+        <option value="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/springboot/test.java" />
+        <option value="$PROJECT_DIR$/grocketmq-cluster/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/springboot/MqConsumer.java" />
+        <option value="$PROJECT_DIR$/grocketmq-cluster/src/test/java/com/ecpss/GrocketmqClusterApplicationTests.java" />
+        <option value="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/springboot/perfect/MQConsumeResult.java" />
+        <option value="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/springboot/perfect/MQMsgProcessor.java" />
+        <option value="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/springboot/perfect/MQMsgProcessorImpl.java" />
+        <option value="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/springboot/perfect/MQConsumeService.java" />
+        <option value="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/pull/PullConsumerdemo.java" />
+        <option value="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/demo/consumer/consumer.java" />
+        <option value="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/GrocketmqClusterApplication.java" />
+        <option value="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/demo/sysnmessage.java" />
+        <option value="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/springboot/MQConsumeMsgListenerProcessor.java" />
       </list>
     </option>
   </component>
@@ -216,32 +333,7 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="zzjava" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="zzjava" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
-      </PATH>
-    </treeState>
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -402,6 +494,217 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grocketmq-cluster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grocketmq-cluster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecpss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grocketmq-cluster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grocketmq-cluster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecpss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grocketmq-cluster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecpss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecpss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grocketmq-cluster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecpss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecpss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches">
         <subPane>
           <PATH>
@@ -438,21 +741,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projectwork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projectwork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -485,21 +773,21 @@
       <recent name="D:\workaddress\projectwork\testweixin\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ecpss.com.ecpss.filter" />
       <recent name="com.ecpss.domain.instance" />
       <recent name="com.ecpss.test.jvm" />
       <recent name="com.ecpss.controller.weathercontroller" />
       <recent name="com.ecpss.config" />
-      <recent name="com.ecpss.job" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workaddress\projectwork\grocketmq-cluster\src\main\java\com\ecpss\com\ecpss\springboot" />
+      <recent name="D:\workaddress\projectwork\testweixin\src\main\java\com\ecpss\spring" />
+      <recent name="D:\workaddress\projectwork\zzjava\src\main\java\com\ecpss\util" />
       <recent name="D:\workaddress\projectwork\zzjava\src\main\java\com\ecpss\moshi" />
       <recent name="D:\workaddress\projectwork\eureka_consumer2\src\main\java\com\ecpss\controller\demovo" />
-      <recent name="D:\workaddress\projectwork\eureka_provider1\src\main\java\com\ecpss\service\dataservice" />
-      <recent name="D:\workaddress\projectwork\eureka_provider1\src\main\java\com\ecpss\service\dataservice\vo" />
-      <recent name="D:\workaddress\projectwork\eureka_provider1\src\main\java\com\ecpss\util" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -514,15 +802,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ZzjavaApplication">
-    <configuration default="false" name="ZzjavaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GrocketmqClusterApplicationTests.contextLoads">
+    <configuration default="false" name="TransProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.ecpss.*" />
+          <option name="PATTERN" value="com.ecpss.com.ecpss.trans.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.ecpss.ZzjavaApplication" />
+      <option name="MAIN_CLASS_NAME" value="com.ecpss.com.ecpss.trans.TransProducer" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -531,22 +819,42 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="zzjava" />
+      <module name="grocketmq-cluster" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="ZzjavaApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="TransConusmer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.ecpss.com.ecpss.trans.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.ecpss.com.ecpss.trans.TransConusmer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="grocketmq-cluster" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="GrocketmqClusterApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.ecpss.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="zzjava" />
+      <module name="grocketmq-cluster" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.ecpss" />
-      <option name="MAIN_CLASS_NAME" value="com.ecpss.ZzjavaApplicationTests" />
+      <option name="MAIN_CLASS_NAME" value="com.ecpss.GrocketmqClusterApplicationTests" />
       <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -561,82 +869,44 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="DefaultTest.r" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.ecpss.*" />
+          <option name="PATTERN" value="com.ecpss.com.ecpss.demo.consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="zzjava" />
+      <option name="MAIN_CLASS_NAME" value="com.ecpss.com.ecpss.demo.consumer.consumer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ecpss" />
-      <option name="MAIN_CLASS_NAME" value="com.ecpss.DefaultTest" />
-      <option name="METHOD_NAME" value="r" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+      <module name="grocketmq-cluster" />
       <envs />
-      <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="DefaultTest.tg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="sysnmessage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.ecpss.*" />
+          <option name="PATTERN" value="com.ecpss.com.ecpss.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="zzjava" />
+      <option name="MAIN_CLASS_NAME" value="com.ecpss.com.ecpss.demo.sysnmessage" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ecpss" />
-      <option name="MAIN_CLASS_NAME" value="com.ecpss.DefaultTest" />
-      <option name="METHOD_NAME" value="tg" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+      <module name="grocketmq-cluster" />
       <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ZzjavaApplicationTests.aa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ecpss.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="zzjava" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ecpss" />
-      <option name="MAIN_CLASS_NAME" value="com.ecpss.ZzjavaApplicationTests" />
-      <option name="METHOD_NAME" value="aa" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
@@ -1429,7 +1699,14 @@
       <envs />
       <method />
     </configuration>
-    <list size="22">
+    <configuration default="false" name="GrocketmqClusterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecpss.GrocketmqClusterApplication" />
+      <module name="grocketmq-cluster" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="23">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.weixin" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.WebsocketBootApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.AvideoApplication" />
@@ -1447,19 +1724,20 @@
       <item index="14" class="java.lang.String" itemvalue="Spring Boot.FwethersystemApplication" />
       <item index="15" class="java.lang.String" itemvalue="Spring Boot.ZzjavaApplication" />
       <item index="16" class="java.lang.String" itemvalue="Spring Boot.EurekaConsumer2Application" />
-      <item index="17" class="java.lang.String" itemvalue="Application.ZzjavaApplication" />
-      <item index="18" class="java.lang.String" itemvalue="JUnit.ZzjavaApplicationTests.contextLoads" />
-      <item index="19" class="java.lang.String" itemvalue="JUnit.DefaultTest.r" />
-      <item index="20" class="java.lang.String" itemvalue="JUnit.DefaultTest.tg" />
-      <item index="21" class="java.lang.String" itemvalue="JUnit.ZzjavaApplicationTests.aa" />
+      <item index="17" class="java.lang.String" itemvalue="Spring Boot.GrocketmqClusterApplication" />
+      <item index="18" class="java.lang.String" itemvalue="Application.TransProducer" />
+      <item index="19" class="java.lang.String" itemvalue="Application.TransConusmer" />
+      <item index="20" class="java.lang.String" itemvalue="JUnit.GrocketmqClusterApplicationTests.contextLoads" />
+      <item index="21" class="java.lang.String" itemvalue="Application.consumer" />
+      <item index="22" class="java.lang.String" itemvalue="Application.sysnmessage" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ZzjavaApplication" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ZzjavaApplicationTests.aa" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ZzjavaApplicationTests.contextLoads" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.DefaultTest.tg" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DefaultTest.r" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.GrocketmqClusterApplicationTests.contextLoads" />
+        <item index="1" class="java.lang.String" itemvalue="Application.sysnmessage" />
+        <item index="2" class="java.lang.String" itemvalue="Application.consumer" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TransProducer" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TransConusmer" />
       </list>
     </recent_temporary>
   </component>
@@ -1662,7 +1940,16 @@
       <workItem from="1563764847253" duration="15955000" />
       <workItem from="1563844357752" duration="2164000" />
       <workItem from="1563848588277" duration="11917000" />
-      <workItem from="1563866436505" duration="11900000" />
+      <workItem from="1563866436505" duration="18917000" />
+      <workItem from="1563932670569" duration="3588000" />
+      <workItem from="1563947139758" duration="4256000" />
+      <workItem from="1563961322047" duration="145000" />
+      <workItem from="1563962274468" duration="74000" />
+      <workItem from="1564017050021" duration="55789000" />
+      <workItem from="1564205987147" duration="2365000" />
+      <workItem from="1564210455861" duration="20773000" />
+      <workItem from="1564386873756" duration="4104000" />
+      <workItem from="1564391177492" duration="7629000" />
     </task>
     <task id="LOCAL-00001" summary="secpmd omot o">
       <created>1561358034384</created>
@@ -1738,39 +2025,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DefaultTest_tg - 2019.07.23 at 15h 45m 48s.xml">
-      <configuration name="DefaultTest.tg" configurationId="JUnit" />
+    <history-entry file="GrocketmqClusterApplicationTests_contextLoads - 2019.07.29 at 16h 40m 48s.xml">
+      <configuration name="GrocketmqClusterApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DefaultTest_tg - 2019.07.23 at 15h 45m 51s.xml">
-      <configuration name="DefaultTest.tg" configurationId="JUnit" />
+    <history-entry file="GrocketmqClusterApplicationTests_contextLoads - 2019.07.29 at 16h 42m 55s.xml">
+      <configuration name="GrocketmqClusterApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ZzjavaApplicationTests_aa - 2019.07.23 at 15h 48m 06s.xml">
-      <configuration name="ZzjavaApplicationTests.aa" configurationId="JUnit" />
+    <history-entry file="GrocketmqClusterApplicationTests_contextLoads - 2019.07.29 at 16h 43m 57s.xml">
+      <configuration name="GrocketmqClusterApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ZzjavaApplicationTests_aa - 2019.07.23 at 15h 55m 38s.xml">
-      <configuration name="ZzjavaApplicationTests.aa" configurationId="JUnit" />
+    <history-entry file="GrocketmqClusterApplicationTests_contextLoads - 2019.07.29 at 20h 46m 47s.xml">
+      <configuration name="GrocketmqClusterApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ZzjavaApplicationTests_aa - 2019.07.23 at 16h 28m 08s.xml">
-      <configuration name="ZzjavaApplicationTests.aa" configurationId="JUnit" />
+    <history-entry file="MapHash_t - 2019.07.26 at 15h 11m 21s.xml">
+      <configuration name="MapHash.t" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ZzjavaApplicationTests_aa - 2019.07.23 at 16h 29m 24s.xml">
-      <configuration name="ZzjavaApplicationTests.aa" configurationId="JUnit" />
+    <history-entry file="MapHash_t - 2019.07.26 at 15h 14m 25s.xml">
+      <configuration name="MapHash.t" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ZzjavaApplicationTests_contextLoads - 2019.07.23 at 15h 43m 56s.xml">
-      <configuration name="ZzjavaApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="MapHash_t - 2019.07.26 at 15h 14m 54s.xml">
+      <configuration name="MapHash.t" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ZzjavaApplicationTests_contextLoads - 2019.07.23 at 15h 46m 14s.xml">
-      <configuration name="ZzjavaApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="Restt_test2 - 2019.07.27 at 13h 41m 34s.xml">
+      <configuration name="Restt.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ZzjavaApplicationTests_contextLoads - 2019.07.23 at 15h 51m 40s.xml">
-      <configuration name="ZzjavaApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="Restt_test2 - 2019.07.27 at 13h 45m 08s.xml">
+      <configuration name="Restt.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ZzjavaApplicationTests_contextLoads - 2019.07.23 at 15h 53m 37s.xml">
-      <configuration name="ZzjavaApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="Restt_test2 - 2019.07.27 at 13h 45m 29s.xml">
+      <configuration name="Restt.test2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="624433000" />
+    <option name="totallyTimeSpent" value="730173000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1783,13 +2070,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26362625" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16719915" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.032481365" sideWeight="0.49462366" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1797,7 +2085,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22135706" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3259177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09121246" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27363738" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1805,12 +2093,12 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27030033" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46051168" sideWeight="0.4978701" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3025584" sideWeight="0.4978701" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23025584" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2172524" sideWeight="0.7908788" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15684094" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23642172" sideWeight="0.7908788" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1819,9 +2107,10 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0026624068" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0026624068" sideWeight="0.49610677" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Byte Code Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="856" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0026624068" sideWeight="0.5038932" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15684094" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1913,110 +2202,58 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <breakpoint type="java-exception">
-          <properties class="java.lang.NullPointerException" package="java.lang" />
-          <option name="timeStamp" value="41" />
-        </breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/avideo/src/main/java/com/ecpss/AvideoApplication.java</url>
-          <line>7</line>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java</url>
+          <line>845</line>
           <properties />
-          <option name="timeStamp" value="76" />
+          <option name="timeStamp" value="197" />
         </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java</url>
-          <line>214</line>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java</url>
+          <line>826</line>
           <properties />
-          <option name="timeStamp" value="84" />
+          <option name="timeStamp" value="198" />
         </line-breakpoint>
-        <line-breakpoint type="java-line">
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java</url>
+          <line>825</line>
+          <properties />
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java</url>
+          <line>844</line>
+          <properties />
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
-          <line>419</line>
+          <line>1146</line>
           <properties />
-          <option name="timeStamp" value="110" />
+          <option name="timeStamp" value="201" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <condition expression="beanName.equals(&quot;cacu&quot;)" language="JAVA" />
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java</url>
-          <line>134</line>
-          <properties />
-          <option name="timeStamp" value="118" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <condition expression="beanName.equals(&quot;caca&quot;)" language="JAVA" />
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
-          <line>1090</line>
+          <line>591</line>
           <properties />
-          <option name="timeStamp" value="133" />
+          <option name="timeStamp" value="202" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <condition expression="beanName.equals(&quot;cacu&quot;)" language="JAVA" />
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java</url>
-          <line>245</line>
+          <url>file://$PROJECT_DIR$/zzjava/src/test/java/com/ecpss/collection/MapHash.java</url>
+          <line>13</line>
           <properties />
-          <option name="timeStamp" value="134" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
-          <line>298</line>
-          <properties />
-          <option name="timeStamp" value="140" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
-          <line>265</line>
-          <properties />
-          <option name="timeStamp" value="152" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
-          <line>470</line>
-          <properties />
-          <option name="timeStamp" value="153" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/test/user/User.java</url>
-          <line>57</line>
-          <properties />
-          <option name="timeStamp" value="165" />
-        </line-breakpoint>
-        <line-breakpoint type="java-method">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java</url>
-          <line>1572</line>
-          <properties class="org.springframework.beans.factory.support.AbstractBeanFactory" method="markBeanAsCreated">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="91" />
-        </line-breakpoint>
-        <line-breakpoint type="java-method">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionValueResolver.java</url>
-          <line>104</line>
-          <properties class="org.springframework.beans.factory.support.BeanDefinitionValueResolver" method="resolveValueIfNecessary">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="93" />
-        </line-breakpoint>
-        <line-breakpoint type="java-method">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java</url>
-          <line>149</line>
-          <properties class="org.springframework.beans.factory.support.DefaultSingletonBeanRegistry" method="addSingletonFactory">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="98" />
-        </line-breakpoint>
-        <line-breakpoint type="java-method">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
-          <line>1102</line>
-          <properties class="org.springframework.context.support.AbstractApplicationContext" method="getBean">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="105" />
+          <option name="timeStamp" value="215" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="169" />
+      <default-breakpoints>
+        <breakpoint enabled="true" type="javascript-exception">
+          <properties />
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="229" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2025,333 +2262,323 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/spring/config/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/spring/domain/instance/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/spring/domain/instance/instance2b.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/spring/domain/instance/instance1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/spring/domain/instance/Mainconfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="docComment;method#getUser#0;class#Mainconfig#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzjava/src/main/resources/bean.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="69" lean-forward="true" selection-start-line="4" selection-start-column="69" selection-end-line="4" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fwethersystem/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="143" column="21" lean-forward="true" selection-start-line="139" selection-start-column="0" selection-end-line="143" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/spring/aop/Aopconfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/moshi/Testaop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/spring/aop/Aop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/spring/aop/Cacu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Package.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="622" column="0" lean-forward="false" selection-start-line="622" selection-start-column="0" selection-end-line="622" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="367" column="0" lean-forward="false" selection-start-line="367" selection-start-column="0" selection-end-line="367" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/security/Permissions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="261" column="0" lean-forward="false" selection-start-line="261" selection-start-column="0" selection-end-line="261" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/security/BasicPermission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="251" column="0" lean-forward="false" selection-start-line="251" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/test/coll/HashMapdemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/jre/lib/rt.jar!/sun/launcher/LauncherHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="979">
-          <caret line="385" column="0" lean-forward="false" selection-start-line="385" selection-start-column="0" selection-end-line="385" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="493" column="47" lean-forward="true" selection-start-line="493" selection-start-column="47" selection-end-line="493" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="3311" column="5" lean-forward="true" selection-start-line="3311" selection-start-column="5" selection-end-line="3311" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1955">
-          <caret line="2898" column="43" lean-forward="false" selection-start-line="2898" selection-start-column="43" selection-end-line="2898" selection-end-column="43" />
-          <folding>
-            <element signature="e#5687#5688#0" expanded="false" />
-            <element signature="e#5750#5751#0" expanded="false" />
-            <element signature="e#118405#118406#0" expanded="false" />
-            <element signature="e#118444#118445#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/test/user/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="60" column="34" lean-forward="true" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="445" column="11" lean-forward="false" selection-start-line="445" selection-start-column="11" selection-end-line="445" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zqianduan/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="24" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eerucka/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka_provider1/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka_provider1/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="77" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka_provider1/src/main/java/com/ecpss/controller/TicketController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.11.1/redisson-3.11.1.jar!/org/redisson/config/SingleServerConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="48" column="30" lean-forward="false" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.11.1/redisson-3.11.1.jar!/org/redisson/RedissonLock.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="94" column="44" lean-forward="false" selection-start-line="94" selection-start-column="31" selection-end-line="94" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.11.1/redisson-3.11.1.jar!/org/redisson/api/RLock.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.11.1/redisson-3.11.1.jar!/org/redisson/Redisson.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="82" column="13" lean-forward="false" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.9.RELEASE/spring-data-redis-2.1.9.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="797" column="33" lean-forward="false" selection-start-line="797" selection-start-column="33" selection-end-line="797" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.9.RELEASE/spring-data-redis-2.1.9.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="1316" column="33" lean-forward="false" selection-start-line="1316" selection-start-column="33" selection-end-line="1316" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.9.RELEASE/spring-data-redis-2.1.9.RELEASE-sources.jar!/org/springframework/data/redis/core/ValueOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="192" column="7" lean-forward="false" selection-start-line="192" selection-start-column="7" selection-end-line="192" selection-end-column="7" />
-          <folding>
-            <element signature="docComment;method#getAndSet#0;class#ValueOperations#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/util/RedisUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="53" column="5" lean-forward="false" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/concurrent/locks/Lock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="287" column="35" lean-forward="false" selection-start-line="287" selection-start-column="35" selection-end-line="287" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzjava/src/test/java/com/ecpss/ZzjavaApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="48" column="2" lean-forward="false" selection-start-line="37" selection-start-column="8" selection-end-line="48" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzjava/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzjava/src/test/java/com/ecpss/DefaultTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="47" column="3" lean-forward="false" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/config/RedissonConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="88">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#RedissonConfig#0" expanded="true" />
+            <element signature="e#0#14202#0" expanded="false" />
+            <element signature="docComment;class#Lock#0" expanded="false" />
+            <element signature="docComment;method#lock#0;class#Lock#0" expanded="false" />
+            <element signature="docComment;method#lockInterruptibly#0;class#Lock#0" expanded="false" />
+            <element signature="docComment;method#tryLock#0;class#Lock#0" expanded="false" />
+            <element signature="docComment;method#tryLock#1;class#Lock#0" expanded="false" />
+            <element signature="docComment;method#unlock#0;class#Lock#0" expanded="false" />
+            <element signature="docComment;method#newCondition#0;class#Lock#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zzjava/pom.xml">
+    <entry file="file://$PROJECT_DIR$/zzjava/src/test/java/com/ecpss/collection/conn/AtomicIntegerArrayDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="70" column="26" lean-forward="false" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
+        <state relative-caret-position="330">
+          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding>
+            <element signature="e#204#205#0" expanded="false" />
+            <element signature="e#248#249#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11044">
+          <caret line="1074" column="22" lean-forward="false" selection-start-line="1074" selection-start-column="22" selection-end-line="1074" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#90972#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#AbstractQueuedSynchronizer#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#SHARED#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#EXCLUSIVE#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#CANCELLED#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#SIGNAL#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#CONDITION#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#PROPAGATE#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#waitStatus#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#prev#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#next#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#thread#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#nextWaiter#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#isShared#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="e#20991#20992#0" expanded="false" />
+            <element signature="e#21042#21043#0" expanded="false" />
+            <element signature="docComment;method#predecessor#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#head#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#tail#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#state#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#getState#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="e#22675#22676#0" expanded="false" />
+            <element signature="e#22703#22704#0" expanded="false" />
+            <element signature="docComment;method#setState#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="e#22933#22934#0" expanded="false" />
+            <element signature="e#22965#22966#0" expanded="false" />
+            <element signature="docComment;field#spinForTimeoutThreshold#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#enq#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#addWaiter#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#setHead#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#unparkSuccessor#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#doReleaseShared#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#setHeadAndPropagate#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#cancelAcquire#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#shouldParkAfterFailedAcquire#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#selfInterrupt#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="e#32644#32645#0" expanded="false" />
+            <element signature="e#32694#32695#0" expanded="false" />
+            <element signature="docComment;method#parkAndCheckInterrupt#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#acquireQueued#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#doAcquireInterruptibly#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#doAcquireNanos#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#doAcquireShared#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#doAcquireSharedInterruptibly#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#doAcquireSharedNanos#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#tryAcquire#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#tryRelease#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#tryAcquireShared#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#tryReleaseShared#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#isHeldExclusively#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#acquireInterruptibly#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#tryAcquireNanos#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#release#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#acquireShared#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#acquireSharedInterruptibly#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#tryAcquireSharedNanos#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#releaseShared#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#hasQueuedThreads#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="e#53988#53989#0" expanded="false" />
+            <element signature="e#54023#54024#0" expanded="false" />
+            <element signature="docComment;method#hasContended#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="e#54379#54380#0" expanded="false" />
+            <element signature="e#54414#54415#0" expanded="false" />
+            <element signature="docComment;method#getFirstQueuedThread#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#fullGetFirstQueuedThread#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#isQueued#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#apparentlyFirstQueuedIsExclusive#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#hasQueuedPredecessors#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#getQueueLength#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#getQueuedThreads#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#getExclusiveQueuedThreads#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#getSharedQueuedThreads#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#toString#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#isOnSyncQueue#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#findNodeFromTail#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#transferForSignal#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#transferAfterCancelledWait#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#fullyRelease#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#owns#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="e#67632#67633#0" expanded="false" />
+            <element signature="e#67680#67681#0" expanded="false" />
+            <element signature="docComment;method#hasWaiters#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#getWaitQueueLength#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#getWaitingThreads#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#firstWaiter#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#lastWaiter#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#ConditionObject#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#addConditionWaiter#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#doSignal#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#doSignalAll#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#unlinkCancelledWaiters#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#signal#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#signalAll#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#awaitUninterruptibly#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#REINTERRUPT#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#THROW_IE#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#checkInterruptWhileWaiting#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#reportInterruptAfterWait#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#await#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#awaitNanos#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#awaitUntil#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#await#1;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#isOwnedBy#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="e#85889#85890#0" expanded="false" />
+            <element signature="e#85959#85960#0" expanded="false" />
+            <element signature="docComment;method#hasWaiters#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#getWaitQueueLength#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#getWaitingThreads#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#unsafe#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#compareAndSetHead#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#compareAndSetTail#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#compareAndSetWaitStatus#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#compareAndSetNext#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fwethersystem/src/main/java/com/ecpss/FwethersystemApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="228" column="42" lean-forward="false" selection-start-line="228" selection-start-column="42" selection-end-line="228" selection-end-column="42" />
+          <folding>
+            <element signature="docComment;method#lock#0;class#Sync#0;class#ReentrantLock#0" expanded="true" />
+            <element signature="docComment;method#nonfairTryAcquire#0;class#Sync#0;class#ReentrantLock#0" expanded="true" />
+            <element signature="docComment;method#lock#0;class#NonfairSync#0;class#ReentrantLock#0" expanded="true" />
+            <element signature="docComment;method#ReentrantLock#0;class#ReentrantLock#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zzjava/src/test/java/com/ecpss/collection/conn/AqsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fwethersystem/src/main/java/com/ecpss/test/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fwethersystem/src/main/java/com/ecpss/test/Money1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#Money1#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fwethersystem/src/main/java/com/ecpss/test/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#User#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fwethersystem/src/main/java/com/ecpss/controller/DefaultController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#DefaultController#0" expanded="false" />
+            <element signature="e#284#285#0" expanded="false" />
+            <element signature="e#314#315#0" expanded="false" />
+            <element signature="e#388#389#0" expanded="false" />
+            <element signature="e#430#431#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fwethersystem/src/main/java/com/ecpss/controller/DownExcelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#DownExcelController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fwethersystem/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fwethersystem/src/main/java/com/ecpss/controller/resttemplate/RestTemplateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#RestTemplateController#0" expanded="false" />
+            <element signature="e#713#714#0" expanded="false" />
+            <element signature="e#762#763#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fwethersystem/src/main/java/com/ecpss/controller/text/TextController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#TextController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fwethersystem/src/test/java/com/ecpss/FwethersystemApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fwethersystem/src/test/java/com/ecpss/resttest/Restt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="24" column="46" lean-forward="false" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#Restt#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fwethersystem/src/main/java/com/ecpss/util/HttpUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="47" column="44" lean-forward="false" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#HttpUtils#0" expanded="false" />
+            <element signature="docComment;method#doGet#0;class#HttpUtils#0" expanded="false" />
+            <element signature="docComment;method#doPost#0;class#HttpUtils#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.2.0/rocketmq-client-4.2.0-sources.jar!/org/apache/rocketmq/client/MQAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grocketmq-cluster/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2359,85 +2586,286 @@
         <state />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.5.0/redisson-3.5.0.jar!/org/redisson/api/RLock.class">
+    <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/filter/Filtermessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/filter/FilterConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="18" column="83" lean-forward="false" selection-start-line="18" selection-start-column="83" selection-end-line="18" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/order/Ordercon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="27" column="108" lean-forward="false" selection-start-line="27" selection-start-column="108" selection-end-line="27" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/order/Orderpro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-common/4.2.0/rocketmq-common-4.2.0.jar!/org/apache/rocketmq/common/message/Message.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.2.0/rocketmq-client-4.2.0-sources.jar!/org/apache/rocketmq/client/producer/TransactionCheckListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#1025#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.2.0/rocketmq-client-4.2.0-sources.jar!/org/apache/rocketmq/client/producer/LocalTransactionState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.2.0/rocketmq-client-4.2.0-sources.jar!/org/apache/rocketmq/client/producer/TransactionMQProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="52" column="33" lean-forward="false" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/springboot/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/springboot/RocketMQProducer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka_consumer2/src/main/java/com/ecpss/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="36" column="23" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="51" column="19" lean-forward="false" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eerucka/src/main/java/com/ecpss/EeruckaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/ZzjavaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzjava/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.5.0/redisson-3.5.0-sources.jar!/org/redisson/api/RLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="76" column="58" lean-forward="true" selection-start-line="74" selection-start-column="7" selection-end-line="76" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka_consumer2/src/main/java/com/ecpss/EurekaConsumer2Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/controller/RedisController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/util/RedisLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+          <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="41" />
           <folding>
-            <element signature="docComment;method#lock#0;class#RedisLock#0" expanded="true" />
-            <element signature="docComment;method#unlock#0;class#RedisLock#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/springboot/perfect/MQConsumeResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="34" column="46" lean-forward="false" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+          <folding>
+            <element signature="docComment;class#MQConsumeResult#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/springboot/perfect/MQMsgProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="docComment;class#MQMsgProcessor#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/springboot/perfect/MQMsgProcessorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <folding>
+            <element signature="docComment;class#MQMsgProcessorImpl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/springboot/perfect/MQConsumeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/demo/Produce_topic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/pull/PullConsumerdemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/demo/consumer/consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="35" column="45" lean-forward="false" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.2.0/rocketmq-client-4.2.0-sources.jar!/org/apache/rocketmq/client/exception/MQClientException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/GrocketmqClusterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="method#main#0;class#GrocketmqClusterApplication#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.2.0/rocketmq-client-4.2.0-sources.jar!/org/apache/rocketmq/client/impl/producer/DefaultMQProducerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="433" column="23" lean-forward="false" selection-start-line="433" selection-start-column="23" selection-end-line="433" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.2.0/rocketmq-client-4.2.0-sources.jar!/org/apache/rocketmq/client/consumer/listener/ConsumeConcurrentlyStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#1048#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.2.0/rocketmq-client-4.2.0-sources.jar!/org/apache/rocketmq/client/producer/DefaultMQProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="231" column="44" lean-forward="false" selection-start-line="231" selection-start-column="44" selection-end-line="231" selection-end-column="44" />
+          <folding>
+            <element signature="docComment;method#send#1;class#DefaultMQProducer#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/demo/sysnmessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/demo/asynmessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="14" />
+          <folding>
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/springboot/MqConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="31" column="67" lean-forward="false" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/springboot/MQConsumeMsgListenerProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="33" column="31" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/test/java/com/ecpss/GrocketmqClusterApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/trans/TransactionExecuterimpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="691">
+          <caret line="41" column="51" lean-forward="false" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#TransactionExecuterimpl#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/trans/TransactionCheckListenerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/trans/TransProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="36" column="58" lean-forward="false" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#main#0;class#TransProducer#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/trans/TransConusmer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

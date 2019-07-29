@@ -1,8 +1,12 @@
 package com.ecpss;
 
+import com.google.common.collect.Lists;
 import org.junit.Test;
 
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
 
 /**
  * Created by xc on 2019/7/22.
@@ -44,10 +48,23 @@ public class DefaultTest {
         
     @Test
     public void tg(){
+        Map<String,String> map=new HashMap();
+        map.put("aa","bb");
+        Set<Map.Entry<String, String>> entries = map.entrySet();
     
-   
+        Iterator<Map.Entry<String, String>> iterator = entries.iterator();
+        
+        while (iterator.hasNext()){
+            Map.Entry<String, String> next = iterator.next();
+            String key = next.getKey();
+            String value = next.getValue();
+            System.out.println(key+""+value);
     
-       
+    
+        }
+        
+    
+    
     }
   
 

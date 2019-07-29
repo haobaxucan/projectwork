@@ -19,15 +19,15 @@ import java.util.concurrent.TimeUnit;
 public class RedisController {
     @Autowired
     public StringRedisTemplate template;
-    @Autowired
-    private Redisson redisson;
+//    @Autowired
+//    private Redisson redisson;
     public int a=0;
     public int b=0;
     
     @RequestMapping("/s")
     public String string() {
         String lockKey = "lockKey";
-        RLock redissonLock = redisson.getLock(lockKey);
+        RLock redissonLock =null;/* redisson.getLock(lockKey);*/
         try {
             //获取锁，它将一直持有，知道锁释放，或者因为超过了超时时间，防止系统因为bug --其他线程一直获得不到锁
             redissonLock.lock(10L,TimeUnit.SECONDS);
