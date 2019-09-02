@@ -1,0 +1,145 @@
+使用ui插件layui ---解压--直接拷贝到static 文件夹下
+
+登录时候节使用ajax ---页面不刷新,不用重新输入
+
+RBAC（Role-Based Access Control ）基于角色的访问控制。
+
+calss班级--student学生
+多 ---》一
+在多的一方添加外键
+
+学生----》课程
+多对多
+双向的一对多，需要第三张表
+
+RBAC--》最基本的需要五张表
+
+--------------------------添加样式的时候需要加上 /  绝对路径/ 都是在前段页面进行非空效验--
+
+查询时候的模糊匹配和条件查询 sql 语句
+   select * from user
+        <where>
+            <if test="queryText !=null">
+                and username like concat('%',#{queryText},'%')
+            </if>
+        </where>
+
+
+增加的时候需要创建时间，增加后显示在表格的第一行---按照时间排序
+解决时间的问题？可以在创建对象的时候按照密码一样设置当前的时间
+  @Override
+    public void insert(User user) {//也可以在controller层 设置默认的密码......
+        user.setPassword("123456");
+        user.setCreatetime(new Date());
+        userMapper.addUser(user);
+    }
+
+       insert into user(
+            account ,username,password,email,createtime
+            )
+            values( #{account},#{username},#{password},#{email},#{createtime})
+
+修改的时候和增加类似，但是注意修改的时候需要传入id
+//Jquery -->dom 需要加上[0],reset()是dom 对象
+$('editForm')[0].reset();
+
+dom-->jquery 需要$(dom)
+
+ update user set username=#{username},account=#{account},email=#{email}
+    where id=#{id}
+
+    删除的时候根据id 删除 ----批量删除
+     @RequestMapping("/deletes")
+        @ResponseBody
+        public Object delUsers(Integer[] userid) {
+            ResultVo vo = new ResultVo();
+            try {
+                Map<String,Object> map=new HashMap<>();
+                map.put("user_ids",userid);
+                vo.setSucc(true);
+                userService.delUsers(map);
+
+            } catch (Exception e) {
+                log.info("删除数据失败");
+            }
+            return vo;
+        }
+
+
+         <!--批量删除-->
+            <delete id="delUsers">
+
+               delete from user where id in
+               <foreach collection="user_ids" item="user_id" open="(" close=")" separator=",">
+                  #{user_id}
+               </foreach>
+
+            </delete>
+            页面
+              $.ajax( {
+                               type: 'post',
+                               url: "/user/deletes",
+                               data:
+                                   $('#delUsers').serialize()
+                                  }
+循环遍历所有的user信息的 name 属性 都是 userid，value值为th:value="${user.id}
+                                   <td><input type="checkbox" name="userid" th:value="${user.id}"></td>
+--------------------------------------------------------
+角色维护一样的增删改查
+左右列表的移动
+    $("#l2r").click(function () { #l2r 移动按钮id ---assignRole.html
+
+					var llist = $("select option:selected");//左列表
+
+                    alert(llist.length);
+					if(llist.length==0){//判断列表元素是否选中状态
+                        layer.msg("请选择角色信息信息", {time:2000, icon:5, shift:6}, function () {
+                        });
+					}
+						$("#rlist").append(llist);//右列表
+
+
+                });
+
+上述是页面效果---还需要与后台交互:
+############用户，角色都是单一的表
+为用户分配角色  就是操作第三张关系表----增加操作--mybatis 操作第三张表将表中的字段传入map中
+
+---------------------------
+
+许可也是增删改查 然后维护角色和权限的关系和 前面角色用户分配一样
+-----------
+用户登录的时候根据有的--》权限显示不同的操作菜单---就是根据user 的id 查询权限 ==》三表操作
+
+SELECT rid FROM user_role WHERE uid=1;
+SELECT pid FROM role_permission WHERE rid =4
+
+SELECT * FROM permission WHERE id IN(
+SELECT pid FROM role_permission WHERE rid IN(
+SELECT rid FROM user_role WHERE uid=#{id}
+)
+);
+ List<Permission> permissions = permissionService.queryPermissionByUser(user);
+然后遍历 查询 出来的权限放在用户界面中显示，这里是的permission控制z_tree数显示的操作菜单 有url --对应的跳转地址,还可以增加图标属性
+
+最后 使用登录拦截器，权限拦截---
+
+权限拦截--》登录的时候将权限的请求路径保存在集合中，然后访问的时候权限拦截器--》需要进行判断
+	Set<String> uriSet = new HashSet<String>();
+			for ( Permission permission : permissions ) {
+				permissionMap.put(permission.getId(), permission);
+				if ( permission.getUrl() != null && !"".equals(permission.getUrl()) ) {
+					uriSet.add(session.getServletContext().getContextPath() + permission.getUrl());
+				}
+			}
+			session.setAttribute("authUriSet", uriSet);
+
+
+
+
+
+
+
+
+
+

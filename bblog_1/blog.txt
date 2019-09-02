@@ -1,0 +1,224 @@
+搭建框架--aop日志处理--异常处理(页面 自定义异常处理机制)
+
+异常处理(页面 自定义异常处理机制)
+@ResponseStatus(HttpStatus.NOT_FOUND)
+public class NotFoundException extends RuntimeException {
+    public NotFoundException() {
+        super();
+    }
+
+    public NotFoundException(String message) {
+        super(message);
+    }
+
+    public NotFoundException(String message, Throwable cause) {
+        super(message, cause);
+    }
+}
+
+
+@ControllerAdvice
+public class ControllerExceptionHandler {
+
+    private final Logger logger = LoggerFactory.getLogger(this.getClass());
+
+
+    @ExceptionHandler(Exception.class)//拦截了所有的异常
+    public ModelAndView exceptionHander(HttpServletRequest request, Exception e) throws Exception {
+        logger.error("Requst URL : {}，Exception : {}", request.getRequestURL(),e);
+
+        if (AnnotationUtils.findAnnotation(e.getClass(), ResponseStatus.class) != null) {//如果存在状态码的异常，不处理
+            throw e;
+        }
+
+        ModelAndView mv = new ModelAndView();
+        mv.addObject("url",request.getRequestURL());
+        mv.addObject("exception", e);
+        mv.setViewName("error/error");
+        return mv;
+    }
+}
+
+aop日志处理
+@Aspect
+@Component
+    public class LogAspect {
+
+    private final Logger logger = LoggerFactory.getLogger(this.getClass());
+
+    @Pointcut("execution(* com.ecpss.controller..*.*(..))")
+    public void log(){}
+
+    @Before("log()")
+    public void dobefore(){
+        HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest();
+        String url = request.getRequestURL().toString();
+        String ip = request.getRemoteAddr();
+        logger.info("Request : {}", url);
+    }
+    @After("log()")
+    public void doAfter() {}
+
+    @AfterReturning(returning = "result",pointcut = "log()")
+    public void doAfterRuturn(Object result) {
+        logger.info("Result : {}", result);
+    }
+
+
+}
+-------------------正式编码---------利用jpa自动生成表结构--分析实体-------
+1.shiro 用户认证登录---md5盐值加密
+2.分类管理--type表的增删改查----展示就是查询所有的分类列表,修改的时候可以使用beanUtil
+3标签管理和分类管理一样，也是增删改查
+4博客管理------------------------复杂一些
+(1) 增加  --页面上就是把类型查询出来--显示在选择框里面
+
+（2）查询--条件查询
+(3) 展示推荐的博客--就是recommd 字段为true 在单个表中查询---也就是在一张表中按时间降序排序 ==实现代码
+  String hql="from Blog b where b.recommend=?1 order by updateTime desc";
+        Query query = em.createQuery(hql).setParameter(1, true);
+        List list = query.getResultList();
+
+（4）搜索功能--按照title或者content查询来搜索博客==实现代码
+       String hql="from Blog b where b.title like ?1 or b.content like ?1";
+        Query query = em.createQuery(hql).setParameter(1, like);
+        List list = query.getResultList();
+
+（5）博客详情：展示内容页面 ，评论功能，浏览次数---》就是查看内容的时候做一次views次数的累加 修改update操作{
+//注意数据库的默认值必须为整数，null无法计算----》不友好
+   String hql="update Blog b set b.views=b.views+1 where id=?1";
+        Query query = em.createQuery(hql).setParameter(1, id);
+        int i = query.executeUpdate();
+}
+  **赞赏的二维码从本地src导入
+  **评论（1）评论信息的提交与回复--》页面提交表单内容（一些效验）
+  然后后台模块
+  获得评论列表--》查询（博客id）展示
+  第一次就是添加评论就是增加--》然后刷新当前评论--》设置父id 为0
+  回复时候---》父id 不等于-1 设置父类id为之前评论的id
+Integer parentCommentId = comment.getId();
+        if (parentCommentId != -1) {
+            comment.setParent_comment_id(parentCommentId);
+        } else {
+            comment.setParent_comment_id(0);
+        }
+        comment.setCreateTime(new Date());
+        commentDao.saveComment(comment);
+
+        保存刷新查询：
+         @GetMapping("/comments/{blogId}")
+            public String comments(@PathVariable Integer blogId, Model model) {
+                model.addAttribute("comments", commentService.listCommentByBlogId(blogId));
+                return "blog :: commentList";
+            }
+
+  （2）评论信息列表展示
+   /**
+       * 循环每个顶级的评论节点
+       * @param comments
+       * @return
+       */
+      private List<Comment> eachComment(List<Comment> comments) {
+          List<Comment> commentsView = new ArrayList<>();
+          for (Comment comment : comments) {
+              Comment c = new Comment();
+              BeanUtils.copyProperties(comment,c);
+              commentsView.add(c);
+          }
+          //合并评论的各层子代到第一级子代集合中
+          combineChildren(commentsView);
+          return commentsView;
+      }
+
+      /**
+       *
+       * @param comments root根节点，blog不为空的对象集合
+       * @return
+       */
+      private void combineChildren(List<Comment> comments) {
+
+          for (Comment comment : comments) {
+              List<Comment> replys1 = comment.getReplyComments();
+              for(Comment reply1 : replys1) {
+                  //循环迭代，找出子代，存放在tempReplys中
+                  recursively(reply1);
+              }
+              //修改顶级节点的reply集合为迭代处理后的集合
+              comment.setReplyComments(tempReplys);
+              //清除临时存放区
+              tempReplys = new ArrayList<>();
+          }
+      }
+
+      //存放迭代找出的所有子代的集合
+      private List<Comment> tempReplys = new ArrayList<>();
+      /**
+       * 递归迭代，剥洋葱
+       * @param comment 被迭代的对象
+       * @return
+       */
+      private void recursively(Comment comment) {
+          tempReplys.add(comment);//顶节点添加到临时存放集合
+          if (comment.getReplyComments().size()>0) {
+              List<Comment> replys = comment.getReplyComments();
+              for (Comment reply : replys) {
+                  tempReplys.add(reply);
+                  if (reply.getReplyComments().size()>0) {
+                      recursively(reply);
+                  }
+              }
+          }
+      }
+
+
+  （3）管理员评论功能---从session中拿到对象不为空就是管理员--》一样调用保存评论的方法
+  Integer blogId = comment.getBlog_id();
+        comment.setBlog_id(blogId);
+        User user = (User) session.getAttribute("user");
+        if (user != null) {
+            comment.setAvatar(user.getAvatar());//头像
+            comment.setAdminComment(true);
+        } else {
+            comment.setAvatar("");
+        }
+        commentService.saveComment(comment);
+        return "redirect:/comments/" + blogId;
+    }
+---------------
+(1)查询分类展示
+
+--点击分类--》这个分类下面的所有博客展示--也就是在博客表中通过分类id分页查询--》默认第一个
+        List<Type> types = typeService.listTypeTop(10000);//得到所有的类型
+        if (id == -1) {
+           id = types.get(0).getId();//默认是第一个id
+        }
+        BlogQuery blogQuery = new BlogQuery();
+        blogQuery.setTypeId(id);
+        model.addAttribute("types", types);
+        model.addAttribute("page", blogService.listBlog(pageable, blogQuery));//通过分类的id 分页查询
+        model.addAttribute("activeTypeId", id);
+        return "types";
+    }
+--------------标签查询一样----------------
+        List<Type> types = typeService.listTypeTop(10000);
+        if (id == -1) {
+           id = types.get(0).getId();
+        }
+        BlogQuery blogQuery = new BlogQuery();
+        blogQuery.setTypeId(id);
+        model.addAttribute("types", types);
+        model.addAttribute("page", blogService.listBlog(pageable, blogQuery));
+        model.addAttribute("activeTypeId", id);
+        return "types";
+    }
+//总结是拿到分类表的id,去博客表中查询---》相互关联
+
+归档的实现---分组查询 拿到年份---然后根据年份查询
+   @Query("select function('date_format',b.updateTime,'%Y') as year from Blog b group by function('date_format',b.updateTime,'%Y') order by year desc ")
+    List<String> findGroupYear();
+
+    @Query("select b from Blog b where function('date_format',b.updateTime,'%Y') = ?1")
+    List<Blog> findByYear(String year);
+
+
+    ------------关于我------就是自己的一些信息展示

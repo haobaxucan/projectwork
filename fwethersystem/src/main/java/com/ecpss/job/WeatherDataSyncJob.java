@@ -26,14 +26,17 @@ public class WeatherDataSyncJob extends QuartzJobBean{
     protected void executeInternal(org.quartz.JobExecutionContext jobExecutionContext) throws JobExecutionException {
         List<City> cityListData =null;
         try {
-             cityListData = cityDataService.getCityListData();
+             cityListData = cityDataService.getCityListData();//得到所有
         } catch (Exception e) {
             log.error("解析城市数据失败");
             e.printStackTrace();
         }
+        /**
+         * 遍历得到所有城市的名称
+         */
         List<String> cityName = cityListData.stream().map(City::getCityName).collect(Collectors.toList());
         cityName.forEach(name->{
-            weatherDataService.syncDataByName(name);
+            weatherDataService.syncDataByName(name);//通过名称同步数据
         });
         
         log.info("data");

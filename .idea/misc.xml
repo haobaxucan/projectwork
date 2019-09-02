@@ -22,6 +22,10 @@
         <option value="$PROJECT_DIR$/fwethersystem/pom.xml" />
         <option value="$PROJECT_DIR$/zzjava/pom.xml" />
         <option value="$PROJECT_DIR$/grocketmq-cluster/pom.xml" />
+        <option value="$PROJECT_DIR$/hshiro/pom.xml" />
+        <option value="$PROJECT_DIR$/bblog_1/pom.xml" />
+        <option value="$PROJECT_DIR$/hrbac/pom.xml" />
+        <option value="$PROJECT_DIR$/helasticsearch/pom.xml" />
       </list>
     </option>
   </component>

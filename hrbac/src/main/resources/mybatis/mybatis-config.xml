@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!DOCTYPE configuration
+                PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+                "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeAliases>
+        <typeAlias type="com.ecpss.User.User" alias="user"></typeAlias>
+        <typeAlias type="com.ecpss.User.Role" alias="role"></typeAlias>
+    </typeAliases>
+
+    <!--因为已经配置了资源映射了-所以不用在映射资源文件了-->
+    <!--<mappers>-->
+    <!--<mapper resource="mybatis/mappers/user.xml"/>-->
+    <!--</mappers>-->
+</configuration>

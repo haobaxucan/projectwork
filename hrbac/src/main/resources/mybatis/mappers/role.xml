@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ecpss.mapper.RoleMapper">
+
+    <select id="pageQuery" resultType="role">
+        select * from role
+        limit #{start},#{size}
+    </select>
+
+    <select id="queryAllCount" resultType="integer">
+        select count(*) from role
+    </select>
+
+    <select id="queryAll" resultType="role">
+        select * from role
+    </select>
+    <select id="queryRoleById" resultType="role">
+      select * from role where id=#{roleid}
+    </select>
+</mapper>

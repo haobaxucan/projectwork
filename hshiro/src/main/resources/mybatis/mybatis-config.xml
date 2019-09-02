@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeAliases>
+        <typeAlias type="com.ecpss.boot_shiro.bean.User" alias="users"></typeAlias>
+    </typeAliases>
+    <!--因为标注了包扫描所以不用在映射资源文件了-->
+    <!--<mappers>-->
+    <!--<mapper resource="mybatis/mapper/user.xml"/>-->
+    <!--</mappers>-->
+</configuration>

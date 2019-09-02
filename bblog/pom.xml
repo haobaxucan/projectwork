@@ -54,7 +54,7 @@
 			<version>1.1.8</version>
 		</dependency>
 
-		<!-- 使用第一种jest   es 是5版本所以使用jest 5 依赖-->
+		<!-- 使用第一种jeselasticsearch  es 是5版本所以使用jest 5 依赖-->
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>

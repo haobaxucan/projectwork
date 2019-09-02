@@ -23,10 +23,9 @@ public class QuartConfig {
     public Trigger getTrigger(){
 //        SimpleScheduleBuilder simpleSchedule = SimpleScheduleBuilder.simpleSchedule();
 //        simpleSchedule.withMisfireHandlingInstructionNextWithExistingCount();
-        CronScheduleBuilder cronSchedule = CronScheduleBuilder.cronSchedule("0 0/30 * * * ?");
+        CronScheduleBuilder cronSchedule = CronScheduleBuilder.cronSchedule("0 0/1 * * * ?");
         return TriggerBuilder.newTrigger().withIdentity("trigger").forJob(jobDetail())
                 .withSchedule(cronSchedule).build();
     }
-    
     
 }

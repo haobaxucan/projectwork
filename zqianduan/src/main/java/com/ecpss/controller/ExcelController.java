@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
+import javax.servlet.ServletRequest;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.io.InputStream;
@@ -40,7 +41,7 @@ public class ExcelController {
     @RequestMapping("/swi")
     public String switch1(Model m){
         List<String> strings = java.util.Arrays.asList("aa", "vv", "dd");
-      
+//        ServletRequest
         
         
         m.addAttribute("lists",strings);

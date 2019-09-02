@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/avideo/avideo.iml" filepath="$PROJECT_DIR$/avideo/avideo.iml" />
       <module fileurl="file://$PROJECT_DIR$/bblog/bblog.iml" filepath="$PROJECT_DIR$/bblog/bblog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bblog_1/bblog_1.iml" filepath="$PROJECT_DIR$/bblog_1/bblog_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/ccardpage/ccardpage.iml" filepath="$PROJECT_DIR$/ccardpage/ccardpage.iml" />
       <module fileurl="file://$PROJECT_DIR$/ddiancan/ddiancan.iml" filepath="$PROJECT_DIR$/ddiancan/ddiancan.iml" />
       <module fileurl="file://$PROJECT_DIR$/eerucka/eerucka.iml" filepath="$PROJECT_DIR$/eerucka/eerucka.iml" />
@@ -11,6 +12,9 @@
       <module fileurl="file://$PROJECT_DIR$/eureka_provider1/eureka_provider1.iml" filepath="$PROJECT_DIR$/eureka_provider1/eureka_provider1.iml" />
       <module fileurl="file://$PROJECT_DIR$/fwethersystem/fwethersystem.iml" filepath="$PROJECT_DIR$/fwethersystem/fwethersystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/grocketmq-cluster/grocketmq-cluster.iml" filepath="$PROJECT_DIR$/grocketmq-cluster/grocketmq-cluster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/helasticsearch/helasticsearch.iml" filepath="$PROJECT_DIR$/helasticsearch/helasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hrbac/hrbac.iml" filepath="$PROJECT_DIR$/hrbac/hrbac.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hshiro/hshiro.iml" filepath="$PROJECT_DIR$/hshiro/hshiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/projectwork.iml" filepath="$PROJECT_DIR$/.idea/projectwork.iml" />
       <module fileurl="file://$PROJECT_DIR$/testweixin/websocket_boot.iml" filepath="$PROJECT_DIR$/testweixin/websocket_boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/zqianduan/zqianduan.iml" filepath="$PROJECT_DIR$/zqianduan/zqianduan.iml" />

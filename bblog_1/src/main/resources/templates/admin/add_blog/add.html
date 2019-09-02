@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>add</title>
+</head>
+<body>
+<form method="post" th:action="@{/add}">
+    标题:<input type="text" name="title"><br/>
+    类型:
+    <select name="type_id">
+        <option value="1">文学</option>
+        <option value="2">数学</option>
+        <option value="3">超神</option>
+    </select>
+    内容: <input type="text" name="content"><br/>
+    <input type="submit" value="添加博客">
+</form>
+
+<!---->
+<hr/>
+<h1>根据类型查询博客</h1>
+
+<form method="post" th:action="@{/query}">
+
+    类型:
+    <select name="type_id">
+        <option value="1">文学</option>
+        <option value="2">数学</option>
+        <option value="3">超神</option>
+    </select>
+    <input type="submit" value="查询博客">
+</form>
+
+<!--显示-->
+
+</body>
+</html>

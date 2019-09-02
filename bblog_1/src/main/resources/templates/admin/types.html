@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>分类</title>
+</head>
+<body>
+<form method="post" th:action="@{/addType}">
+  分类名称:<input type="text" name="name"><br/>
+  <input type="submit">
+</form>
+
+
+<!--分类列表-->
+<div  th:each="t:${types}">
+  <span th:text="${t.name}"></span>
+  <a th:href="@{/delete/(id=${t.id})}">删除</a>
+  <a th:href="@{/toUpdate/(id=${t.id})}">修改</a>
+</div>
+
+
+</body>
+</html>

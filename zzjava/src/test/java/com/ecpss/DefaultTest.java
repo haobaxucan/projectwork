@@ -13,7 +13,7 @@ import java.util.Set;
  */
 
 public class DefaultTest {
-    private static HashMap<Integer, Integer> map = new HashMap<Integer, Integer>(2,0.75f);
+    private static  HashMap<Integer, Integer> map = new HashMap<Integer, Integer>(2,0.75f);
     @Test
     public void r()throws Exception{
            
@@ -60,11 +60,21 @@ public class DefaultTest {
             String value = next.getValue();
             System.out.println(key+""+value);
     
-    
         }
         
     
     
+    }
+    @Test
+    public void te1(){
+        int a=0;
+        int b=0;
+        
+        for(int i=0;i<99;i++){
+            a=a++;
+            b=a++;
+        }
+        System.out.println(a+","+b);
     }
   
 

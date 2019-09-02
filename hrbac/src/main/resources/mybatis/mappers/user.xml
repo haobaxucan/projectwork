@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ecpss.mapper.UserMapper">
+    <select id="query" resultType="user">
+        select * from user where account = #{account}
+         and password=#{password}
+    </select>
+
+    <select id="queryById" resultType="user">
+        select * from user where id=#{id}
+    </select>
+    <select id="pageQuery" resultType="user">
+        select * from user
+        <where>
+            <if test="queryText !=null">
+                and username like concat('%',#{queryText},'%')
+            </if>
+
+        </where>
+        order by createtime desc
+        limit #{start},#{size}
+
+    </select>
+    <select id="queryCount" resultType="integer">
+        select count(*) from user
+
+    </select>
+
+    <select id="queryLike" resultType="user">
+        select * from user limit #{start},#{size}
+        <if test="username!=null">
+            where username like #{username}
+        </if>
+    </select>
+<select id="queryRoleById" resultType="integer">
+  select rid from user_role where uid=#{id};
+
+</select>
+    <insert id="addUser" useGeneratedKeys="true">
+        insert into user(
+        account ,username,password,email,createtime
+
+        )
+        values( #{account},#{username},#{password},#{email},#{createtime})
+
+    </insert>
+
+    <update id="updateUser">
+    update user set username=#{username},account=#{account},email=#{email}
+    where id=#{id}
+    </update>
+
+    <delete id="delete">
+        delete from user where id=#{id}
+
+    </delete>
+    <!--批量删除-->
+    <delete id="delUsers">
+
+       delete from user where id in
+       <foreach collection="user_ids" item="user_id" open="(" close=")" separator=",">
+          #{user_id}
+       </foreach>
+
+    </delete>
+    <!--这里的括号需要循环所以不用 open close-->
+    <insert id="addUserRoles">
+        insert into user_role(uid,rid) values
+        <foreach collection="unRoleIds" item="roleid" separator=",">
+            (#{userid},#{roleid})
+        </foreach>
+
+    </insert>
+
+</mapper>
