@@ -26,6 +26,9 @@
         <option value="$PROJECT_DIR$/bblog_1/pom.xml" />
         <option value="$PROJECT_DIR$/hrbac/pom.xml" />
         <option value="$PROJECT_DIR$/helasticsearch/pom.xml" />
+        <option value="$PROJECT_DIR$/hgood/pom.xml" />
+        <option value="$PROJECT_DIR$/hactivemq/pom.xml" />
+        <option value="$PROJECT_DIR$/ipayment/pom.xml" />
       </list>
     </option>
   </component>

@@ -21,7 +21,6 @@ public class HelasticsearchApplicationTests {
 	public void add() {
 		
 		Book book=new Book();
-		book.setId("2");
 		book.setName("xc");
 		repository.save(book);
 		

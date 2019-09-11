@@ -12,9 +12,12 @@
       <module fileurl="file://$PROJECT_DIR$/eureka_provider1/eureka_provider1.iml" filepath="$PROJECT_DIR$/eureka_provider1/eureka_provider1.iml" />
       <module fileurl="file://$PROJECT_DIR$/fwethersystem/fwethersystem.iml" filepath="$PROJECT_DIR$/fwethersystem/fwethersystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/grocketmq-cluster/grocketmq-cluster.iml" filepath="$PROJECT_DIR$/grocketmq-cluster/grocketmq-cluster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hactivemq/hactivemq.iml" filepath="$PROJECT_DIR$/hactivemq/hactivemq.iml" />
       <module fileurl="file://$PROJECT_DIR$/helasticsearch/helasticsearch.iml" filepath="$PROJECT_DIR$/helasticsearch/helasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hgood/hgood.iml" filepath="$PROJECT_DIR$/hgood/hgood.iml" />
       <module fileurl="file://$PROJECT_DIR$/hrbac/hrbac.iml" filepath="$PROJECT_DIR$/hrbac/hrbac.iml" />
       <module fileurl="file://$PROJECT_DIR$/hshiro/hshiro.iml" filepath="$PROJECT_DIR$/hshiro/hshiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ipayment/ipayment.iml" filepath="$PROJECT_DIR$/ipayment/ipayment.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/projectwork.iml" filepath="$PROJECT_DIR$/.idea/projectwork.iml" />
       <module fileurl="file://$PROJECT_DIR$/testweixin/websocket_boot.iml" filepath="$PROJECT_DIR$/testweixin/websocket_boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/zqianduan/zqianduan.iml" filepath="$PROJECT_DIR$/zqianduan/zqianduan.iml" />

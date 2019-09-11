@@ -16,9 +16,12 @@
         <module name="eureka_provider1" />
         <module name="fwethersystem" />
         <module name="grocketmq-cluster" />
+        <module name="hactivemq" />
         <module name="helasticsearch" />
+        <module name="hgood" />
         <module name="hrbac" />
         <module name="hshiro" />
+        <module name="ipayment" />
         <module name="websocket_boot" />
         <module name="zqianduan" />
         <module name="zqianduan2" />
@@ -37,10 +40,13 @@
       <module name="eureka_provider1" target="1.8" />
       <module name="fwethersystem" target="1.8" />
       <module name="grocketmq-cluster" target="1.8" />
+      <module name="hactivemq" target="1.8" />
       <module name="helasticsearch" target="1.8" />
       <module name="hes" target="1.8" />
+      <module name="hgood" target="1.8" />
       <module name="hrbac" target="1.8" />
       <module name="hshiro" target="1.8" />
+      <module name="ipayment" target="1.8" />
       <module name="websocket_boot" target="1.8" />
       <module name="zqianduan" target="1.8" />
       <module name="zqianduan2" target="1.8" />

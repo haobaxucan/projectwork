@@ -12,10 +12,10 @@ public interface BookRepository extends ElasticsearchRepository<Book,Integer> {
 //    支持自定义方法
 
     public List<Book> findByNameLike(String name);
-//    @Query("from Book  where id =:id")
+//    @Query("from Book  where name =:name")
     Book findByName(String name);
     
-   public Book findBooKById(Integer id);
+    Book findBooKById(Integer id);
   
 //   public Book findNative(Integer id);
     

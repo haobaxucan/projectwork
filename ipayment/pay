@@ -1,0 +1,53 @@
+1.整合支付宝
+(1) 和支付宝签订协议
+（2）下载整合支付宝sdk
+(3) 开发对接程序
+    3.1 创建rsa 非对称秘钥
+    3.2 整合支付宝跳转表单
+  (4) 完成 支付回调接口
+
+------开始----------https://docs.open.alipay.com/270/105898/---
+
+  1 引入依赖
+  <dependency>
+     <groupId>com.alipay</groupId>
+     <artifactId>alipay-sdk</artifactId>
+     <version>3.0.0</version>
+  </dependency>
+
+  2 引入支付宝配置文件 alipay.properties
+
+  3 创建config 读取配置文件
+
+
+  4 分装请求参数
+   @Autowired
+      AlipayClient alipayClient;
+      @RequestMapping("/alipay/submit")
+      @ResponseBody
+      public String alipay(String orderId, BigDecimal total) {
+          AlipayTradePagePayRequest alipayRequest = new AlipayTradePagePayRequest();//创建API对应的request
+          alipayRequest.setReturnUrl(AlipayConfig.return_order_url);
+          alipayRequest.setNotifyUrl(AlipayConfig.notify_payment_url);
+
+          log.info("开始打印日志{},{}", orderId, total);
+          String form = "";
+          Map<String ,Object> map=new HashMap<>();
+
+          map.put("out_trade_no",orderId);
+          map.put("product_code","FAST_INSTANT_TRADE_PAY");//写死
+          map.put("total_amount",total);
+          map.put("subject","xc_test学习卡");
+          String param = JSONObject.toJSONString(map);
+          alipayRequest.setBizContent(param);
+
+          try {
+              form = alipayClient.pageExecute(alipayRequest).getBody(); //调用SDK生成表单
+  //            log.info("form={}",form);
+          } catch (AlipayApiException e) {
+              e.printStackTrace();
+          }
+
+          return form;
+      }
+
