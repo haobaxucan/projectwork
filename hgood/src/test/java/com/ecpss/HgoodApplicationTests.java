@@ -46,8 +46,8 @@ public class HgoodApplicationTests {
     
     @Test
     public void contextLoads() throws Exception {
-//        User user = redisUserService.getByid(1L);
-        User user = redisUserService.getHot("cold");
+        User user = redisUserService.getByid(-1L);
+//        User user = redisUserService.getHot("cold");
         System.out.println(user);//User(id=2, name=cold, address=xc, age=13)
     }
     

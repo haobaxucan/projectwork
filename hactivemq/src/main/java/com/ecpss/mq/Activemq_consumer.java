@@ -11,11 +11,11 @@ import javax.jms.TextMessage;
 public class Activemq_consumer {
     @Autowired
     private OrderUpdate orderUpdate;
- 
-    @JmsListener(destination ="${queuename}")
-    public void receive(TextMessage textMessage)throws Exception{
     
-        System.out.println(textMessage.getText()+"修改订状态");
+    @JmsListener(destination = "${queuename}")
+    public void receive(TextMessage textMessage) throws Exception {
+        
+        System.out.println(textMessage.getText() + "修改订状态");
     }
     
 }

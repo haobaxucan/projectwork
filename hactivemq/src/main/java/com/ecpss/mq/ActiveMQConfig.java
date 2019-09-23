@@ -44,7 +44,7 @@ public class  ActiveMQConfig {
         return redeliveryPolicy;
     }
     
-    @Bean
+//    @Bean
     public ActiveMQConnectionFactory activeMQConnectionFactory (RedeliveryPolicy redeliveryPolicy){
         ActiveMQConnectionFactory activeMQConnectionFactory =
                 new ActiveMQConnectionFactory(

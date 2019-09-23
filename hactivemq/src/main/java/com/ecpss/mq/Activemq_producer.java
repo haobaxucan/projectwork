@@ -13,7 +13,7 @@ import java.util.UUID;
  */
 @Component
 public class Activemq_producer {
-
+    
     @Autowired
     JmsMessagingTemplate jmsMessagingTemplate;
     
@@ -21,14 +21,15 @@ public class Activemq_producer {
     Queue queue;
     
     
-    public void produceMessage(){
-     
-        jmsMessagingTemplate.convertAndSend(queue,"****"+ UUID.randomUUID().toString().substring(0,6));
+    public void produceMessage() {
+        
+        jmsMessagingTemplate.convertAndSend(queue, "****" + UUID.randomUUID().toString().substring(0, 6));
     }
+    
     // 带定时投递的业务方法
     @Scheduled(fixedDelay = 3000)    // 每3秒自动调用
-    public void produceMessageScheduled(){
-        jmsMessagingTemplate.convertAndSend(queue,"** scheduled **"+ UUID.randomUUID().toString().substring(0,6));
+    public void produceMessageScheduled() {
+        jmsMessagingTemplate.convertAndSend(queue, "** scheduled **" + UUID.randomUUID().toString().substring(0, 6));
         System.out.println("  produceMessage  send   ok   ");
     }
 }

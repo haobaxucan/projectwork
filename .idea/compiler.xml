@@ -9,7 +9,6 @@
         <module name="avideo" />
         <module name="bblog" />
         <module name="bblog_1" />
-        <module name="ccardpage" />
         <module name="ddiancan" />
         <module name="eerucka" />
         <module name="eureka_consumer2" />
@@ -23,6 +22,7 @@
         <module name="hshiro" />
         <module name="ipayment" />
         <module name="websocket_boot" />
+        <module name="wx_login" />
         <module name="zqianduan" />
         <module name="zqianduan2" />
         <module name="zqianduan_html3" />
@@ -48,6 +48,7 @@
       <module name="hshiro" target="1.8" />
       <module name="ipayment" target="1.8" />
       <module name="websocket_boot" target="1.8" />
+      <module name="wx_login" target="1.8" />
       <module name="zqianduan" target="1.8" />
       <module name="zqianduan2" target="1.8" />
       <module name="zqianduan_html3" target="1.8" />

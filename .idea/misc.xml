@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/wx_login" />
     <file type="web" url="file://$PROJECT_DIR$/zqianduan2" />
     <file type="web" url="file://$PROJECT_DIR$/zqianduan_html3" />
   </component>
@@ -10,7 +11,6 @@
         <option value="$PROJECT_DIR$/testweixin/pom.xml" />
         <option value="$PROJECT_DIR$/avideo/pom.xml" />
         <option value="$PROJECT_DIR$/bblog/pom.xml" />
-        <option value="$PROJECT_DIR$/ccardpage/pom.xml" />
         <option value="$PROJECT_DIR$/ddiancan/pom.xml" />
         <option value="$PROJECT_DIR$/zqianduan/pom.xml" />
         <option value="$PROJECT_DIR$/eerucka/pom.xml" />
@@ -29,6 +29,7 @@
         <option value="$PROJECT_DIR$/hgood/pom.xml" />
         <option value="$PROJECT_DIR$/hactivemq/pom.xml" />
         <option value="$PROJECT_DIR$/ipayment/pom.xml" />
+        <option value="$PROJECT_DIR$/wx_login/pom.xml" />
       </list>
     </option>
   </component>
@@ -36,4 +37,12 @@
     <resource url="http://java.sun.com/jsp/jstl/core" location="D:/jstl1.2/jstl/c.tld" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ZooKeeperConfig">
+    <option name="host" value="localhost" />
+    <option name="port" value="2181" />
+    <option name="charset" value="UTF-8" />
+    <option name="whitePaths" value="/" />
+    <option name="enabled" value="true" />
+    <option name="tooltip" value="true" />
+  </component>
 </project>

@@ -1,15 +1,28 @@
 package com.ecpss.collection;
 
+import org.apache.commons.collections.map.LinkedMap;
 import org.junit.Test;
 
-import java.util.HashMap;
+import java.util.*;
 
 /**
  * Created by xc on 2019/7/25.
  */
 public class MapHash {
     @Test
+    public void  t1() {
+        String s[]={"1","2","3"};
+        List<String> list = Arrays.asList(s);
+        list.add("4");
+        for(String aa:list){
+            System.out.println(aa);
+        }
+    
+    }
+    @Test
     public void  t() {
+    
+        new ArrayList<>();
         HashMap map = new HashMap(0);
         map.put("xc", "11");
         map.put("ca", "22");
@@ -17,7 +30,7 @@ public class MapHash {
     
         map.forEach((x, v) -> System.out.println("x" + x + "v" + v));
 
-
+        new LinkedMap();
 
 //        int 类型四个字节，32位 ，向有移动16位
 //        System.out.println(15 & 11111000);

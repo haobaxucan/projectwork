@@ -33,6 +33,10 @@ public class A {
         A a=new A();
         a.method1();
         a.method2();
+    
+        ThreadLocal<Object> local = new ThreadLocal<>();
+        local.set("");
+        
     }
 
     
