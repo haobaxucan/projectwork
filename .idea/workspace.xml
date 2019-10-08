@@ -5,133 +5,8 @@
     <bookmark url="file://$PROJECT_DIR$/hshiro/src/main/java/com/ecpss/boot_shiro/ShiroConfig.java" line="112" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="982b332e-cfa8-4c4c-8a5d-3d72ec10b71b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_jul_2_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j2_2_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_base_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_core_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_extra_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_autoconfigure_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_starter_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_weekend_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/Base/BaseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/Base/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/Base/BaseQueryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/Base/CrudDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/Base/DeleteDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/Base/InsertDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/Base/ResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/Base/SelectDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/Base/UpdateDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/Base/test/common/enums/CityStatusEnums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/Base/test/common/utils/DateTimeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/Base/test/dao/CityDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/Base/test/entity/CityEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/TkMybatisMapperApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/config/Swagger2Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/config/WebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/TkMybatisMapperApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/base/BaseCityTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/bean/Insert_Update_Delete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/bean/UserMapperQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/qbcQuery/QbyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkmybatis/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkmybatis/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkmybatis/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkmybatis/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkmybatis/app_log/log/app.err.2019-09-26.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkmybatis/app_log/log/app.info.2019-09-26.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkmybatis/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkmybatis/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkmybatis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/TkmybatisApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/com/TestUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/com/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/service/TestMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkmybatis/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkmybatis/src/main/resources/application-prod.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkmybatis/src/main/resources/application-test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkmybatis/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkmybatis/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkmybatis/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkmybatis/src/main/resources/mybatis/testUserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkmybatis/src/main/resources/mybatis/userDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkmybatis/src/test/java/com/ecpss/tkmybatis/TkmybatisApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkmybatis/src/test/java/com/ecpss/tkmybatis/service/TestMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/wx_login_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/wx_login_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/wx_login_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/wx_login_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/zqianduan2_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/zqianduan2_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/zqianduan2_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/zqianduan2_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/zqianduan_html3_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/zqianduan_html3_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/zqianduan_html3_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/zqianduan_html3_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="982b332e-cfa8-4c4c-8a5d-3d72ec10b71b" name="Default" comment="haode">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_log/log/app.data.2019-06-26.log" beforeDir="false" afterPath="$PROJECT_DIR$/tkmybatis/log/app.data.2019-09-26.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_log/log/app.data.2019-06-27.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_log/log/app.data.2019-06-28.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_log/log/app.data.2019-06-29.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_log/log/app.data.2019-07-01.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_log/log/app.data.2019-07-02.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_log/log/app.data.2019-07-04.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_log/log/app.data.2019-07-05.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_log/log/app.data.2019-07-20.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_log/log/app.err.2019-07-20.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_log/log/app.info.2019-07-01.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_log/log/app.info.2019-07-02.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_log/log/app.info.2019-07-04.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_log/log/app.info.2019-07-05.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_log/log/app.info.2019-07-20.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/controller/DefaultController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/controller/DefaultController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/utils/FastDFSClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/utils/FastDFSClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hgood/src/test/java/com/ecpss/HgoodApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/hgood/src/test/java/com/ecpss/HgoodApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrbac/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hrbac/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrbac/src/test/java/com/ecpss/Default.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrbac/src/test/java/com/ecpss/Default.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrbac/src/test/java/com/ecpss/service/PermissionServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrbac/src/test/java/com/ecpss/service/PermissionServiceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/testweixin/target/" />
     <ignored path="$PROJECT_DIR$/avideo/target/" />
@@ -199,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hgood/src/test/java/com/ecpss/HgoodApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="86" column="4" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
+            <state relative-caret-position="429">
+              <caret line="105" column="17" selection-start-line="105" selection-start-column="17" selection-end-line="105" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -545,7 +420,7 @@
     <property name="SearchEverywhereHistoryKey" value="执行&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570512165654" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570512232991" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -1758,7 +1633,7 @@
       <workItem from="1569407508815" duration="26247000" />
       <workItem from="1569553940603" duration="5000" />
       <workItem from="1569556265550" duration="26109000" />
-      <workItem from="1570511693910" duration="279000" />
+      <workItem from="1570511693910" duration="538000" />
     </task>
     <task id="LOCAL-00001" summary="secpmd omot o">
       <created>1561358034384</created>
@@ -1830,7 +1705,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563008073832</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="haode">
+      <created>1570512229417</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1570512229417</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1866,7 +1748,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1428428000" />
+    <option name="totallyTimeSpent" value="1428687000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1878,7 +1760,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7775306" visible="true" weight="0.22921109" />
       <window_info id="Structure" order="1" weight="0.24945135" />
@@ -2026,7 +1909,8 @@
     <MESSAGE value="master&#10; 11" />
     <MESSAGE value="init commit" />
     <MESSAGE value="second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <MESSAGE value="haode" />
+    <option name="LAST_COMMIT_MESSAGE" value="haode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2526,8 +2410,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hgood/src/test/java/com/ecpss/HgoodApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="86" column="4" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
+        <state relative-caret-position="429">
+          <caret line="105" column="17" selection-start-line="105" selection-start-column="17" selection-end-line="105" selection-end-column="17" />
         </state>
       </provider>
     </entry>
