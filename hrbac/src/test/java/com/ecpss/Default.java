@@ -12,6 +12,7 @@ import java.util.List;
 public class Default {
     @Test
     public void relist(){
+
         List<String> list=new ArrayList();
         list.add("aa");
         list.add("bb");

@@ -1,6 +1,12 @@
 <component name="ArtifactManager">
   <artifact type="war" name="wx_login:war">
     <output-path>$PROJECT_DIR$/wx_login/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>wx_login</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
     <root id="archive" name="wx_login-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="wx_login:war exploded" />
     </root>

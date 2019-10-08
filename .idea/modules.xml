@@ -18,6 +18,8 @@
       <module fileurl="file://$PROJECT_DIR$/hshiro/hshiro.iml" filepath="$PROJECT_DIR$/hshiro/hshiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/ipayment/ipayment.iml" filepath="$PROJECT_DIR$/ipayment/ipayment.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/projectwork.iml" filepath="$PROJECT_DIR$/.idea/projectwork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tk-mybatis-mapper/tk-mybatis-mapper.iml" filepath="$PROJECT_DIR$/tk-mybatis-mapper/tk-mybatis-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tkmybatis/tkmybatis.iml" filepath="$PROJECT_DIR$/tkmybatis/tkmybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/testweixin/websocket_boot.iml" filepath="$PROJECT_DIR$/testweixin/websocket_boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/wx_login/wx_login.iml" filepath="$PROJECT_DIR$/wx_login/wx_login.iml" />
       <module fileurl="file://$PROJECT_DIR$/zqianduan/zqianduan.iml" filepath="$PROJECT_DIR$/zqianduan/zqianduan.iml" />

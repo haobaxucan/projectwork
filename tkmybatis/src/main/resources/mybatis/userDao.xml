@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ecpss.tkmybatis.UserMapper">
+
+<!--自定义结果集 分装规则-->
+    <resultMap id="resmap" type="user">
+        <!--column 数据库的列 property javabean 的属性 id 定义主键列底层会有优化-->
+    <id column="id" property="id"></id>
+        <!--result 定义普通列-->
+     <result column="addx" property="adda"></result>
+        <!--其他不指定，会自动封装，只要写了resultMap 最好全写-->
+    </resultMap>
+
+    <select id="getById" resultType="user">
+        select  * from userd1 where id =#{id1}
+    </select>
+
+    <select id="getByIdAndAddr" resultMap="resmap">
+        select  * from userd1 where id =#{id1} and addx=#{addx}
+    </select>
+
+    <select id="getPo" resultType="user">
+        select  * from userd1 where id =#{id} and name=#{name}
+    </select>
+
+    <select id="getMap" resultType="user">
+        select  * from userd1 where addx =#{address} and name=#{username}
+    </select>
+
+</mapper>

@@ -8,9 +8,6 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.m2/repository/org/webjars/jQuery/3.0.0/jquery-3.0.0-sources.jar!/" />
-      <root url="jar://$USER_HOME$/.m2/repository/org/webjars/jQuery/3.0.0/jquery-3.0.0-sources.jar!/" />
-      <root url="jar://$USER_HOME$/.m2/repository/org/webjars/jQuery/3.0.0/jquery-3.0.0-sources.jar!/" />
-      <root url="jar://$USER_HOME$/.m2/repository/org/webjars/jQuery/3.0.0/jquery-3.0.0-sources.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/org/webjars/jquery/3.0.0/jquery-3.0.0-sources.jar!/" />
     </SOURCES>
   </library>
