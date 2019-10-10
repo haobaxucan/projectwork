@@ -5,39 +5,8 @@
     <bookmark url="file://$PROJECT_DIR$/hshiro/src/main/java/com/ecpss/boot_shiro/ShiroConfig.java" line="112" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="982b332e-cfa8-4c4c-8a5d-3d72ec10b71b" name="Default" comment="haodedd">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/login/repeatform/NoRepeatFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/login/repeatform/TokenProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/schedule/BaseJobScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/schedule/ScheduledTasks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/schedule/WeChatMessageSendSchedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/schedule/WeChatSendMessageSchedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/utils/DateTimeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/zk_lock/ExtLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/zk_lock/ZkDistrbuteLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/zk_lock/ZookeeperAbstractLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/zk_lock/test/OrderNumGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hgood/src/main/resources/templates/token/res.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hgood/src/main/resources/templates/token/token.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zzjava/src/main/java/com/java_jiji/thread/ClassRunnable.java" afterDir="false" />
+    <list default="true" id="982b332e-cfa8-4c4c-8a5d-3d72ec10b71b" name="Default" comment="suoyou">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hgood/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hgood/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/HgoodApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/HgoodApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/login/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/login/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/login/WebMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hgood/src/main/resources/templates/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/hgood/src/main/resources/templates/login/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/base/BaseCityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/base/BaseCityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/qbcQuery/QbyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/qbcQuery/QbyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkmybatis/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tkmybatis/src/main/resources/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkmybatis/src/main/resources/mybatis/userDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tkmybatis/src/main/resources/mybatis/userDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkmybatis/src/test/java/com/ecpss/tkmybatis/TkmybatisApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/tkmybatis/src/test/java/com/ecpss/tkmybatis/TkmybatisApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/testweixin/target/" />
     <ignored path="$PROJECT_DIR$/avideo/target/" />
@@ -424,137 +393,6 @@
               <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
               <item name="workspace" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="bblog_1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="bblog_1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="bblog_1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="bblog_1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="bblog_1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="bblog_1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="bblog_1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
-              <item name="aspect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="tk-mybatis-mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="tk-mybatis-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="tk-mybatis-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="tk-mybatis-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="tk-mybatis-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="tk-mybatis-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="tk-mybatis-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="tk-mybatis-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
-              <item name="tkmybatismapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="tk-mybatis-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
-              <item name="tkmybatismapper" type="462c0819:PsiDirectoryNode" />
-              <item name="qbcQuery" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -573,7 +411,7 @@
     <property name="SearchEverywhereHistoryKey" value="执行&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570695418125" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570695427132" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -1791,7 +1629,7 @@
       <workItem from="1570536908998" duration="2935000" />
       <workItem from="1570599190248" duration="18484000" />
       <workItem from="1570670077107" duration="3089000" />
-      <workItem from="1570691141986" duration="3231000" />
+      <workItem from="1570691141986" duration="3292000" />
     </task>
     <task id="LOCAL-00001" summary="secpmd omot o">
       <created>1561358034384</created>
@@ -1877,7 +1715,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570512282214</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="suoyou">
+      <created>1570695450927</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1570695450927</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1913,7 +1758,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1459281000" />
+    <option name="totallyTimeSpent" value="1459342000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1925,8 +1770,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7775306" visible="true" weight="0.29637527" />
       <window_info id="Structure" order="1" weight="0.24945135" />
@@ -1951,13 +1795,13 @@
       <window_info anchor="bottom" id="Application Servers" order="10" weight="0.32925472" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32925472" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.25460455" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="13" visible="true" weight="0.29175705" />
-      <window_info anchor="bottom" id="Spring" order="14" weight="0.32925472" />
-      <window_info anchor="bottom" id="Problems" order="15" weight="0.4143167" />
-      <window_info anchor="bottom" id="Find" order="16" visible="true" weight="0.25632912" />
-      <window_info anchor="bottom" id="Event Log" order="17" sideWeight="0.3796592" weight="0.30260304" />
-      <window_info anchor="bottom" id="Docker" order="18" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="19" weight="0.20281996" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.32925472" />
+      <window_info anchor="bottom" id="Problems" order="14" weight="0.4143167" />
+      <window_info anchor="bottom" id="Find" order="15" visible="true" weight="0.25632912" />
+      <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.3796592" weight="0.30260304" />
+      <window_info anchor="bottom" id="Docker" order="17" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="18" weight="0.20281996" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="19" visible="true" weight="0.29175705" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24973376" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" sideWeight="0.49610677" visible="true" weight="0.0037273695" />
@@ -2076,7 +1920,8 @@
     <MESSAGE value="second commit" />
     <MESSAGE value="haode" />
     <MESSAGE value="haodedd" />
-    <option name="LAST_COMMIT_MESSAGE" value="haodedd" />
+    <MESSAGE value="suoyou" />
+    <option name="LAST_COMMIT_MESSAGE" value="suoyou" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
