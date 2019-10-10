@@ -28,5 +28,8 @@
     <select id="getMap" resultType="user">
         select  * from userd1 where addx =#{address} and name=#{username}
     </select>
+    <select id="getlist" resultType="user">
+        select  * from userd1
+    </select>
 
 </mapper>

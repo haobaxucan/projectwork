@@ -4,6 +4,7 @@ import com.ecpss.tkmybatis.com.User;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -19,6 +20,9 @@ public User getById(Integer id);
 public User getByIdAndAddr(@Param("id1") Integer id,@Param("addx") String addx);
 public User getPo(User  user);
 public User getMap(Map<String,Object> map);
+
+public List<User> getlist();//测试进行分页查询
+
 
 
 }

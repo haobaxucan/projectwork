@@ -21,7 +21,7 @@ public class LoginController {
     @RequestMapping("/do_login")
     public String do_login(String name, String password, String requestURL, HttpServletRequest request) {
         log.info("name={},password={}",name,password);
-        if (name.equals("aaa")&&password.equals("aaa")){
+        if (name.equals("xc")&&password.equals("123")){
             // 登录成功
     
             // 用jwt制作token
@@ -52,7 +52,7 @@ public class LoginController {
     @RequestMapping("/login")
     public String to_login() {
         
-        return "login/index";
+        return "login/login";
     }
     
     

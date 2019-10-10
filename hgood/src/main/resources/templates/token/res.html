@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Token结果</title>
+</head>
+<body>
+       登录令牌 <div th:text="${session.token}"></div>
+         <form action="/result" method="post">
+             <input type="hidden" name="token" th:value="${session.token}">
+            <input type="text" name="name" value="结果"><br/>
+            <input type="submit" value="登录"><br/>
+        </form>
+</body>
+</html>

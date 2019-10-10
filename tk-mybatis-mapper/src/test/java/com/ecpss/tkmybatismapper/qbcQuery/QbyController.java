@@ -7,6 +7,7 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
+import tk.mybatis.mapper.entity.Condition;
 import tk.mybatis.mapper.entity.Example;
 
 import java.util.List;
@@ -33,6 +34,21 @@ public class QbyController {
 //        SELECT id,name,addx FROM userd1 WHERE ( name = ? )
         List<User> users = userMapper.selectByExample(example);
         System.out.println(users.size());
+
+    }
+
+    @Test
+    public void testQbcUpdate(){
+        //在criteria里面设置的是条件中设置
+        // 需要修改的参数在实体类entity设置
+        Example condition=new Example(User.class);
+        Example.Criteria criteria = condition.createCriteria();
+        User user=new User();
+        user.setId(8);
+        user.setAddx("jjjjjjjjjjjjjj");
+        criteria.andEqualTo("addx","hgh");
+        userMapper.updateByExampleSelective(user,condition);
+
 
     }
 

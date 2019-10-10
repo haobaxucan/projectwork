@@ -60,5 +60,14 @@ public class BaseCityTest {
 //        1解决办法 &zeroDateTimeBehavior=CONVERT_TO_NULL
     }
 
+    @Test
+    public void testQueryByTimeStamp() {
+        Example example=new Example(CityEntity.class);
+        Example.Criteria criteria = example.createCriteria();
+        criteria.andLessThan("plantime",new Date());
+        List<CityEntity> cityEntities = cityDao.selectByExample(example);
+        cityEntities.forEach((c)-> System.out.println(c.getAddx()));
+    }
+
 
 }

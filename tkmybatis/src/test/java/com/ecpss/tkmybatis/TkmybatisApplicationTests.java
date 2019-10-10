@@ -1,6 +1,8 @@
 package com.ecpss.tkmybatis;
 
 import com.ecpss.tkmybatis.com.User;
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -13,6 +15,7 @@ import tk.mybatis.spring.annotation.MapperScan;
 
 import javax.sql.DataSource;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @Slf4j
@@ -57,6 +60,16 @@ public class TkmybatisApplicationTests {
         map.put("address","re");
         User user = userMapper.getMap(map);
         System.out.println(user.getName()+"--"+user.getId());
+    }
+
+    @Test
+    public void page() throws Exception{
+        PageHelper.startPage(1,3);
+        List<User> getlist = userMapper.getlist();
+        PageInfo<User> userPageInfo=new PageInfo<>(getlist);
+        System.out.println("总页数="+userPageInfo.getPages());
+
+
     }
 
 
