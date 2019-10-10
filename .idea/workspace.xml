@@ -6,6 +6,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="982b332e-cfa8-4c4c-8a5d-3d72ec10b71b" name="Default" comment="suoyou">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/config/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wx_public_number/src/main/resources/templates/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/testweixin/target/" />
@@ -34,6 +65,7 @@
     <ignored path="$PROJECT_DIR$/wx_login/target/" />
     <ignored path="$PROJECT_DIR$/tkmybatis/target/" />
     <ignored path="$PROJECT_DIR$/tk-mybatis-mapper/target/" />
+    <ignored path="$PROJECT_DIR$/wx_public_number/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +102,43 @@
     <favorites_list name="projectwork" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/WxPublicNumberApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/IndexController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/config/MvcConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -105,7 +173,6 @@
       <find>doCredentialsMatch</find>
       <find>Long</find>
       <find>user/</find>
-      <find>index</find>
       <find>查询</find>
       <find>delUsers</find>
       <find>treeDemo</find>
@@ -123,6 +190,7 @@
       <find>logger</find>
       <find>l</find>
       <find>1</find>
+      <find>index</find>
     </findStrings>
     <replaceStrings>
       <replace>Exception</replace>
@@ -145,12 +213,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/bean/UserMapper.java" />
-        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/base/MyMapper.java" />
-        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/TkMybatisMapperApplicationTests.java" />
-        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/bean/UserMapperTest.java" />
-        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/bean/UserMapperQuery.java" />
-        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/bean/Insert_Update_Delete.java" />
         <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/utils/FastDFSClient.java" />
         <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/Base/BaseQueryDTO.java" />
         <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/Base/test/entity/City.java" />
@@ -196,6 +258,12 @@
         <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/zk_lock/test/OrderNumGenerator.java" />
         <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/qbcQuery/QbyController.java" />
+        <option value="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/WxPublicNumberApplication.java" />
+        <option value="$PROJECT_DIR$/wx_public_number/pom.xml" />
+        <option value="$PROJECT_DIR$/wx_public_number/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/wx_public_number/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/config/MvcConfig.java" />
       </list>
     </option>
   </component>
@@ -393,6 +461,124 @@
               <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
               <item name="workspace" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="zqianduan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="zqianduan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="zqianduan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="zqianduan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="zqianduan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="zqianduan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -411,7 +597,7 @@
     <property name="SearchEverywhereHistoryKey" value="执行&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570695427132" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570699735393" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -434,17 +620,17 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workaddress\projectwork\hshiro\src\main\resources\templates" />
-      <recent name="D:\workaddress\projectwork\hshiro\src\main\resources\templates\user" />
-      <recent name="D:\workaddress\projectwork\zzjava\src\main\resources" />
-      <recent name="D:\workaddress\projectwork\ddiancan\src\main\resources\static" />
-      <recent name="D:\workaddress\projectwork\bblog\src\main\resources\templates" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.ecpss.tkmybatismapper" />
       <recent name="com.ecpss" />
       <recent name="com.ecpss.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\wx_public_number\src\main\resources\templates" />
+      <recent name="D:\workspace\hgood\src\main\resources\templates\token" />
+      <recent name="D:\workspace\hgood\src\main\java\com\ecpss" />
+      <recent name="D:\workspace\tk-mybatis-mapper\src\main\java\com\ecpss\tkmybatismapper" />
+      <recent name="D:\workspace\tkmybatis\src\main\resources\mybatis" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ecpss.utils" />
@@ -453,12 +639,12 @@
       <recent name="com.ecpss.tkmybatismapper.bean" />
       <recent name="com.ecpss.mq.topic" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\hgood\src\main\resources\templates\token" />
-      <recent name="D:\workspace\hgood\src\main\java\com\ecpss" />
-      <recent name="D:\workspace\tk-mybatis-mapper\src\main\java\com\ecpss\tkmybatismapper" />
-      <recent name="D:\workspace\tkmybatis\src\main\resources\mybatis" />
-      <recent name="D:\workspace\tkmybatis\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workaddress\projectwork\hshiro\src\main\resources\templates" />
+      <recent name="D:\workaddress\projectwork\hshiro\src\main\resources\templates\user" />
+      <recent name="D:\workaddress\projectwork\zzjava\src\main\resources" />
+      <recent name="D:\workaddress\projectwork\ddiancan\src\main\resources\static" />
+      <recent name="D:\workaddress\projectwork\bblog\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -473,7 +659,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QbyController.testQbcUpdate">
+  <component name="RunManager" selected="Spring Boot.WxPublicNumberApplication">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -813,6 +999,13 @@
     <configuration name="WebsocketBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="websocket_boot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecpss.WebsocketBootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WxPublicNumberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wx_public_number" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecpss.wx_public_number.WxPublicNumberApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1342,6 +1535,7 @@
       <item itemvalue="Tomcat Server.html3" />
       <item itemvalue="Tomcat Server.wx" />
       <item itemvalue="JUnit.QbyController.testQbcUpdate" />
+      <item itemvalue="Spring Boot.WxPublicNumberApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -1629,7 +1823,7 @@
       <workItem from="1570536908998" duration="2935000" />
       <workItem from="1570599190248" duration="18484000" />
       <workItem from="1570670077107" duration="3089000" />
-      <workItem from="1570691141986" duration="3292000" />
+      <workItem from="1570691141986" duration="6748000" />
     </task>
     <task id="LOCAL-00001" summary="secpmd omot o">
       <created>1561358034384</created>
@@ -1722,7 +1916,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570695450927</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="suoyou">
+      <created>1570695462909</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1570695462909</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1758,7 +1959,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1459342000" />
+    <option name="totallyTimeSpent" value="1462798000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1772,7 +1973,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7775306" visible="true" weight="0.29637527" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7775306" visible="true" weight="0.2803838" />
       <window_info id="Structure" order="1" weight="0.24945135" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Designer" order="3" />
@@ -1783,7 +1984,7 @@
       <window_info active="true" id="ZooKeeper" order="8" visible="true" weight="0.32960597" />
       <window_info id="Web" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.62034076" weight="0.4934924" />
+      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.62034076" visible="true" weight="0.35683298" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.37635574" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
@@ -1792,16 +1993,16 @@
       <window_info anchor="bottom" id="Run with VisualVM" order="7" weight="0.32925472" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="8" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.30911064" />
-      <window_info anchor="bottom" id="Application Servers" order="10" weight="0.32925472" />
+      <window_info anchor="bottom" id="Application Servers" order="10" weight="0.14750542" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32925472" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.25460455" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.31995663" />
       <window_info anchor="bottom" id="Spring" order="13" weight="0.32925472" />
       <window_info anchor="bottom" id="Problems" order="14" weight="0.4143167" />
       <window_info anchor="bottom" id="Find" order="15" visible="true" weight="0.25632912" />
       <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.3796592" weight="0.30260304" />
       <window_info anchor="bottom" id="Docker" order="17" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="18" weight="0.20281996" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="19" visible="true" weight="0.29175705" />
+      <window_info anchor="bottom" id="Version Control" order="19" weight="0.29175705" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24973376" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" sideWeight="0.49610677" visible="true" weight="0.0037273695" />
@@ -2026,75 +2227,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/schedule/BaseJobScheduler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="59" column="40" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hgood/src/main/resources/templates/login/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-801">
-          <caret line="61" column="67" selection-start-line="61" selection-start-column="64" selection-end-line="61" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/login/LoginRequired.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.22/tomcat-embed-core-9.0.22.jar!/javax/servlet/http/HttpServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="253" selection-start-line="253" selection-end-line="253" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE.jar!/org/springframework/web/servlet/HandlerInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" selection-start-line="10" selection-end-line="11" />
-          <folding>
-            <element signature="method#preHandle#0;class#HandlerInterceptor#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE.jar!/org/springframework/web/servlet/HandlerExecutionChain.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.7.0/jjwt-0.7.0.jar!/io/jsonwebtoken/impl/DefaultJwtBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.7.0/jjwt-0.7.0.jar!/io/jsonwebtoken/Jwts.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="e#1192#1193#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.22/tomcat-embed-websocket-9.0.22.jar!/org/apache/tomcat/websocket/server/WsFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/filter/RequestContextFilter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="634">
@@ -2395,6 +2527,77 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61">
           <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zqianduan/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="24" column="21" selection-start-line="21" selection-start-column="8" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.9.RELEASE/spring-boot-autoconfigure-2.1.9.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="281" column="46" selection-start-line="281" selection-start-column="46" selection-end-line="281" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_public_number/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/resources/templates/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.10.RELEASE/spring-core-5.1.10.RELEASE.jar!/org/springframework/core/io/ResourceLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/WxPublicNumberApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/config/MvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

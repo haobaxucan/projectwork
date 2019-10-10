@@ -32,6 +32,7 @@
         <option value="$PROJECT_DIR$/wx_login/pom.xml" />
         <option value="$PROJECT_DIR$/tkmybatis/pom.xml" />
         <option value="$PROJECT_DIR$/tk-mybatis-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/wx_public_number/pom.xml" />
       </list>
     </option>
   </component>

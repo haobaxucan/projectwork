@@ -25,6 +25,7 @@
         <module name="tkmybatis" />
         <module name="websocket_boot" />
         <module name="wx_login" />
+        <module name="wx_public_number" />
         <module name="zqianduan" />
         <module name="zqianduan2" />
         <module name="zqianduan_html3" />
@@ -53,6 +54,7 @@
       <module name="tkmybatis" target="1.8" />
       <module name="websocket_boot" target="1.8" />
       <module name="wx_login" target="1.8" />
+      <module name="wx_public_number" target="1.8" />
       <module name="zqianduan" target="1.8" />
       <module name="zqianduan2" target="1.8" />
       <module name="zqianduan_html3" target="1.8" />
@@ -79,6 +81,7 @@
       <module name="tk-mybatis-mapper" options="-parameters" />
       <module name="tkmybatis" options="-parameters" />
       <module name="websocket_boot" options="-parameters" />
+      <module name="wx_public_number" options="-parameters" />
       <module name="zqianduan" options="-parameters" />
       <module name="zqianduan2" options="-parameters" />
       <module name="zqianduan_html3" options="-parameters" />
