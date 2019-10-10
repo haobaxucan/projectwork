@@ -23,7 +23,7 @@ public class RedisController {
     @RequestMapping("/redis/{id}")
 
     public String s(@PathVariable("id")String id, HttpServletRequest request){
-        log.info("请求开始id={},ip={}",id,request.getRemoteAddr());
+//        log.info("请求开始id={},ip={}",id,request.getRemoteAddr());
         Long aLong = Long.valueOf(id);
         redisUserService.getData(aLong);
         return  "aa";

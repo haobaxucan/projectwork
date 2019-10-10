@@ -14,7 +14,7 @@ import org.springframework.web.multipart.MultipartFile;
 @Controller
 @Slf4j
 public class DefaultController {
-    
+
     @RequestMapping("/upload")
     public String upload(){
         
@@ -23,7 +23,7 @@ public class DefaultController {
     @RequestMapping("/to_upload")
     @ResponseBody
     public String index(@RequestParam("file") MultipartFile multipartFile){
-        log.info("--{},--{}",multipartFile.getName(),multipartFile.getOriginalFilename());
+//        log.info("--{},--{}",multipartFile.getName(),multipartFile.getOriginalFilename());
         FastDFSClient.uploadFile(multipartFile);
         
         return "success";

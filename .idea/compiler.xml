@@ -55,4 +55,28 @@
       <module name="zzjava" target="1.8" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="avideo" options="-parameters" />
+      <module name="bblog" options="-parameters" />
+      <module name="bblog_1" options="-parameters" />
+      <module name="ddiancan" options="-parameters" />
+      <module name="eerucka" options="-parameters" />
+      <module name="eureka_consumer2" options="-parameters" />
+      <module name="eureka_provider1" options="-parameters" />
+      <module name="fwethersystem" options="-parameters" />
+      <module name="grocketmq-cluster" options="-parameters" />
+      <module name="hactivemq" options="-parameters" />
+      <module name="helasticsearch" options="-parameters" />
+      <module name="hgood" options="-parameters" />
+      <module name="hrbac" options="-parameters" />
+      <module name="hshiro" options="-parameters" />
+      <module name="ipayment" options="-parameters" />
+      <module name="websocket_boot" options="-parameters" />
+      <module name="zqianduan" options="-parameters" />
+      <module name="zqianduan2" options="-parameters" />
+      <module name="zqianduan_html3" options="-parameters" />
+      <module name="zzjava" options="-parameters" />
+    </option>
+  </component>
 </project>
