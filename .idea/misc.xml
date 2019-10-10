@@ -30,11 +30,14 @@
         <option value="$PROJECT_DIR$/hactivemq/pom.xml" />
         <option value="$PROJECT_DIR$/ipayment/pom.xml" />
         <option value="$PROJECT_DIR$/wx_login/pom.xml" />
+        <option value="$PROJECT_DIR$/tkmybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/tk-mybatis-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/wx_public_number/pom.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectResources">
-    <resource url="http://java.sun.com/jsp/jstl/core" location="D:/jstl1.2/jstl/c.tld" />
+    <resource url="http://java.sun.com/jsp/jstl/core" location="$PROJECT_DIR$/../jstl1.2/jstl/c.tld" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
   <component name="ZooKeeperConfig">

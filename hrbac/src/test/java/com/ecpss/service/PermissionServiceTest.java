@@ -19,6 +19,8 @@ import static org.junit.Assert.*;
 @SpringBootTest
 @RunWith(SpringRunner.class)
 public class PermissionServiceTest {
+
+
     @Autowired
     private PermissionMapper permissionMapper;
     @Test

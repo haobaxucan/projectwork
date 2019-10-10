@@ -5,25 +5,39 @@
     <bookmark url="file://$PROJECT_DIR$/hshiro/src/main/java/com/ecpss/boot_shiro/ShiroConfig.java" line="112" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="982b332e-cfa8-4c4c-8a5d-3d72ec10b71b" name="Default" comment="second commit">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/wx_login_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/wx_login_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/wx_login_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/wx_login_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/zqianduan2_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/zqianduan2_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/zqianduan2_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/zqianduan2_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/zqianduan_html3_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/zqianduan_html3_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/zqianduan_html3_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/zqianduan_html3_war_exploded.xml" afterDir="false" />
+    <list default="true" id="982b332e-cfa8-4c4c-8a5d-3d72ec10b71b" name="Default" comment="suoyou">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/config/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wx_public_number/src/main/resources/templates/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_csource_fastdfs_client_java_1_27_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hgood/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hgood/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/controller/DefaultController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/controller/DefaultController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/controller/RedisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/controller/RedisController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_login/target/classes/cn/tx/domain/Token.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_login/target/classes/cn/tx/domain/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_login/target/classes/cn/tx/servlet/LoginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_login/target/classes/cn/tx/utils/HttpClient$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_login/target/classes/cn/tx/utils/HttpClient.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/testweixin/target/" />
     <ignored path="$PROJECT_DIR$/avideo/target/" />
@@ -49,6 +63,9 @@
     <ignored path="$PROJECT_DIR$/hactivemq/target/" />
     <ignored path="$PROJECT_DIR$/ipayment/target/" />
     <ignored path="$PROJECT_DIR$/wx_login/target/" />
+    <ignored path="$PROJECT_DIR$/tkmybatis/target/" />
+    <ignored path="$PROJECT_DIR$/tk-mybatis-mapper/target/" />
+    <ignored path="$PROJECT_DIR$/wx_public_number/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,14 +79,14 @@
     <SUITE FILE_PATH="coverage/projectwork$SFTPTest.coverage" NAME="SFTPTest Coverage Results" MODIFIED="1560779616911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.ecpss.util.file.one.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/projectwork$Default_te1.coverage" NAME="Default.te1 Coverage Results" MODIFIED="1564904392447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.ecpss.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/projectwork$beanUtilTest.coverage" NAME="beanUtilTest Coverage Results" MODIFIED="1567845846476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.ecpss.util.bean_util.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/projectwork$MainClass.coverage" NAME="MainClass Coverage Results" MODIFIED="1564024597369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.ecpss.spring.config.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/projectwork$Default_te1.coverage" NAME="Default.te1 Coverage Results" MODIFIED="1564904392447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.ecpss.*</FILTER>
     </SUITE>
   </component>
   <component name="DatabaseView">
@@ -85,30 +102,38 @@
     <favorites_list name="projectwork" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/controller/DefaultController.java">
+        <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/WxPublicNumberApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+            <state relative-caret-position="264">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hgood/pom.xml">
+        <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="55" column="36" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="36" />
+            <state relative-caret-position="63">
+              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/controller/RedisController.java">
+        <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/config/MvcConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+            <state relative-caret-position="303">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,10 +147,11 @@
         <option value="Enum" />
         <option value="JavaScript File" />
         <option value="spring-beans.schema" />
-        <option value="JUnit4 Test Class" />
-        <option value="Interface" />
         <option value="FxmlFile" />
         <option value="HTML File" />
+        <option value="Kotlin File" />
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -135,11 +161,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>epoil</find>
-      <find>d</find>
-      <find>dis</find>
-      <find>void</find>
-      <find>do</find>
       <find>handlerex</find>
       <find>service</find>
       <find>listener</find>
@@ -152,7 +173,6 @@
       <find>doCredentialsMatch</find>
       <find>Long</find>
       <find>user/</find>
-      <find>index</find>
       <find>查询</find>
       <find>delUsers</find>
       <find>treeDemo</find>
@@ -164,7 +184,13 @@
       <find>j</find>
       <find>jwt</find>
       <find>database</find>
-      <find>lomb</find>
+      <find>port</find>
+      <find>server.port</find>
+      <find>logback.</find>
+      <find>logger</find>
+      <find>l</find>
+      <find>1</find>
+      <find>index</find>
     </findStrings>
     <replaceStrings>
       <replace>Exception</replace>
@@ -187,57 +213,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/activemq/MqTestConsQ.java" />
-        <option value="$PROJECT_DIR$/hgood/src/test/java/com/ecpss/ActiveMqProducer.java" />
-        <option value="$PROJECT_DIR$/hgood/src/test/java/com/ecpss/ActiveMqConsumer.java" />
-        <option value="$PROJECT_DIR$/hactivemq/src/main/java/com/ecpss/service/OrderUpdateImpl.java" />
-        <option value="$PROJECT_DIR$/ipayment/src/main/resources/zfbinfo.properties" />
-        <option value="$PROJECT_DIR$/ipayment/src/main/java/com/ecpss/config/AlipayConfig.java" />
-        <option value="$PROJECT_DIR$/ipayment/src/main/resources/templates/paymentindex.html" />
-        <option value="$PROJECT_DIR$/ipayment/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/ipayment/pom.xml" />
-        <option value="$PROJECT_DIR$/ipayment/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/ipayment/pay" />
-        <option value="$PROJECT_DIR$/ipayment/src/main/resources/alipay.properties" />
-        <option value="$PROJECT_DIR$/ipayment/src/main/java/com/ecpss/controller/PayController.java" />
-        <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/cart/Cart.java" />
-        <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/cart/CookieUtil.java" />
-        <option value="$PROJECT_DIR$/hgood/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/hgood/src/main/resources/templates/inner.html" />
-        <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/cart/CartController.java" />
-        <option value="$PROJECT_DIR$/hgood/src/main/resources/templates/cart.html" />
-        <option value="$PROJECT_DIR$/hgood/src/main/resources/templates/login/login.html" />
-        <option value="$PROJECT_DIR$/wx_login/pom.xml" />
-        <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/login/LoginRequired.java" />
-        <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/login/JwtUtil.java" />
-        <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/login/WebMvcConfig.java" />
-        <option value="$PROJECT_DIR$/hgood/src/main/resources/templates/login/index.html" />
-        <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/login/LoginController.java" />
-        <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/login/LoginInterceptor.java" />
-        <option value="$PROJECT_DIR$/hactivemq/src/main/java/com/ecpss/mq/Activemq_producer.java" />
-        <option value="$PROJECT_DIR$/hactivemq/src/main/java/com/ecpss/mq/Activemq_consumer.java" />
-        <option value="$PROJECT_DIR$/hactivemq/pom.xml" />
-        <option value="$PROJECT_DIR$/hactivemq/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/hactivemq/src/main/java/com/ecpss/utils/TestDemo.java" />
-        <option value="$PROJECT_DIR$/hactivemq/src/main/java/com/ecpss/utils/ActiveMQUtil.java" />
-        <option value="$PROJECT_DIR$/hactivemq/src/test/java/com/ecpss/HactivemqApplicationTests.java" />
-        <option value="$PROJECT_DIR$/hactivemq/src/main/java/com/ecpss/utils/MqListener.java" />
-        <option value="$PROJECT_DIR$/hactivemq/src/main/java/com/ecpss/utils/ActiveMQConfig.java" />
-        <option value="$PROJECT_DIR$/hactivemq/src/main/java/com/ecpss/utils/ActiveMQConfigs.java" />
-        <option value="$PROJECT_DIR$/hactivemq/src/main/java/com/ecpss/mq/ActiveMQConfig.java" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/config/RedissonConfig.java" />
-        <option value="$PROJECT_DIR$/hgood/src/test/java/com/ecpss/HgoodApplicationTests.java" />
-        <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/skill/RedissionConfig.java" />
-        <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/skill/SkillController.java" />
-        <option value="$PROJECT_DIR$/hgood/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/nginx/session/SessionController.java" />
-        <option value="$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/demo/sysnmessage.java" />
-        <option value="/zookeeper" />
-        <option value="$PROJECT_DIR$/zzjava/src/test/java/com/ecpss/collection/MapHash.java" />
-        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/java_jiji/thread/A.java" />
-        <option value="$PROJECT_DIR$/hgood/pom.xml" />
+        <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/utils/FastDFSClient.java" />
+        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/Base/BaseQueryDTO.java" />
+        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/Base/test/entity/City.java" />
+        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/Base/test/dao/CityDao.java" />
+        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/Base/test/common/enums/CityStatusEnums.java" />
+        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/base/BaseCityTest.java" />
+        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/Base/test/common/utils/DateTimeUtils.java" />
+        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/Base/BaseEntity.java" />
+        <option value="$PROJECT_DIR$/tk-mybatis-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/config/Swagger2Config.java" />
+        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/config/WebMvcConfig.java" />
+        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/Base/test/entity/CityEntity.java" />
+        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/controller/DefaultController.java" />
-        <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/controller/RedisController.java" />
+        <option value="$PROJECT_DIR$/hgood/src/test/java/com/ecpss/HgoodApplicationTests.java" />
+        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/base/BaseCityTest.java" />
+        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/bean/User.java" />
+        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/TkMybatisMapperApplication.java" />
+        <option value="$PROJECT_DIR$/tkmybatis/src/main/resources/application-dev.properties" />
+        <option value="$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/UserMapper.java" />
+        <option value="$PROJECT_DIR$/tkmybatis/src/main/resources/mybatis/userDao.xml" />
+        <option value="$PROJECT_DIR$/tkmybatis/src/test/java/com/ecpss/tkmybatis/TkmybatisApplicationTests.java" />
+        <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/HgoodApplication.java" />
+        <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/utils/DateTimeUtils.java" />
+        <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/schedule/WeChatMessageSendSchedule.java" />
+        <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/schedule/BaseJobScheduler.java" />
+        <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/schedule/WeChatSendMessageSchedule.java" />
+        <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/schedule/ScheduledTasks.java" />
+        <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/login/LoginController.java" />
+        <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/login/JwtUtil.java" />
+        <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/login/repeatform/TokenProcessor.java" />
+        <option value="$PROJECT_DIR$/hgood/src/main/resources/templates/token/token.html" />
+        <option value="$PROJECT_DIR$/hgood/src/main/resources/templates/login/login.html" />
+        <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/login/repeatform/NoRepeatFormController.java" />
+        <option value="$PROJECT_DIR$/hgood/src/main/resources/templates/token/res.html" />
+        <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/login/WebMvcConfig.java" />
+        <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/zk_lock/ExtLock.java" />
+        <option value="$PROJECT_DIR$/hgood/pom.xml" />
+        <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/zk_lock/ZkDistrbuteLock.java" />
+        <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/zk_lock/ZookeeperAbstractLock.java" />
+        <option value="$PROJECT_DIR$/zzjava/src/main/java/com/java_jiji/thread/ClassRunnable.java" />
+        <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/zk_lock/test/OrderNumGenerator.java" />
+        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/qbcQuery/QbyController.java" />
+        <option value="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/WxPublicNumberApplication.java" />
+        <option value="$PROJECT_DIR$/wx_public_number/pom.xml" />
+        <option value="$PROJECT_DIR$/wx_public_number/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/wx_public_number/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/config/MvcConfig.java" />
       </list>
     </option>
   </component>
@@ -256,7 +282,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/apache-maven-3.5.4-bin/apache-maven-3.5.4" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../apache-maven-3.5.4-bin/apache-maven-3.5.4" />
         <option name="userSettingsFile" value="D:\apache-maven-3.5.4-bin\apache-maven-3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -267,13 +293,21 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState />
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hshiro" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1386" />
-    <option name="height" value="788" />
+    <option name="x" value="206" />
+    <option name="y" value="174" />
+    <option name="width" value="1650" />
+    <option name="height" value="1082" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -415,105 +449,195 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="hgood" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="hgood" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="hgood" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="hgood" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="hgood" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="hgood" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="hgood" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ecpss" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="zqianduan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="zqianduan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="zqianduan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="zqianduan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="zqianduan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="zqianduan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SearchEverywhereHistoryKey" value="执行&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570707646804" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570699735393" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wx_login" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.mvnsearch.intellij.plugin.zookeeper.ui.ZkProjectConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.ecpss.tkmybatismapper.bean" />
+      <recent name="com.ecpss.tkmybatis.service" />
       <recent name="com.ecpss.service" />
       <recent name="com.ecpss.service.impl" />
       <recent name="com.ecpss.mapper" />
-      <recent name="com.ecpss.dao.impl" />
-      <recent name="com.ecpss.dao" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ecpss.tkmybatismapper" />
+      <recent name="com.ecpss" />
+      <recent name="com.ecpss.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\wx_public_number\src\main\resources\templates" />
+      <recent name="D:\workspace\hgood\src\main\resources\templates\token" />
+      <recent name="D:\workspace\hgood\src\main\java\com\ecpss" />
+      <recent name="D:\workspace\tk-mybatis-mapper\src\main\java\com\ecpss\tkmybatismapper" />
+      <recent name="D:\workspace\tkmybatis\src\main\resources\mybatis" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ecpss.utils" />
+      <recent name="com.ecpss.tkmybatismapper.config" />
+      <recent name="com.ecpss.tkmybatismapper.Base.test.common.utils" />
+      <recent name="com.ecpss.tkmybatismapper.bean" />
+      <recent name="com.ecpss.mq.topic" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\workaddress\projectwork\hshiro\src\main\resources\templates" />
@@ -521,24 +645,6 @@
       <recent name="D:\workaddress\projectwork\zzjava\src\main\resources" />
       <recent name="D:\workaddress\projectwork\ddiancan\src\main\resources\static" />
       <recent name="D:\workaddress\projectwork\bblog\src\main\resources\templates" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.ecpss" />
-      <recent name="com.ecpss.dao" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.ecpss.mq.topic" />
-      <recent name="com.ecpss.mq" />
-      <recent name="com.ecpss" />
-      <recent name="com.ecpss.controller" />
-      <recent name="com.java_jiji.moshi.proxy.dynicproxy" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workaddress\projectwork\hgood\src\main\resources\templates\login" />
-      <recent name="D:\workaddress\projectwork\hgood\src\main\resources\static" />
-      <recent name="D:\workaddress\projectwork\hgood\src\main\resources" />
-      <recent name="D:\workaddress\projectwork\hgood\src\main\resources\templates" />
-      <recent name="D:\workaddress\projectwork\ipayment\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -553,7 +659,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MapHash.t1">
+  <component name="RunManager" selected="Spring Boot.WxPublicNumberApplication">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -613,13 +719,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActiveMqConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ecpss.ActiveMqConsumer" />
-      <module name="hgood" />
+    <configuration name="ClassRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java_jiji.thread.ClassRunnable" />
+      <module name="zzjava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ecpss.*" />
+          <option name="PATTERN" value="com.java_jiji.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -627,13 +733,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActiveMqProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ecpss.ActiveMqProducer" />
+    <configuration name="OrderNumGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ecpss.zk_lock.test.OrderNumGenerator" />
       <module name="hgood" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ecpss.*" />
+          <option name="PATTERN" value="com.ecpss.zk_lock.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -671,51 +777,51 @@
       <setting name="depsClasspath" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="HactivemqApplicationTests.mq" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hactivemq" />
+    <configuration name="BaseCityTest.testQueryByTimeStamp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tk-mybatis-mapper" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ecpss.*" />
+          <option name="PATTERN" value="com.ecpss.tkmybatismapper.base.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ecpss" />
-      <option name="MAIN_CLASS_NAME" value="com.ecpss.HactivemqApplicationTests" />
-      <option name="METHOD_NAME" value="mq" />
+      <option name="PACKAGE_NAME" value="com.ecpss.tkmybatismapper.base" />
+      <option name="MAIN_CLASS_NAME" value="com.ecpss.tkmybatismapper.base.BaseCityTest" />
+      <option name="METHOD_NAME" value="testQueryByTimeStamp" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HgoodApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hgood" />
+    <configuration name="QbyController.testQbcUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tk-mybatis-mapper" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ecpss.*" />
+          <option name="PATTERN" value="com.ecpss.tkmybatismapper.qbcQuery.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ecpss" />
-      <option name="MAIN_CLASS_NAME" value="com.ecpss.HgoodApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="PACKAGE_NAME" value="com.ecpss.tkmybatismapper.qbcQuery" />
+      <option name="MAIN_CLASS_NAME" value="com.ecpss.tkmybatismapper.qbcQuery.QbyController" />
+      <option name="METHOD_NAME" value="testQbcUpdate" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapHash.t1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="zzjava" />
+    <configuration name="TkmybatisApplicationTests.page" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tkmybatis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ecpss.collection.*" />
+          <option name="PATTERN" value="com.ecpss.tkmybatis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ecpss.collection" />
-      <option name="MAIN_CLASS_NAME" value="com.ecpss.collection.MapHash" />
-      <option name="METHOD_NAME" value="t1" />
+      <option name="PACKAGE_NAME" value="com.ecpss.tkmybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.ecpss.tkmybatis.TkmybatisApplicationTests" />
+      <option name="METHOD_NAME" value="page" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -765,6 +871,13 @@
     <configuration name="AvideoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="avideo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecpss.AvideoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Bblog1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bblog_1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecpss.Bblog1Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -833,6 +946,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HelasticsearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="helasticsearch" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecpss.HelasticsearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HgoodApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="true">
       <module name="hgood" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecpss.HgoodApplication" />
@@ -862,9 +982,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TkMybatisMapperApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tk-mybatis-mapper" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecpss.tkmybatismapper.TkMybatisMapperApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TkmybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tkmybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecpss.tkmybatis.TkmybatisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WebsocketBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="websocket_boot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecpss.WebsocketBootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WxPublicNumberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wx_public_number" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecpss.wx_public_number.WxPublicNumberApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1361,11 +1502,10 @@
     </configuration>
     <list>
       <item itemvalue="Application.TestGc" />
-      <item itemvalue="Application.ActiveMqConsumer" />
-      <item itemvalue="Application.ActiveMqProducer" />
-      <item itemvalue="JUnit.HactivemqApplicationTests.mq" />
-      <item itemvalue="JUnit.HgoodApplicationTests.contextLoads" />
-      <item itemvalue="JUnit.MapHash.t1" />
+      <item itemvalue="Application.ClassRunnable" />
+      <item itemvalue="Application.OrderNumGenerator" />
+      <item itemvalue="JUnit.BaseCityTest.testQueryByTimeStamp" />
+      <item itemvalue="JUnit.TkmybatisApplicationTests.page" />
       <item itemvalue="Spring Boot.WebsocketBootApplication" />
       <item itemvalue="Spring Boot.AvideoApplication" />
       <item itemvalue="Spring Boot.BblogApplication" />
@@ -1386,18 +1526,24 @@
       <item itemvalue="Spring Boot.HactivemqApplication" />
       <item itemvalue="Spring Boot.IpaymentApplication" />
       <item itemvalue="Spring Boot.HgoodApplication" />
+      <item itemvalue="Spring Boot.TkmybatisApplication" />
+      <item itemvalue="Spring Boot.Bblog1Application" />
+      <item itemvalue="Spring Boot.HelasticsearchApplication" />
+      <item itemvalue="Spring Boot.TkMybatisMapperApplication" />
       <item itemvalue="Tomcat Server.weixin" />
       <item itemvalue="Tomcat Server.qianduanjsp2" />
       <item itemvalue="Tomcat Server.html3" />
       <item itemvalue="Tomcat Server.wx" />
+      <item itemvalue="JUnit.QbyController.testQbcUpdate" />
+      <item itemvalue="Spring Boot.WxPublicNumberApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MapHash.t1" />
-        <item itemvalue="JUnit.HgoodApplicationTests.contextLoads" />
-        <item itemvalue="JUnit.HactivemqApplicationTests.mq" />
-        <item itemvalue="Application.ActiveMqConsumer" />
-        <item itemvalue="Application.ActiveMqProducer" />
+        <item itemvalue="JUnit.QbyController.testQbcUpdate" />
+        <item itemvalue="Application.OrderNumGenerator" />
+        <item itemvalue="Application.ClassRunnable" />
+        <item itemvalue="JUnit.TkmybatisApplicationTests.page" />
+        <item itemvalue="JUnit.BaseCityTest.testQueryByTimeStamp" />
       </list>
     </recent_temporary>
   </component>
@@ -1663,9 +1809,21 @@
       <workItem from="1568786343305" duration="1071000" />
       <workItem from="1568793445549" duration="1471000" />
       <workItem from="1569223900248" duration="17000" />
-      <workItem from="1570460766436" duration="541000" />
-      <workItem from="1570463294631" duration="17000" />
-      <workItem from="1570707330344" duration="282000" />
+      <workItem from="1569376886019" duration="1677000" />
+      <workItem from="1569395374588" duration="233000" />
+      <workItem from="1569401516461" duration="5492000" />
+      <workItem from="1569407508815" duration="26247000" />
+      <workItem from="1569553940603" duration="5000" />
+      <workItem from="1569556265550" duration="26109000" />
+      <workItem from="1570511693910" duration="948000" />
+      <workItem from="1570515800259" duration="7000" />
+      <workItem from="1570516071462" duration="646000" />
+      <workItem from="1570517296373" duration="807000" />
+      <workItem from="1570526773542" duration="985000" />
+      <workItem from="1570536908998" duration="2935000" />
+      <workItem from="1570599190248" duration="18484000" />
+      <workItem from="1570670077107" duration="3089000" />
+      <workItem from="1570691141986" duration="6748000" />
     </task>
     <task id="LOCAL-00001" summary="secpmd omot o">
       <created>1561358034384</created>
@@ -1737,43 +1895,71 @@
       <option name="project" value="LOCAL" />
       <updated>1563008073832</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="haode">
+      <created>1570512229417</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1570512229417</updated>
+    </task>
+    <task id="LOCAL-00012" summary="haodedd">
+      <created>1570512282214</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1570512282214</updated>
+    </task>
+    <task id="LOCAL-00013" summary="suoyou">
+      <created>1570695450927</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1570695450927</updated>
+    </task>
+    <task id="LOCAL-00014" summary="suoyou">
+      <created>1570695462909</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1570695462909</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HactivemqApplicationTests_mq - 2019.09.10 at 16h 09m 22s.xml">
-      <configuration name="HactivemqApplicationTests.mq" configurationId="JUnit" />
+    <history-entry file="TkmybatisApplicationTests_page - 2019.10.09 at 09h 12m 29s.xml">
+      <configuration name="TkmybatisApplicationTests.page" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HactivemqApplicationTests_mq - 2019.09.10 at 16h 47m 36s.xml">
-      <configuration name="HactivemqApplicationTests.mq" configurationId="JUnit" />
+    <history-entry file="TkmybatisApplicationTests_page - 2019.10.09 at 09h 12m 51s.xml">
+      <configuration name="TkmybatisApplicationTests.page" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HactivemqApplicationTests_mq - 2019.09.16 at 16h 11m 41s.xml">
-      <configuration name="HactivemqApplicationTests.mq" configurationId="JUnit" />
+    <history-entry file="TkmybatisApplicationTests_page - 2019.10.09 at 09h 13m 30s.xml">
+      <configuration name="TkmybatisApplicationTests.page" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HactivemqApplicationTests_mq - 2019.09.16 at 16h 11m 58s.xml">
-      <configuration name="HactivemqApplicationTests.mq" configurationId="JUnit" />
+    <history-entry file="TkmybatisApplicationTests_page - 2019.10.09 at 09h 18m 02s.xml">
+      <configuration name="TkmybatisApplicationTests.page" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HactivemqApplicationTests_mq - 2019.09.16 at 16h 14m 44s.xml">
-      <configuration name="HactivemqApplicationTests.mq" configurationId="JUnit" />
+    <history-entry file="TkmybatisApplicationTests_page - 2019.10.09 at 09h 18m 23s.xml">
+      <configuration name="TkmybatisApplicationTests.page" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HactivemqApplicationTests_mq - 2019.09.16 at 16h 15m 50s.xml">
-      <configuration name="HactivemqApplicationTests.mq" configurationId="JUnit" />
+    <history-entry file="TkmybatisApplicationTests_page - 2019.10.09 at 09h 18m 45s.xml">
+      <configuration name="TkmybatisApplicationTests.page" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HactivemqApplicationTests_mq - 2019.09.16 at 16h 17m 21s.xml">
-      <configuration name="HactivemqApplicationTests.mq" configurationId="JUnit" />
+    <history-entry file="QbyController_testQbcUpdate - 2019.10.10 at 15h 11m 31s.xml">
+      <configuration name="QbyController.testQbcUpdate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HgoodApplicationTests_contextLoads - 2019.09.17 at 10h 09m 05s.xml">
-      <configuration name="HgoodApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="QbyController_testQbcUpdate - 2019.10.10 at 15h 14m 37s.xml">
+      <configuration name="QbyController.testQbcUpdate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HgoodApplicationTests_contextLoads - 2019.09.17 at 10h 09m 47s.xml">
-      <configuration name="HgoodApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="QbyController_testQbcUpdate - 2019.10.10 at 15h 15m 06s.xml">
+      <configuration name="QbyController.testQbcUpdate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MapHash_t1 - 2019.09.18 at 11h 43m 09s.xml">
-      <configuration name="MapHash.t1" configurationId="JUnit" />
+    <history-entry file="QbyController_testQbcUpdate - 2019.10.10 at 15h 15m 19s.xml">
+      <configuration name="QbyController.testQbcUpdate" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1369226000" />
+    <option name="totallyTimeSpent" value="1462798000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1785,11 +1971,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7775306" visible="true" weight="0.30711043" />
-      <window_info id="Structure" order="1" weight="0.24973376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7775306" visible="true" weight="0.2803838" />
+      <window_info id="Structure" order="1" weight="0.24945135" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -1799,25 +1984,25 @@
       <window_info active="true" id="ZooKeeper" order="8" visible="true" weight="0.32960597" />
       <window_info id="Web" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.62034076" weight="0.3047831" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.19354838" />
+      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.62034076" visible="true" weight="0.35683298" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.37635574" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.09101123" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="6" />
       <window_info anchor="bottom" id="Run with VisualVM" order="7" weight="0.32925472" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="8" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.2505618" />
-      <window_info anchor="bottom" id="Application Servers" order="10" weight="0.32925472" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.30911064" />
+      <window_info anchor="bottom" id="Application Servers" order="10" weight="0.14750542" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32925472" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.497545" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32035595" />
-      <window_info anchor="bottom" id="Spring" order="14" weight="0.32925472" />
-      <window_info anchor="bottom" id="Problems" order="15" />
-      <window_info anchor="bottom" id="Find" order="16" weight="0.35372636" />
-      <window_info anchor="bottom" id="Event Log" order="17" sideWeight="0.3796592" weight="0.61538464" />
-      <window_info anchor="bottom" id="Docker" order="18" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="19" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.31995663" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.32925472" />
+      <window_info anchor="bottom" id="Problems" order="14" weight="0.4143167" />
+      <window_info anchor="bottom" id="Find" order="15" visible="true" weight="0.25632912" />
+      <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.3796592" weight="0.30260304" />
+      <window_info anchor="bottom" id="Docker" order="17" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="18" weight="0.20281996" />
+      <window_info anchor="bottom" id="Version Control" order="19" weight="0.29175705" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24973376" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" sideWeight="0.49610677" visible="true" weight="0.0037273695" />
@@ -1831,42 +2016,45 @@
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.32960597" />
       <window_info anchor="right" x="92" y="92" width="1736" height="856" id="Byte Code Viewer" order="11" type="FLOATING" visible="true" />
       <window_info anchor="right" id="Maven Projects" order="12" sideWeight="0.4759036" weight="0.32960597" />
-      <window_info anchor="right" id="Maven" order="13" />
+      <window_info anchor="right" id="Maven" order="13" weight="0.028529627" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7842697" visible="true" weight="0.27025586" />
-      <window_info id="Structure" order="1" weight="0.24973376" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7775306" visible="true" weight="0.22707888" />
+      <window_info id="Structure" order="1" weight="0.24945135" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Image Layers" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.21573034" side_tool="true" weight="0.21641791" />
+      <window_info id="Favorites" order="6" sideWeight="0.2224694" side_tool="true" weight="0.2859425" />
       <window_info id="Capture Tool" order="7" />
-      <window_info id="Web" order="8" side_tool="true" />
+      <window_info active="true" id="ZooKeeper" order="8" visible="true" weight="0.32960597" />
+      <window_info id="Web" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.62034076" visible="true" weight="0.21011236" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.31685394" />
+      <window_info active="true" anchor="bottom" id="Run" order="1" sideWeight="0.62034076" visible="true" weight="0.18546638" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.30585682" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.09101123" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="6" />
       <window_info anchor="bottom" id="Run with VisualVM" order="7" weight="0.32925472" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="8" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.2505618" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.30911064" />
       <window_info anchor="bottom" id="Application Servers" order="10" weight="0.32925472" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32925472" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.25730336" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.25695217" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32035595" />
       <window_info anchor="bottom" id="Spring" order="14" weight="0.32925472" />
-      <window_info anchor="bottom" id="Problems" order="15" />
+      <window_info anchor="bottom" id="Problems" order="15" weight="0.4143167" />
       <window_info anchor="bottom" id="Find" order="16" weight="0.35372636" />
-      <window_info anchor="bottom" id="Event Log" order="17" sideWeight="0.3796592" weight="0.17352614" />
+      <window_info anchor="bottom" id="Event Log" order="17" sideWeight="0.3796592" weight="0.30260304" />
+      <window_info anchor="bottom" id="Docker" order="18" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="19" weight="0.20281996" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24973376" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" sideWeight="0.49610677" visible="true" weight="0.0037273695" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Properties" order="4" />
-      <window_info anchor="right" id="Database" order="5" sideWeight="0.49610677" visible="true" weight="0.10927505" />
+      <window_info anchor="right" id="Database" order="5" sideWeight="0.49610677" weight="0.32960597" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -1874,6 +2062,7 @@
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.32960597" />
       <window_info anchor="right" x="92" y="92" width="1736" height="856" id="Byte Code Viewer" order="11" type="FLOATING" visible="true" />
       <window_info anchor="right" id="Maven Projects" order="12" sideWeight="0.4759036" weight="0.32960597" />
+      <window_info anchor="right" id="Maven" order="13" weight="0.028529627" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1930,7 +2119,10 @@
     <MESSAGE value="master&#10; 11" />
     <MESSAGE value="init commit" />
     <MESSAGE value="second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <MESSAGE value="haode" />
+    <MESSAGE value="haodedd" />
+    <MESSAGE value="suoyou" />
+    <option name="LAST_COMMIT_MESSAGE" value="suoyou" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2017,7 +2209,7 @@
         <line-breakpoint type="java-method">
           <url>jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.4.0/shiro-web-1.4.0-sources.jar!/org/apache/shiro/web/filter/authc/FormAuthenticationFilter.java</url>
           <line>147</line>
-          <properties class="org.apache.shiro.web.filter.authc.FormAuthenticationFilter" method="onAccessDenied">
+          <properties class="org.apache.shiro.web.filter.authc.FormAuthenticationFilter">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="267" />
@@ -2035,412 +2227,377 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hactivemq/src/main/resources/application.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/filter/RequestContextFilter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="634">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fwethersystem/src/main/java/com/ecpss/spring/config/RedisConfig.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="226">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zqianduan/src/main/java/com/ecpss/config/RedisConfig.java">
+    <entry file="file://$PROJECT_DIR$/fwethersystem/src/test/java/com/ecpss/lamda/PublicTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="-1358">
+          <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/util/RedisLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzjava/src/main/java/com/ecpss/config/RedissonConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hgood/src/test/java/com/ecpss/GoodsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/service/RedisUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/service/RedisUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.10.RELEASE/spring-data-redis-2.1.10.RELEASE-sources.jar!/org/springframework/data/redis/core/StringRedisTemplate.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.10.RELEASE/spring-data-redis-2.1.10.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE.jar!/org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE.jar!/org/springframework/boot/autoconfigure/data/redis/RedisProperties.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/redis/RedisProperties.java" />
-    <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/skill/RedissionConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.10.5/redisson-3.10.5.jar!/org/redisson/RedissonSemaphore.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.10.5/redisson-3.10.5.jar!/org/redisson/api/RSemaphore.class" />
-    <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/skill/SkillController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="26" column="66" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/nginx/NginxTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.22/tomcat-embed-core-9.0.22.jar!/javax/servlet/http/HttpSession.class" />
-    <entry file="file://$PROJECT_DIR$/hgood/src/test/java/com/ecpss/HgoodApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.22/tomcat-embed-core-9.0.22-sources.jar!/javax/servlet/http/HttpSession.java" />
-    <entry file="file://$PROJECT_DIR$/hgood/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/HgoodApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/nginx/session/SessionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/session/spring-session-core/2.1.8.RELEASE/spring-session-core-2.1.8.RELEASE.jar!/org/springframework/session/Session.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/session/spring-session-data-redis/2.1.8.RELEASE/spring-session-data-redis-2.1.8.RELEASE.jar!/org/springframework/session/data/redis/ReactiveRedisOperationsSessionRepository.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1-sources.jar!/javax/jms/Session.java" />
-    <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/demo/asynmessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/hgood/src/main/resources/templates/cart.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/demo/consumer/consumer.java">
+    <entry file="file://$PROJECT_DIR$/hgood/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hgood/src/main/resources/templates/inner.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hgood/src/main/resources/templates/upload.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hgood/src/main/resources/templates/nginx.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        <state relative-caret-position="33">
+          <caret line="1" column="51" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/filter/FilterConsumer.java">
+    <entry file="file://$PROJECT_DIR$/hgood/src/main/resources/templates/login/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="33">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grocketmq-cluster/src/main/java/com/ecpss/com/ecpss/demo/sysnmessage.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state relative-caret-position="161">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/login/LoginInterceptor.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="162">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/avideo/src/main/java/com/ecpss/interceptor/LoginInterceptor.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="161">
+          <caret line="484" selection-start-line="484" selection-end-line="484" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="431" selection-start-line="431" selection-end-line="431" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="439" selection-start-line="439" selection-end-line="439" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.22/tomcat-embed-core-9.0.22.jar!/org/apache/catalina/core/ApplicationFilterChain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/login/repeatform/TokenProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="42" column="1" lean-forward="true" selection-start-line="12" selection-end-line="42" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hgood/src/main/resources/templates/token/token.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/login/repeatform/NoRepeatFormController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hgood/src/main/resources/templates/token/res.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.1.RELEASE/spring-boot-autoconfigure-2.1.1.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/error/ErrorMvcAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-858">
+          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/login/JwtUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/login/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="39" column="23" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="23" />
+        <state relative-caret-position="1056">
+          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avideo/src/main/java/com/ecpss/interceptor/LoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avideo/src/main/java/com/ecpss/utils/JwtUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avideo/src/test/java/com/ecpss/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/avideo/src/main/java/com/ecpss/controller/WchatController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="388">
           <caret line="76" column="43" selection-start-line="76" selection-start-column="38" selection-end-line="76" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zzjava/src/main/java/com/java_jiji/jvm/Book.java">
+    <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/login/WebMvcConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="429">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar!/org/apache/commons/collections/map/LinkedMap.class">
+    <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/login/LoginInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="22" />
+        <state relative-caret-position="183">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/HashMap.java">
+    <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/HgoodApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-654">
-          <caret line="445" column="11" selection-start-line="445" selection-start-column="11" selection-end-line="445" selection-end-column="11" />
+        <state relative-caret-position="231">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/ArrayList.java">
+    <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/zk_lock/ExtLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="267" column="24" lean-forward="true" selection-start-line="267" selection-start-column="24" selection-end-line="267" selection-end-column="24" />
+        <state relative-caret-position="66">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Integer.java">
+    <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/zk_lock/ZkDistrbuteLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="384" column="10" lean-forward="true" selection-start-line="384" selection-start-column="10" selection-end-line="384" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="3805" column="53" lean-forward="true" selection-start-line="3805" selection-start-column="53" selection-end-line="3805" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-201">
-          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzjava/src/test/java/com/ecpss/collection/MapHash.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        <state relative-caret-position="1749">
+          <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
           <folding>
-            <element signature="docComment;class#MapHash#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzjava/src/main/java/com/java_jiji/thread/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="37" column="15" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
-          <folding>
-            <element signature="docComment;class#A#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="181" column="31" selection-start-line="181" selection-start-column="31" selection-end-line="181" selection-end-column="31" />
-          <folding>
-            <element signature="docComment;class#Thread#0" />
-            <element signature="e#6730#6991#0" />
-            <element signature="e#7548#7611#0" />
-            <element signature="e#7662#7731#0" />
-            <element signature="e#7784#7847#0" />
-            <element signature="e#7900#8035#0" />
-            <element signature="e#8090#8880#0" />
-            <element signature="e#8925#9637#0" />
-            <element signature="e#9721#10657#0" />
-            <element signature="e#11164#11315#0" />
-            <element signature="e#11482#11924#0" />
-            <element signature="e#14066#14274#0" />
-            <element signature="e#14413#14775#0" />
-            <element signature="e#14867#15444#0" />
-            <element signature="e#15553#15679#0" />
-            <element signature="e#15812#16960#0" />
-            <element signature="e#17089#17356#0" />
-            <element signature="e#17436#18296#0" />
-            <element signature="e#18396#18852#0" />
-            <element signature="e#18951#21176#0" />
-            <element signature="e#21295#25162#0" />
-            <element signature="e#25323#26033#0" />
-            <element signature="e#27179#27617#0" />
-            <element signature="e#27733#27858#0" />
-            <element signature="e#28339#31944#0" />
-            <element signature="e#32603#33285#0" />
-            <element signature="e#33421#35250#0" />
-            <element signature="e#35648#36437#0" />
-            <element signature="e#36543#37037#0" />
-            <element signature="e#37123#37292#0" />
-            <element signature="e#37366#38347#0" />
-            <element signature="e#38442#38673#0" />
-            <element signature="e#38722#39973#0" />
-            <element signature="e#40078#40993#0" />
-            <element signature="e#41096#42099#0" />
-            <element signature="e#42563#42689#0" />
-            <element signature="e#42763#43280#0" />
-            <element signature="e#43489#43611#0" />
-            <element signature="e#43698#43901#0" />
-            <element signature="e#43983#44797#0" />
-            <element signature="e#44910#46186#0" />
-            <element signature="e#46316#46785#0" />
-            <element signature="e#46849#47741#0" />
-            <element signature="e#48404#49456#0" />
-            <element signature="e#49974#50458#0" />
-            <element signature="e#50546#50735#0" />
-            <element signature="e#50840#51483#0" />
-            <element signature="e#51673#51890#0" />
-            <element signature="e#51963#52456#0" />
-            <element signature="e#52652#52845#0" />
-            <element signature="e#53220#54530#0" />
-            <element signature="e#54958#55954#0" />
-            <element signature="e#56229#56820#0" />
-            <element signature="e#56982#58644#0" />
-            <element signature="e#59810#61393#0" />
-            <element signature="e#62523#62570#0" />
-            <element signature="e#62709#62756#0" />
-            <element signature="e#62879#62932#0" />
-            <element signature="e#63048#63340#0" />
-            <element signature="e#63872#64099#0" />
-            <element signature="e#65330#65682#0" />
-            <element signature="e#65740#66946#0" />
-            <element signature="e#66979#67058#0" />
-            <element signature="e#67081#67336#0" />
-            <element signature="e#67364#67681#0" />
-            <element signature="e#67708#68580#0" />
-            <element signature="e#68607#69214#0" />
-            <element signature="e#69247#69358#0" />
-            <element signature="e#69390#69617#0" />
-            <element signature="e#69776#70847#0" />
-            <element signature="e#70929#71222#0" />
-            <element signature="e#71517#73196#0" />
-            <element signature="e#73571#73900#0" />
-            <element signature="e#74041#74470#0" />
-            <element signature="e#74646#75381#0" />
-            <element signature="e#75530#75656#0" />
-            <element signature="e#75792#75915#0" />
-            <element signature="e#76237#76285#0" />
-            <element signature="e#76358#76516#0" />
-            <element signature="e#76558#76667#0" />
-            <element signature="e#76839#76922#0" />
-            <element signature="e#77017#77305#0" />
-            <element signature="e#78048#78095#0" />
-            <element signature="e#78164#78233#0" />
-            <element signature="e#78302#78371#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/ThreadLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="269" column="1" selection-start-line="269" selection-start-column="1" selection-end-line="269" selection-end-column="1" />
-          <folding>
-            <element signature="docComment;class#ThreadLocal#0" />
-            <element signature="docComment;field#threadLocalHashCode#0;class#ThreadLocal#0" />
-            <element signature="docComment;field#nextHashCode#0;class#ThreadLocal#0" />
-            <element signature="docComment;field#HASH_INCREMENT#0;class#ThreadLocal#0" />
-            <element signature="docComment;method#nextHashCode#0;class#ThreadLocal#0" />
-            <element signature="docComment;method#initialValue#0;class#ThreadLocal#0" />
-            <element signature="docComment;method#withInitial#0;class#ThreadLocal#0" />
-            <element signature="docComment;method#ThreadLocal#0;class#ThreadLocal#0" />
-            <element signature="docComment;method#get#0;class#ThreadLocal#0" />
-            <element signature="docComment;method#setInitialValue#0;class#ThreadLocal#0" />
-            <element signature="docComment;method#set#0;class#ThreadLocal#0" />
-            <element signature="docComment;method#remove#0;class#ThreadLocal#0" />
-            <element signature="docComment;method#getMap#0;class#ThreadLocal#0" />
-            <element signature="docComment;method#createMap#0;class#ThreadLocal#0" />
-            <element signature="docComment;method#createInheritedMap#0;class#ThreadLocal#0" />
-            <element signature="docComment;method#childValue#0;class#ThreadLocal#0" />
-            <element signature="docComment;class#SuppliedThreadLocal#0;class#ThreadLocal#0" />
-            <element signature="docComment;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-            <element signature="docComment;class#Entry#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-            <element signature="docComment;field#value#0;class#Entry#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-            <element signature="docComment;field#INITIAL_CAPACITY#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-            <element signature="docComment;field#table#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-            <element signature="docComment;field#size#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-            <element signature="docComment;field#threshold#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-            <element signature="docComment;method#setThreshold#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-            <element signature="docComment;method#nextIndex#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-            <element signature="docComment;method#prevIndex#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-            <element signature="docComment;method#ThreadLocalMap#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-            <element signature="docComment;method#ThreadLocalMap#1;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-            <element signature="docComment;method#getEntry#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-            <element signature="docComment;method#getEntryAfterMiss#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-            <element signature="docComment;method#set#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-            <element signature="docComment;method#remove#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-            <element signature="docComment;method#replaceStaleEntry#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-            <element signature="docComment;method#expungeStaleEntry#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-            <element signature="docComment;method#cleanSomeSlots#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-            <element signature="docComment;method#rehash#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-            <element signature="docComment;method#resize#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
-            <element signature="docComment;method#expungeStaleEntries#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hgood/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="55" column="36" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="36" />
+        <state relative-caret-position="3960">
+          <caret line="120" column="14" selection-start-line="120" selection-start-column="14" selection-end-line="120" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/controller/DefaultController.java">
+    <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/bean/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        <state relative-caret-position="429">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/controller/RedisController.java">
+    <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-core/1.0.2/mapper-core-1.0.2-sources.jar!/tk/mybatis/mapper/entity/Condition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+          <folding>
+            <element signature="e#1351#1352#0" expanded="true" />
+            <element signature="e#1385#1386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/zk_lock/ZookeeperAbstractLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zzjava/src/main/java/com/java_jiji/thread/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zzjava/src/main/java/com/java_jiji/thread/ClassRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding>
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/zk_lock/test/OrderNumGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/qbcQuery/QbyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bblog_1/src/main/java/com/ecpss/aspect/LogAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zqianduan/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="24" column="21" selection-start-line="21" selection-start-column="8" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.9.RELEASE/spring-boot-autoconfigure-2.1.9.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="281" column="46" selection-start-line="281" selection-start-column="46" selection-end-line="281" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_public_number/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/resources/templates/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.10.RELEASE/spring-core-5.1.10.RELEASE.jar!/org/springframework/core/io/ResourceLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/WxPublicNumberApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/config/MvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2486,7 +2643,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -2503,6 +2660,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
