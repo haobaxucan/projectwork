@@ -1,23 +1,18 @@
 package com.ecpss.wx_public_number.utils;
 
+import lombok.extern.slf4j.Slf4j;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.transform.OutputKeys;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamResult;
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
-import java.io.StringWriter;
 import java.util.HashMap;
 import java.util.Map;
 
+@Slf4j
 public class XmlUtil {
-    
     public static Map<String, String> xmlToMap(String strXML) throws Exception {
         try {
             Map<String, String> data = new HashMap<String, String>();
@@ -37,7 +32,6 @@ public class XmlUtil {
             try {
                 stream.close();
             } catch (Exception ex) {
-                // do nothing
             }
             return data;
         } catch (Exception ex) {

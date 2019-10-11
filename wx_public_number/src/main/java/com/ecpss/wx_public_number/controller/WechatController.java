@@ -75,7 +75,7 @@ public class WechatController {
         map.forEach((x,y)->{
             System.out.println(x+"-"+y); //还可以发送语音，位置，视频消息，图片消息
         });
-
+//        chaoshen
 //        回复消息
         String respXml="<xml><ToUserName><![CDATA["+map.get("ToUserName")+"]]></ToUserName><FromUserName><![CDATA["+map.get("FromUserName")+"]]></FromUserName><CreateTime>"+System.currentTimeMillis()/1000+"</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[xc]]></Content></xml>";
         return respXml;
