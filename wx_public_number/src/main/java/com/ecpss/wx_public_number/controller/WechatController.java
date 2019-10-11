@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import javax.servlet.ServletInputStream;
 import javax.servlet.http.HttpServletRequest;
 import java.io.InputStream;
 import java.security.MessageDigest;
@@ -18,7 +17,7 @@ public class WechatController {
     static final String TOKEN = "wx4";
 
     @ResponseBody
-    @RequestMapping(value = "/wx",method = RequestMethod.GET)
+    @RequestMapping(value = "/wx/portal/wx30de7e8ac3923ce2",method = RequestMethod.GET)
     public String getMsg(HttpServletRequest request) throws Exception {
         System.out.println("get");
         String signature = request.getParameter("signature");
@@ -30,6 +29,7 @@ public class WechatController {
          * 1）将token、timestamp、nonce三个参数进行字典序排序
          * 2）将三个参数字符串拼接成一个字符串进行sha1加密
          * 3）开发者获得加密后的字符串可与signature对比，标识该请求来源于微信
+         *
          */
         String s[] = new String[]{TOKEN, timestamp, nonce};
         Arrays.sort(s);
@@ -76,10 +76,18 @@ public class WechatController {
             System.out.println(x+"-"+y); //还可以发送语音，位置，视频消息，图片消息
         });
 
-//        恢复消息
+//        回复消息
         String respXml="<xml><ToUserName><![CDATA["+map.get("ToUserName")+"]]></ToUserName><FromUserName><![CDATA["+map.get("FromUserName")+"]]></FromUserName><CreateTime>"+System.currentTimeMillis()/1000+"</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[xc]]></Content></xml>";
         return respXml;
     }
+
+
+
+
+
+
+
+
 //    @RequestMapping(value = "/wx",method = RequestMethod.POST)
 //    @ResponseBody
 //    public String msgPost(HttpServletRequest request)throws Exception{
