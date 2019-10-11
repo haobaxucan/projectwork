@@ -5,7 +5,11 @@
     <bookmark url="file://$PROJECT_DIR$/hshiro/src/main/java/com/ecpss/boot_shiro/ShiroConfig.java" line="112" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="982b332e-cfa8-4c4c-8a5d-3d72ec10b71b" name="Default" comment="da" />
+    <list default="true" id="982b332e-cfa8-4c4c-8a5d-3d72ec10b71b" name="Default" comment="jiezhou">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/WxPublicNumberApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/WxPublicNumberApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/utils/XmlUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/utils/XmlUtil.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/testweixin/target/" />
     <ignored path="$PROJECT_DIR$/avideo/target/" />
     <ignored path="$PROJECT_DIR$/bblog/target/" />
@@ -46,14 +50,14 @@
     <SUITE FILE_PATH="coverage/projectwork$SFTPTest.coverage" NAME="SFTPTest Coverage Results" MODIFIED="1560779616911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.ecpss.util.file.one.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/projectwork$Default_te1.coverage" NAME="Default.te1 Coverage Results" MODIFIED="1564904392447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.ecpss.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/projectwork$beanUtilTest.coverage" NAME="beanUtilTest Coverage Results" MODIFIED="1567845846476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.ecpss.util.bean_util.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/projectwork$MainClass.coverage" NAME="MainClass Coverage Results" MODIFIED="1564024597369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.ecpss.spring.config.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/projectwork$Default_te1.coverage" NAME="Default.te1 Coverage Results" MODIFIED="1564904392447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.ecpss.*</FILTER>
     </SUITE>
   </component>
   <component name="DatabaseView">
@@ -73,10 +77,36 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/WechatController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-70">
-              <caret line="72" column="9" lean-forward="true" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+            <state relative-caret-position="264">
+              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/utils/XmlUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#721#737#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/WxPublicNumberApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -157,11 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/Base/test/dao/CityDao.java" />
-        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/Base/test/common/enums/CityStatusEnums.java" />
-        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/base/BaseCityTest.java" />
-        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/Base/test/common/utils/DateTimeUtils.java" />
-        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/Base/BaseEntity.java" />
         <option value="$PROJECT_DIR$/tk-mybatis-mapper/pom.xml" />
         <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/config/Swagger2Config.java" />
         <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/config/WebMvcConfig.java" />
@@ -198,16 +223,21 @@
         <option value="$PROJECT_DIR$/zzjava/src/main/java/com/java_jiji/thread/ClassRunnable.java" />
         <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/zk_lock/test/OrderNumGenerator.java" />
         <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/qbcQuery/QbyController.java" />
-        <option value="$PROJECT_DIR$/wx_public_number/pom.xml" />
         <option value="$PROJECT_DIR$/wx_public_number/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/config/MvcConfig.java" />
-        <option value="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/WxPublicNumberApplication.java" />
         <option value="$PROJECT_DIR$/wx_public_number/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/wx_public_number/src/test/java/com/ecpss/wx_public_number/WxPublicNumberApplicationTests.java" />
         <option value="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/utils/XmlToMapUtil.java" />
         <option value="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/WechatController.java" />
+        <option value="$PROJECT_DIR$/wx_public_number/src/test/java/com/ecpss/wx_public_number/WxPublicNumberApplicationTests.java" />
+        <option value="$PROJECT_DIR$/wx_public_number/pom.xml" />
+        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/mapper/BookMapper.java" />
+        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/TkMybatisMapperApplicationTests.java" />
+        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/bean/Book.java" />
+        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/bean/UserBook.java" />
+        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/qbcQuery/QbyController.java" />
+        <option value="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/utils/XmlUtil.java" />
+        <option value="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/WxPublicNumberApplication.java" />
       </list>
     </option>
   </component>
@@ -392,7 +422,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
-    <option name="STATE" value="1" />
+    <option name="STATE" value="2" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -401,73 +431,73 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
               <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
               <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
               <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
               <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
               <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
               <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ecpss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
               <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
               <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -478,63 +508,22 @@
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
               <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ecpss" type="462c0819:PsiDirectoryNode" />
               <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -547,7 +536,7 @@
     <property name="SearchEverywhereHistoryKey" value="执行&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570794882320" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570780691857" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -570,17 +559,17 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workaddress\projectwork\hshiro\src\main\resources\templates" />
-      <recent name="D:\workaddress\projectwork\hshiro\src\main\resources\templates\user" />
-      <recent name="D:\workaddress\projectwork\zzjava\src\main\resources" />
-      <recent name="D:\workaddress\projectwork\ddiancan\src\main\resources\static" />
-      <recent name="D:\workaddress\projectwork\bblog\src\main\resources\templates" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.ecpss.tkmybatismapper" />
       <recent name="com.ecpss" />
       <recent name="com.ecpss.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaWroks\projectwork1\wx_public_number\src\main\java\com\ecpss\wx_public_number\utils" />
+      <recent name="D:\workspace\wx_public_number\src\main\resources\templates" />
+      <recent name="D:\workspace\hgood\src\main\resources\templates\token" />
+      <recent name="D:\workspace\hgood\src\main\java\com\ecpss" />
+      <recent name="D:\workspace\tk-mybatis-mapper\src\main\java\com\ecpss\tkmybatismapper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ecpss.utils" />
@@ -589,12 +578,12 @@
       <recent name="com.ecpss.tkmybatismapper.bean" />
       <recent name="com.ecpss.mq.topic" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IdeaWroks\projectwork1\wx_public_number\src\main\java\com\ecpss\wx_public_number\utils" />
-      <recent name="D:\workspace\wx_public_number\src\main\resources\templates" />
-      <recent name="D:\workspace\hgood\src\main\resources\templates\token" />
-      <recent name="D:\workspace\hgood\src\main\java\com\ecpss" />
-      <recent name="D:\workspace\tk-mybatis-mapper\src\main\java\com\ecpss\tkmybatismapper" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workaddress\projectwork\hshiro\src\main\resources\templates" />
+      <recent name="D:\workaddress\projectwork\hshiro\src\main\resources\templates\user" />
+      <recent name="D:\workaddress\projectwork\zzjava\src\main\resources" />
+      <recent name="D:\workaddress\projectwork\ddiancan\src\main\resources\static" />
+      <recent name="D:\workaddress\projectwork\bblog\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -669,20 +658,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java_jiji.thread.ClassRunnable" />
-      <module name="zzjava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java_jiji.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OrderNumGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ecpss.zk_lock.test.OrderNumGenerator" />
       <module name="hgood" />
@@ -726,6 +701,23 @@
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
       <method v="2" />
+    </configuration>
+    <configuration name="QbyController.testBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tk-mybatis-mapper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ecpss.tkmybatismapper.qbcQuery.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ecpss.tkmybatismapper.qbcQuery" />
+      <option name="MAIN_CLASS_NAME" value="com.ecpss.tkmybatismapper.qbcQuery.QbyController" />
+      <option name="METHOD_NAME" value="testBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="QbyController.testQbcUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tk-mybatis-mapper" />
@@ -1452,10 +1444,10 @@
     </configuration>
     <list>
       <item itemvalue="Application.TestGc" />
-      <item itemvalue="Application.ClassRunnable" />
       <item itemvalue="Application.OrderNumGenerator" />
       <item itemvalue="JUnit.TkmybatisApplicationTests.page" />
       <item itemvalue="JUnit.QbyController.testQbcUpdate" />
+      <item itemvalue="JUnit.WxPublicNumberApplicationTests.contextLoads" />
       <item itemvalue="Spring Boot.WebsocketBootApplication" />
       <item itemvalue="Spring Boot.AvideoApplication" />
       <item itemvalue="Spring Boot.BblogApplication" />
@@ -1485,15 +1477,15 @@
       <item itemvalue="Tomcat Server.qianduanjsp2" />
       <item itemvalue="Tomcat Server.html3" />
       <item itemvalue="Tomcat Server.wx" />
-      <item itemvalue="JUnit.WxPublicNumberApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.QbyController.testBook" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QbyController.testBook" />
         <item itemvalue="JUnit.WxPublicNumberApplicationTests.contextLoads" />
         <item itemvalue="JUnit.QbyController.testQbcUpdate" />
-        <item itemvalue="Application.OrderNumGenerator" />
-        <item itemvalue="Application.ClassRunnable" />
         <item itemvalue="JUnit.TkmybatisApplicationTests.page" />
+        <item itemvalue="Application.OrderNumGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -1506,7 +1498,7 @@
       <created>1560663779780</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1560663779780</updated>
+      <updated>1570774664670</updated>
       <workItem from="1560663781750" duration="4601000" />
       <workItem from="1560668932401" duration="5352000" />
       <workItem from="1560674847302" duration="9226000" />
@@ -1775,7 +1767,10 @@
       <workItem from="1570670077107" duration="3089000" />
       <workItem from="1570691141986" duration="6748000" />
       <workItem from="1570707747121" duration="848000" />
-      <workItem from="1570709430584" duration="10439000" />
+      <workItem from="1570709430584" duration="9570000" />
+      <workItem from="1570756204412" duration="3032000" />
+      <workItem from="1570763438140" duration="3843000" />
+      <workItem from="1570774665342" duration="5104000" />
     </task>
     <task id="LOCAL-00001" summary="secpmd omot o">
       <created>1561358034384</created>
@@ -1820,11 +1815,13 @@
       <updated>1562141653682</updated>
     </task>
     <task id="LOCAL-00007" summary="test 分支">
+      <changelist id="982b332e-cfa8-4c4c-8a5d-3d72ec10b71b" name="Default" comment="suoyou" />
       <created>1562142786601</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1562142786601</updated>
+      <updated>1570774664655</updated>
+      <workItem from="1570774652314" duration="13000" />
     </task>
     <task id="LOCAL-00008" summary="master&#10; 11">
       <created>1562146995459</created>
@@ -1875,50 +1872,50 @@
       <option name="project" value="LOCAL" />
       <updated>1570695462909</updated>
     </task>
-    <task id="LOCAL-00015" summary="da">
-      <created>1570720443425</created>
+    <task id="LOCAL-00015" summary="jiezhou">
+      <created>1570779512230</created>
       <option name="number" value="00015" />
       <option name="presentableId" value="LOCAL-00015" />
       <option name="project" value="LOCAL" />
-      <updated>1570720443425</updated>
+      <updated>1570779512230</updated>
     </task>
     <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TkmybatisApplicationTests_page - 2019.10.09 at 09h 13m 30s.xml">
-      <configuration name="TkmybatisApplicationTests.page" configurationId="JUnit" />
+    <history-entry file="QbyController_testBook - 2019.10.11 at 15h 23m 48s.xml">
+      <configuration name="QbyController.testBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TkmybatisApplicationTests_page - 2019.10.09 at 09h 18m 02s.xml">
-      <configuration name="TkmybatisApplicationTests.page" configurationId="JUnit" />
+    <history-entry file="QbyController_testBook - 2019.10.11 at 15h 24m 48s.xml">
+      <configuration name="QbyController.testBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TkmybatisApplicationTests_page - 2019.10.09 at 09h 18m 23s.xml">
-      <configuration name="TkmybatisApplicationTests.page" configurationId="JUnit" />
+    <history-entry file="QbyController_testBook - 2019.10.11 at 15h 25m 54s.xml">
+      <configuration name="QbyController.testBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TkmybatisApplicationTests_page - 2019.10.09 at 09h 18m 45s.xml">
-      <configuration name="TkmybatisApplicationTests.page" configurationId="JUnit" />
+    <history-entry file="QbyController_testBook - 2019.10.11 at 15h 31m 01s.xml">
+      <configuration name="QbyController.testBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QbyController_testQbcUpdate - 2019.10.10 at 15h 11m 31s.xml">
-      <configuration name="QbyController.testQbcUpdate" configurationId="JUnit" />
+    <history-entry file="QbyController_testBook - 2019.10.11 at 15h 31m 54s.xml">
+      <configuration name="QbyController.testBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QbyController_testQbcUpdate - 2019.10.10 at 15h 14m 37s.xml">
-      <configuration name="QbyController.testQbcUpdate" configurationId="JUnit" />
+    <history-entry file="QbyController_testBook - 2019.10.11 at 15h 33m 48s.xml">
+      <configuration name="QbyController.testBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QbyController_testQbcUpdate - 2019.10.10 at 15h 15m 06s.xml">
-      <configuration name="QbyController.testQbcUpdate" configurationId="JUnit" />
+    <history-entry file="QbyController_testBook - 2019.10.11 at 15h 33m 55s.xml">
+      <configuration name="QbyController.testBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QbyController_testQbcUpdate - 2019.10.10 at 15h 15m 19s.xml">
-      <configuration name="QbyController.testQbcUpdate" configurationId="JUnit" />
+    <history-entry file="QbyController_testBook - 2019.10.11 at 15h 34m 26s.xml">
+      <configuration name="QbyController.testBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WxPublicNumberApplicationTests_contextLoads - 2019.10.10 at 21h 26m 28s.xml">
-      <configuration name="WxPublicNumberApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="QbyController_testBook - 2019.10.11 at 15h 35m 33s.xml">
+      <configuration name="QbyController.testBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WxPublicNumberApplicationTests_contextLoads - 2019.10.10 at 23h 04m 10s.xml">
-      <configuration name="WxPublicNumberApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="QbyController_testBook - 2019.10.11 at 15h 35m 43s.xml">
+      <configuration name="QbyController.testBook" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1474087000" />
+    <option name="totallyTimeSpent" value="1485210000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1930,9 +1927,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7775306" visible="true" weight="0.2927383" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7775306" visible="true" weight="0.29904053" />
       <window_info id="Structure" order="1" weight="0.24945135" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Designer" order="3" />
@@ -1943,7 +1941,7 @@
       <window_info active="true" id="ZooKeeper" order="8" visible="true" weight="0.32960597" />
       <window_info id="Web" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Run" order="1" sideWeight="0.62034076" visible="true" weight="0.22422259" />
+      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.62034076" visible="true" weight="0.39045554" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.37635574" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
@@ -1951,14 +1949,14 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="6" />
       <window_info anchor="bottom" id="Run with VisualVM" order="7" weight="0.32925472" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="8" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.19967267" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.19956616" />
       <window_info anchor="bottom" id="Application Servers" order="10" weight="0.14750542" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32925472" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.31995663" />
       <window_info anchor="bottom" id="Spring" order="13" weight="0.32925472" />
       <window_info anchor="bottom" id="Problems" order="14" weight="0.4143167" />
-      <window_info anchor="bottom" id="Find" order="15" visible="true" weight="0.25632912" />
-      <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.3796592" weight="0.30114567" />
+      <window_info anchor="bottom" id="Find" order="15" weight="0.25632912" />
+      <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.3796592" weight="0.019522777" />
       <window_info anchor="bottom" id="Docker" order="17" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="18" weight="0.20281996" />
       <window_info anchor="bottom" id="Version Control" order="19" weight="0.29175705" />
@@ -2081,8 +2079,8 @@
     <MESSAGE value="haode" />
     <MESSAGE value="haodedd" />
     <MESSAGE value="suoyou" />
-    <MESSAGE value="da" />
-    <option name="LAST_COMMIT_MESSAGE" value="da" />
+    <MESSAGE value="jiezhou" />
+    <option name="LAST_COMMIT_MESSAGE" value="jiezhou" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2187,69 +2185,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hgood/src/main/resources/templates/nginx.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" column="51" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hgood/src/main/resources/templates/login/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="484" selection-start-line="484" selection-end-line="484" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="431" selection-start-line="431" selection-end-line="431" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="439" selection-start-line="439" selection-end-line="439" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.22/tomcat-embed-core-9.0.22.jar!/org/apache/catalina/core/ApplicationFilterChain.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/login/repeatform/TokenProcessor.java" />
     <entry file="file://$PROJECT_DIR$/hgood/src/main/resources/templates/token/token.html" />
     <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/login/repeatform/NoRepeatFormController.java" />
@@ -2326,8 +2261,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/zk_lock/ExtLock.java" />
     <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/zk_lock/ZkDistrbuteLock.java" />
-    <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/bean/User.java" />
-    <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/mapper/UserMapper.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-core/1.0.2/mapper-core-1.0.2-sources.jar!/tk/mybatis/mapper/entity/Condition.java" />
     <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/zk_lock/ZookeeperAbstractLock.java" />
     <entry file="file://$PROJECT_DIR$/zzjava/src/main/java/com/java_jiji/thread/A.java">
@@ -2339,7 +2272,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zzjava/src/main/java/com/java_jiji/thread/ClassRunnable.java" />
     <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/zk_lock/test/OrderNumGenerator.java" />
-    <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/qbcQuery/QbyController.java" />
     <entry file="file://$PROJECT_DIR$/bblog_1/src/main/java/com/ecpss/aspect/LogAspect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61">
@@ -2355,7 +2287,6 @@
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.9.RELEASE/spring-boot-autoconfigure-2.1.9.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class" />
-    <entry file="file://$PROJECT_DIR$/wx_public_number/pom.xml" />
     <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/resources/templates/test.html" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.10.RELEASE/spring-core-5.1.10.RELEASE.jar!/org/springframework/core/io/ResourceLoader.class" />
     <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/IndexController.java" />
@@ -2381,31 +2312,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wx_public_number/src/test/java/com/ecpss/wx_public_number/WxPublicNumberApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/utils/XmlUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/controller/RedisController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/WxPublicNumberApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -2423,10 +2333,143 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/3.0.11.RELEASE/thymeleaf-3.0.11.RELEASE.jar!/org/thymeleaf/util/ArrayUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="51" column="52" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="52" />
+          <folding>
+            <element signature="e#1353#1354#0" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_public_number/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_public_number/src/test/java/com/ecpss/wx_public_number/WxPublicNumberApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar!/javax/persistence/Id.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar!/javax/persistence/GeneratedValue.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/Base/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/Base/test/entity/CityEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/bean/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/bean/UserBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/mapper/BookMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/qbcQuery/QbyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-429">
+          <caret line="61" column="3" lean-forward="true" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/TkMybatisMapperApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/utils/XmlUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#721#737#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/WxPublicNumberApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/WechatController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <caret line="72" column="9" lean-forward="true" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+        <state relative-caret-position="264">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

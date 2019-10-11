@@ -1,6 +1,9 @@
 package com.ecpss.tkmybatismapper.qbcQuery;
 
+import com.ecpss.tkmybatismapper.bean.Book;
 import com.ecpss.tkmybatismapper.bean.User;
+import com.ecpss.tkmybatismapper.bean.UserBook;
+import com.ecpss.tkmybatismapper.mapper.BookMapper;
 import com.ecpss.tkmybatismapper.mapper.UserMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -10,6 +13,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import tk.mybatis.mapper.entity.Condition;
 import tk.mybatis.mapper.entity.Example;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -21,6 +25,8 @@ import java.util.List;
 public class QbyController {
     @Autowired
     private UserMapper userMapper;
+    @Autowired
+    private BookMapper bookMapper;
 
     @Test
     public void testQbc(){
@@ -49,7 +55,42 @@ public class QbyController {
         criteria.andEqualTo("addx","hgh");
         userMapper.updateByExampleSelective(user,condition);
 
+    }
+
+    @Test
+    public void testBook(){//查询多表
+//        SELECT  u.name,u.addx,b.name,b.price FROM userd1  u INNER JOIN book b ON u.id=b.uid WHERE b.uid=1;
+//        根据用户id 查询所有的的书籍名称价格
+        List<UserBook> userBooks=new ArrayList<>();
+        Integer id=1;
+        Example userExample=new Example(User.class);
+        Example.Criteria userCriteria = userExample.createCriteria();
+        userCriteria.andEqualTo("id",id);
+        List<User> users = userMapper.selectByExample(userExample);
+        users.forEach((user -> {
+            Example bookExample=new Example(Book.class);
+            Example.Criteria bookCriteria = bookExample.createCriteria();
+            bookCriteria.andEqualTo("uid",id);
+            List<Book> books = bookMapper.selectByExample(bookExample);
+            books.forEach((book -> {
+                UserBook userBook=new UserBook();
+                userBook.setUserName(user.getName());
+                userBook.setBookName(book.getName());
+                userBooks.add(userBook);
+
+            }));
+
+        }));
+        userBooks.forEach((userBook -> {
+//            System.out.println(userBook.getUserName());
+            System.out.println(userBook.getBookName());
+
+        }));
+
+
+
 
     }
+
 
 }
