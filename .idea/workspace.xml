@@ -5,18 +5,9 @@
     <bookmark url="file://$PROJECT_DIR$/hshiro/src/main/java/com/ecpss/boot_shiro/ShiroConfig.java" line="112" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="982b332e-cfa8-4c4c-8a5d-3d72ec10b71b" name="Default" comment="jiezhou">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/ChatMechaneController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/TokenController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/tokendomain/AccessToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/tokendomain/TempleteMsgController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/utils/HttpUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/utils/JuheLiaoTianUtil.java" afterDir="false" />
+    <list default="true" id="982b332e-cfa8-4c4c-8a5d-3d72ec10b71b" name="Default" comment="temp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_public_number/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wx_public_number/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/IndexController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_public_number/src/test/java/com/ecpss/wx_public_number/WxPublicNumberApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/wx_public_number/src/test/java/com/ecpss/wx_public_number/WxPublicNumberApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/tokendomain/TempleteMsgController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/tokendomain/TempleteMsgController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/testweixin/target/" />
     <ignored path="$PROJECT_DIR$/avideo/target/" />
@@ -81,86 +72,7 @@
     <favorites_list name="projectwork" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/WechatController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-81">
-              <caret line="77" column="13" lean-forward="true" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/avideo/src/main/java/com/ecpss/utils/HttpUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/TokenController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/tokendomain/TempleteMsgController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/tokendomain/AccessToken.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/utils/HttpUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-82">
-              <caret line="69" column="67" selection-start-line="69" selection-start-column="60" selection-end-line="69" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/avideo/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="98" column="4" selection-start-line="98" selection-start-column="4" selection-end-line="103" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wx_public_number/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -740,7 +652,7 @@
     <property name="SearchEverywhereHistoryKey" value="执行&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570805967461" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570807624605" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -1978,7 +1890,7 @@
       <workItem from="1570756204412" duration="3032000" />
       <workItem from="1570763438140" duration="3843000" />
       <workItem from="1570774665342" duration="5104000" />
-      <workItem from="1570794969804" duration="8874000" />
+      <workItem from="1570794969804" duration="10400000" />
     </task>
     <task id="LOCAL-00001" summary="secpmd omot o">
       <created>1561358034384</created>
@@ -2087,7 +1999,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570779512230</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="temp">
+      <created>1570806127874</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1570806127874</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2123,7 +2042,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1494088000" />
+    <option name="totallyTimeSpent" value="1495614000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -2136,9 +2055,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7775306" visible="true" weight="0.2549168" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7775306" visible="true" weight="0.3903177" />
       <window_info id="Structure" order="1" weight="0.24945135" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Designer" order="3" />
@@ -2150,7 +2068,7 @@
       <window_info id="Web" order="9" side_tool="true" />
       <window_info id="Database Changes" order="10" weight="0.20121029" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Run" order="1" sideWeight="0.87821484" visible="true" weight="0.28150573" />
+      <window_info active="true" anchor="bottom" id="Run" order="1" sideWeight="0.87821484" visible="true" weight="0.34697217" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.0" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
@@ -2288,7 +2206,8 @@
     <MESSAGE value="haodedd" />
     <MESSAGE value="suoyou" />
     <MESSAGE value="jiezhou" />
-    <option name="LAST_COMMIT_MESSAGE" value="jiezhou" />
+    <MESSAGE value="temp" />
+    <option name="LAST_COMMIT_MESSAGE" value="temp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2689,13 +2608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/TokenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/utils/HttpUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-82">
@@ -2705,11 +2617,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/tokendomain/TempleteMsgController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="295">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/TokenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
