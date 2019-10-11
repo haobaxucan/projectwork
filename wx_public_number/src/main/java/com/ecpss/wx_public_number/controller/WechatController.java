@@ -77,7 +77,13 @@ public class WechatController {
         });
 //       xcde
 //        回复消息
-        String respXml="<xml><ToUserName><![CDATA["+map.get("ToUserName")+"]]></ToUserName><FromUserName><![CDATA["+map.get("FromUserName")+"]]></FromUserName><CreateTime>"+System.currentTimeMillis()/1000+"</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[xc]]></Content></xml>";
+        String respXml="<xml><ToUserName>" +
+                "<![CDATA["+map.get("ToUserName")+"]]>" +
+                "</ToUserName><FromUserName><![CDATA["+map.get("FromUserName")+"]]>" +
+                "</FromUserName><CreateTime>"+System.currentTimeMillis()/1000+"</CreateTime>" +
+                "<MsgType><![CDATA[text]]></MsgType><Content><![CDATA[xc]]></Content></xml>";
+//        消息的回复
+
         return respXml;
     }
 
