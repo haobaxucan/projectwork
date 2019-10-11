@@ -14,14 +14,23 @@ import java.util.Collections;
 //@RunWith(SpringRunner.class)
 //@SpringBootTest
 public class WxPublicNumberApplicationTests {
+    public static final String str = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=APPID&secret=APPSECRET";
 
     @Test
     public void contextLoads() {
-        String s[]=null;
+        String s[] = null;
         boolean b = ArrayUtils.isEmpty(s);
         System.out.println(b);
 //        Arrays.sort(s);
 //        Arrays.stream(s).forEach(System.out::println);
+    }
+
+    @Test
+    public void contextLoads1() {
+        String s="haha%s%s";
+        String format = String.format(s, "aaa", 1);
+        System.out.println(format);
+
     }
 
 }
