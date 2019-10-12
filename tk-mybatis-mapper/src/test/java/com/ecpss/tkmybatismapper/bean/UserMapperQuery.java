@@ -1,10 +1,12 @@
 package com.ecpss.tkmybatismapper.bean;
 
 import com.ecpss.tkmybatismapper.mapper.UserMapper;
+import com.ecpss.tkmybatismapper.service.CacheService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.List;
@@ -18,6 +20,8 @@ import java.util.List;
 public class UserMapperQuery {
     @Autowired
     private UserMapper userMapper;
+    @Autowired
+    private CacheService cacheService;
 
     /**
      * 查询一个
@@ -25,10 +29,12 @@ public class UserMapperQuery {
     @Test
     public void test1(){ //SELECT id,name,addx FROM userd1 WHERE name = ? AND addx = ?
         User user=new User();
-        user.setName("dec");
-        user.setAddx("re");
-        User one = userMapper.selectOne(user);
-        System.out.println(one.getId());
+        user.setName("1");
+        user.setAddx("cx");
+        User selectOne = cacheService.selectOne(user);
+        System.out.println(selectOne.getId());
+        User selectOne1 = cacheService.selectOne(user);
+        System.out.println(selectOne1.getId());
     }
     @Test
     public void test2(){//查询 列表 SELECT id,name,addx FROM userd1 WHERE name = ? AND addx = ?

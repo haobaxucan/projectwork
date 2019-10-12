@@ -3,6 +3,7 @@ package com.ecpss.tkmybatis.service;
 import com.ecpss.tkmybatis.com.TestUser;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.session.RowBounds;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -101,7 +102,7 @@ public interface TestMapper extends tk.mybatis.mapper.common.Mapper<TestUser> {
      * @param record
      * @return
      */
-    @Override
+
     TestUser selectOne(TestUser record);
 
     /**

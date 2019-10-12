@@ -101,6 +101,7 @@ public class WechatController {
         return messgae;
     }
 
+
     //处理不同类型的消息
     private String getResp(Map<String, String> map) {
         TextMessage textMessage=null;

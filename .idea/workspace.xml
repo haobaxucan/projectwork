@@ -6,8 +6,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="982b332e-cfa8-4c4c-8a5d-3d72ec10b71b" name="Default" comment="temp">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/service/CacheService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/resources/ehcache.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/tokendomain/TempleteMsgController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/tokendomain/TempleteMsgController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tk-mybatis-mapper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tk-mybatis-mapper/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/TkMybatisMapperApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/TkMybatisMapperApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/bean/UserMapperQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/bean/UserMapperQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/service/TestMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/service/TestMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wx_public_number/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wx_public_number/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/WechatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/WechatController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/testweixin/target/" />
     <ignored path="$PROJECT_DIR$/avideo/target/" />
@@ -49,14 +60,14 @@
     <SUITE FILE_PATH="coverage/projectwork$SFTPTest.coverage" NAME="SFTPTest Coverage Results" MODIFIED="1560779616911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.ecpss.util.file.one.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/projectwork$Default_te1.coverage" NAME="Default.te1 Coverage Results" MODIFIED="1564904392447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.ecpss.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/projectwork$beanUtilTest.coverage" NAME="beanUtilTest Coverage Results" MODIFIED="1567845846476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.ecpss.util.bean_util.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/projectwork$MainClass.coverage" NAME="MainClass Coverage Results" MODIFIED="1564024597369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.ecpss.spring.config.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/projectwork$Default_te1.coverage" NAME="Default.te1 Coverage Results" MODIFIED="1564904392447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.ecpss.*</FILTER>
     </SUITE>
   </component>
   <component name="DatabaseView">
@@ -72,7 +83,105 @@
     <favorites_list name="projectwork" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/main/resources/ehcache.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="23" column="36" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/TkMybatisMapperApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/utils/XmlUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1265">
+              <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/TkMybatisMapperApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/bean/UserMapperQuery.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="43">
+              <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.0.1/mapper-base-1.0.1-sources.jar!/tk/mybatis/mapper/common/base/select/SelectOneMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/service/TestMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="104" selection-start-line="104" selection-end-line="104" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/service/CacheService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#564#565#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/bean/Insert_Update_Delete.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -147,13 +256,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/controller/DefaultController.java" />
-        <option value="$PROJECT_DIR$/hgood/src/test/java/com/ecpss/HgoodApplicationTests.java" />
-        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/base/BaseCityTest.java" />
-        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/bean/User.java" />
-        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/TkMybatisMapperApplication.java" />
-        <option value="$PROJECT_DIR$/tkmybatis/src/main/resources/application-dev.properties" />
-        <option value="$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/UserMapper.java" />
         <option value="$PROJECT_DIR$/tkmybatis/src/main/resources/mybatis/userDao.xml" />
         <option value="$PROJECT_DIR$/tkmybatis/src/test/java/com/ecpss/tkmybatis/TkmybatisApplicationTests.java" />
         <option value="$PROJECT_DIR$/hgood/src/main/java/com/ecpss/HgoodApplication.java" />
@@ -187,17 +289,24 @@
         <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/bean/Book.java" />
         <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/bean/UserBook.java" />
         <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/qbcQuery/QbyController.java" />
-        <option value="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/utils/XmlUtil.java" />
         <option value="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/WxPublicNumberApplication.java" />
         <option value="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/utils/JuheLiaoTianUtil.java" />
         <option value="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/ChatMechaneController.java" />
         <option value="$PROJECT_DIR$/wx_public_number/src/test/java/com/ecpss/wx_public_number/WxPublicNumberApplicationTests.java" />
-        <option value="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/utils/HttpUtils.java" />
-        <option value="$PROJECT_DIR$/wx_public_number/pom.xml" />
         <option value="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/tokendomain/AccessToken.java" />
         <option value="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/TokenController.java" />
         <option value="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/tokendomain/TempleteMsgController.java" />
+        <option value="$PROJECT_DIR$/tk-mybatis-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/TkMybatisMapperApplication.java" />
+        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/resources/ehcache.xml" />
+        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/utils/HttpUtils.java" />
+        <option value="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/utils/XmlUtil.java" />
+        <option value="$PROJECT_DIR$/wx_public_number/pom.xml" />
+        <option value="$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/service/TestMapper.java" />
+        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/bean/UserMapperQuery.java" />
+        <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/service/CacheService.java" />
       </list>
     </option>
   </component>
@@ -228,18 +337,13 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hshiro" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="206" />
-    <option name="y" value="174" />
+    <option name="x" value="143" />
+    <option name="y" value="241" />
     <option name="width" value="1650" />
     <option name="height" value="1082" />
   </component>
@@ -382,7 +486,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
-    <option name="STATE" value="1" />
+    <option name="STATE" value="2" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -391,234 +495,145 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="avideo" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="hshiro" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="avideo" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="hshiro" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="avideo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="avideo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="avideo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="avideo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="avideo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="avideo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="avideo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="avideo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="hshiro" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
-              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
-              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
-              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="tokendomain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
-              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="hshiro" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="tk-mybatis-mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="tk-mybatis-mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="tk-mybatis-mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="tk-mybatis-mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="tk-mybatis-mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="tk-mybatis-mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="tk-mybatis-mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
+              <item name="tkmybatismapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="tk-mybatis-mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
+              <item name="tkmybatismapper" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="tk-mybatis-mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="tk-mybatis-mapper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="tk-mybatis-mapper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="tk-mybatis-mapper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="tk-mybatis-mapper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -626,15 +641,95 @@
               <item name="ecpss" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="tk-mybatis-mapper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ecpss" type="462c0819:PsiDirectoryNode" />
+              <item name="tkmybatismapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="tk-mybatis-mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
+              <item name="tkmybatismapper" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
               <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -652,7 +747,7 @@
     <property name="SearchEverywhereHistoryKey" value="执行&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570807624605" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570859021887" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -675,17 +770,17 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workaddress\projectwork\hshiro\src\main\resources\templates" />
-      <recent name="D:\workaddress\projectwork\hshiro\src\main\resources\templates\user" />
-      <recent name="D:\workaddress\projectwork\zzjava\src\main\resources" />
-      <recent name="D:\workaddress\projectwork\ddiancan\src\main\resources\static" />
-      <recent name="D:\workaddress\projectwork\bblog\src\main\resources\templates" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.ecpss.tkmybatismapper" />
       <recent name="com.ecpss" />
       <recent name="com.ecpss.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\tk-mybatis-mapper\src\main\resources" />
+      <recent name="D:\IdeaWroks\projectwork1\wx_public_number\src\main\java\com\ecpss\wx_public_number\utils" />
+      <recent name="D:\workspace\wx_public_number\src\main\resources\templates" />
+      <recent name="D:\workspace\hgood\src\main\resources\templates\token" />
+      <recent name="D:\workspace\hgood\src\main\java\com\ecpss" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ecpss.wx_public_number.utils" />
@@ -694,12 +789,12 @@
       <recent name="com.ecpss.tkmybatismapper.Base.test.common.utils" />
       <recent name="com.ecpss.tkmybatismapper.bean" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IdeaWroks\projectwork1\wx_public_number\src\main\java\com\ecpss\wx_public_number\utils" />
-      <recent name="D:\workspace\wx_public_number\src\main\resources\templates" />
-      <recent name="D:\workspace\hgood\src\main\resources\templates\token" />
-      <recent name="D:\workspace\hgood\src\main\java\com\ecpss" />
-      <recent name="D:\workspace\tk-mybatis-mapper\src\main\java\com\ecpss\tkmybatismapper" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workaddress\projectwork\hshiro\src\main\resources\templates" />
+      <recent name="D:\workaddress\projectwork\hshiro\src\main\resources\templates\user" />
+      <recent name="D:\workaddress\projectwork\zzjava\src\main\resources" />
+      <recent name="D:\workaddress\projectwork\ddiancan\src\main\resources\static" />
+      <recent name="D:\workaddress\projectwork\bblog\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -714,7 +809,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.WxPublicNumberApplication">
+  <component name="RunManager" selected="JUnit.UserMapperQuery.test1">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -838,17 +933,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TkmybatisApplicationTests.page" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tkmybatis" />
+    <configuration name="UserMapperQuery.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tk-mybatis-mapper" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ecpss.tkmybatis.*" />
+          <option name="PATTERN" value="com.ecpss.tkmybatismapper.bean.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ecpss.tkmybatis" />
-      <option name="MAIN_CLASS_NAME" value="com.ecpss.tkmybatis.TkmybatisApplicationTests" />
-      <option name="METHOD_NAME" value="page" />
+      <option name="PACKAGE_NAME" value="com.ecpss.tkmybatismapper.bean" />
+      <option name="MAIN_CLASS_NAME" value="com.ecpss.tkmybatismapper.bean.UserMapperQuery" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -1563,10 +1658,10 @@
     </configuration>
     <list>
       <item itemvalue="Application.TestGc" />
-      <item itemvalue="JUnit.TkmybatisApplicationTests.page" />
       <item itemvalue="JUnit.QbyController.testQbcUpdate" />
       <item itemvalue="JUnit.WxPublicNumberApplicationTests.contextLoads" />
       <item itemvalue="JUnit.QbyController.testBook" />
+      <item itemvalue="JUnit.WxPublicNumberApplicationTests.contextLoads1" />
       <item itemvalue="Spring Boot.WebsocketBootApplication" />
       <item itemvalue="Spring Boot.AvideoApplication" />
       <item itemvalue="Spring Boot.BblogApplication" />
@@ -1596,15 +1691,15 @@
       <item itemvalue="Tomcat Server.qianduanjsp2" />
       <item itemvalue="Tomcat Server.html3" />
       <item itemvalue="Tomcat Server.wx" />
-      <item itemvalue="JUnit.WxPublicNumberApplicationTests.contextLoads1" />
+      <item itemvalue="JUnit.UserMapperQuery.test1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserMapperQuery.test1" />
         <item itemvalue="JUnit.WxPublicNumberApplicationTests.contextLoads1" />
         <item itemvalue="JUnit.QbyController.testBook" />
         <item itemvalue="JUnit.WxPublicNumberApplicationTests.contextLoads" />
         <item itemvalue="JUnit.QbyController.testQbcUpdate" />
-        <item itemvalue="JUnit.TkmybatisApplicationTests.page" />
       </list>
     </recent_temporary>
   </component>
@@ -1891,6 +1986,7 @@
       <workItem from="1570763438140" duration="3843000" />
       <workItem from="1570774665342" duration="5104000" />
       <workItem from="1570794969804" duration="10400000" />
+      <workItem from="1570843145005" duration="7016000" />
     </task>
     <task id="LOCAL-00001" summary="secpmd omot o">
       <created>1561358034384</created>
@@ -2010,39 +2106,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QbyController_testBook - 2019.10.11 at 15h 31m 01s.xml">
-      <configuration name="QbyController.testBook" configurationId="JUnit" />
+    <history-entry file="UserMapperQuery_test1 - 2019.10.12 at 12h 00m 17s.xml">
+      <configuration name="UserMapperQuery.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QbyController_testBook - 2019.10.11 at 15h 31m 54s.xml">
-      <configuration name="QbyController.testBook" configurationId="JUnit" />
+    <history-entry file="UserMapperQuery_test1 - 2019.10.12 at 12h 00m 27s.xml">
+      <configuration name="UserMapperQuery.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QbyController_testBook - 2019.10.11 at 15h 33m 48s.xml">
-      <configuration name="QbyController.testBook" configurationId="JUnit" />
+    <history-entry file="UserMapperQuery_test1 - 2019.10.12 at 13h 25m 32s.xml">
+      <configuration name="UserMapperQuery.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QbyController_testBook - 2019.10.11 at 15h 33m 55s.xml">
-      <configuration name="QbyController.testBook" configurationId="JUnit" />
+    <history-entry file="UserMapperQuery_test1 - 2019.10.12 at 13h 25m 43s.xml">
+      <configuration name="UserMapperQuery.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QbyController_testBook - 2019.10.11 at 15h 34m 26s.xml">
-      <configuration name="QbyController.testBook" configurationId="JUnit" />
+    <history-entry file="UserMapperQuery_test1 - 2019.10.12 at 13h 26m 02s.xml">
+      <configuration name="UserMapperQuery.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QbyController_testBook - 2019.10.11 at 15h 35m 33s.xml">
-      <configuration name="QbyController.testBook" configurationId="JUnit" />
+    <history-entry file="UserMapperQuery_test1 - 2019.10.12 at 13h 29m 38s.xml">
+      <configuration name="UserMapperQuery.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QbyController_testBook - 2019.10.11 at 15h 35m 43s.xml">
-      <configuration name="QbyController.testBook" configurationId="JUnit" />
+    <history-entry file="UserMapperQuery_test1 - 2019.10.12 at 13h 31m 29s.xml">
+      <configuration name="UserMapperQuery.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WxPublicNumberApplicationTests_contextLoads1 - 2019.10.11 at 21h 39m 35s.xml">
-      <configuration name="WxPublicNumberApplicationTests.contextLoads1" configurationId="JUnit" />
+    <history-entry file="UserMapperQuery_test1 - 2019.10.12 at 13h 31m 43s.xml">
+      <configuration name="UserMapperQuery.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WxPublicNumberApplicationTests_contextLoads1 - 2019.10.11 at 21h 40m 00s.xml">
-      <configuration name="WxPublicNumberApplicationTests.contextLoads1" configurationId="JUnit" />
+    <history-entry file="UserMapperQuery_test1 - 2019.10.12 at 13h 37m 29s.xml">
+      <configuration name="UserMapperQuery.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WxPublicNumberApplicationTests_contextLoads1 - 2019.10.11 at 21h 40m 49s.xml">
-      <configuration name="WxPublicNumberApplicationTests.contextLoads1" configurationId="JUnit" />
+    <history-entry file="UserMapperQuery_test1 - 2019.10.12 at 13h 38m 15s.xml">
+      <configuration name="UserMapperQuery.test1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1495614000" />
+    <option name="totallyTimeSpent" value="1502630000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -2054,9 +2150,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7775306" visible="true" weight="0.3903177" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7775306" visible="true" weight="0.25906184" />
       <window_info id="Structure" order="1" weight="0.24945135" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Designer" order="3" />
@@ -2068,7 +2165,7 @@
       <window_info id="Web" order="9" side_tool="true" />
       <window_info id="Database Changes" order="10" weight="0.20121029" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Run" order="1" sideWeight="0.87821484" visible="true" weight="0.34697217" />
+      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.87821484" visible="true" weight="0.20498915" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.0" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
@@ -2099,7 +2196,7 @@
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.32960597" />
       <window_info anchor="right" x="92" y="92" width="1736" height="856" id="Byte Code Viewer" order="11" type="FLOATING" visible="true" />
       <window_info anchor="right" id="Maven Projects" order="12" sideWeight="0.4759036" weight="0.32960597" />
-      <window_info anchor="right" id="Maven" order="13" weight="0.028529627" />
+      <window_info anchor="right" id="Maven" order="13" visible="true" weight="0.05970149" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7775306" visible="true" weight="0.22707888" />
@@ -2312,36 +2409,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/zk_lock/ZkDistrbuteLock.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-core/1.0.2/mapper-core-1.0.2-sources.jar!/tk/mybatis/mapper/entity/Condition.java" />
-    <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/zk_lock/ZookeeperAbstractLock.java" />
-    <entry file="file://$PROJECT_DIR$/zzjava/src/main/java/com/java_jiji/thread/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zzjava/src/main/java/com/java_jiji/thread/ClassRunnable.java" />
-    <entry file="file://$PROJECT_DIR$/hgood/src/main/java/com/ecpss/zk_lock/test/OrderNumGenerator.java" />
-    <entry file="file://$PROJECT_DIR$/bblog_1/src/main/java/com/ecpss/aspect/LogAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zqianduan/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="24" column="21" selection-start-line="21" selection-start-column="8" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.9.RELEASE/spring-boot-autoconfigure-2.1.9.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class" />
-    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/resources/templates/test.html" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.10.RELEASE/spring-core-5.1.10.RELEASE.jar!/org/springframework/core/io/ResourceLoader.class" />
-    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/config/MvcConfig.java" />
     <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -2443,31 +2510,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/mapper/BookMapper.java" />
-    <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/qbcQuery/QbyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-429">
-          <caret line="61" column="3" lean-forward="true" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/TkMybatisMapperApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/utils/XmlUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#721#737#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/WxPublicNumberApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8">
@@ -2577,13 +2619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wx_public_number/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/tokendomain/AccessToken.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
@@ -2608,13 +2643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/utils/HttpUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-82">
-          <caret line="69" column="67" selection-start-line="69" selection-start-column="60" selection-end-line="69" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/tokendomain/TempleteMsgController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
@@ -2629,6 +2657,131 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="75" column="11" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hshiro/src/main/resources/ehcache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hshiro/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/qbcQuery/QbyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="61" column="3" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/utils/HttpUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2780">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_public_number/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.0.1/mapper-base-1.0.1-sources.jar!/tk/mybatis/mapper/common/base/insert/InsertSelectiveMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/bean/Insert_Update_Delete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/main/resources/ehcache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/TkMybatisMapperApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/TkMybatisMapperApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/utils/XmlUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1265">
+          <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.0.1/mapper-base-1.0.1-sources.jar!/tk/mybatis/mapper/common/base/select/SelectOneMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/service/TestMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/bean/UserMapperQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/service/CacheService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
