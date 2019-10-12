@@ -20,6 +20,7 @@ public class Insert_Update_Delete {
     @Test
     public void add1() { //增加  INSERT INTO userd1 ( id,name,addx ) VALUES( ?,?,? )
         User user = new User();
+//        int i=10/0;
         user.setName("zhutian");
         userMapper.insert(user);
     }
