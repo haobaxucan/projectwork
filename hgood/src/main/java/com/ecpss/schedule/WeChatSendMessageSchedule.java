@@ -32,7 +32,7 @@ public class WeChatSendMessageSchedule extends BaseJobScheduler {
     protected List fetchList(int batchRecordCount) {
         String currnetTime = DateTimeUtils.getCurrnetTime();
         System.out.println("currnetTime = " + currnetTime);
-        List<String> list= Arrays.asList("1","3","4");//将所有的书分封装数组，遍历数组，对于每一个
+        List<String> list= Arrays.asList("1","3","4");//将所有的数据分封装数组，遍历数组，对于每一个
         return list;
     }
 
