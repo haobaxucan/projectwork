@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ZqianduanApplication {
 
 	public static void main(String[] args) {
-		log.info("sss");
+
 		SpringApplication.run(ZqianduanApplication.class, args);
 	}
 

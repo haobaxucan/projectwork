@@ -10,15 +10,17 @@
 
 <!--请输入您的昵称<input type="text" id="username">-->
 <!--<input type="button" value="连接" onclick="connect()"></input> <br>-->
-<form method="post" th:action="@{/aa/send}">
+<!--<form method="post" th:action="@{/aa/send}">-->
     请填写要发送的内容<input type="hidden" id="msg" value="银行卡信息收集成功" name="msg">
     <input type="submit" value="发送" onclick="sendMsg()"> <!--onclick="sendMsg()"-->
-</form>
+<!--</form>-->
 <script type="text/javascript">
     var ws = null;
-    $(function () {
+    $(function () { //页面刷新  建立了连接
 
-        var path='[[${#httpServletRequest.getRequestURL()}]]'.replace("http","ws");
+        // var path='[[${#httpServletRequest.getRequestURL()}]]'.replace("http","ws");
+
+        var path='http://localhost:8081/bb'.replace("http","ws");
         alert(path);
         if ('WebSocket' in window){
 
@@ -37,7 +39,7 @@
          */
         if(1==1) {
             ws.onmessage = function (evt) {
-                alert(evt.data);
+                alert(evt.data+"xxxxxxxxxxxccccc");
             };
         }
         ws.onclose = function(evt) {
