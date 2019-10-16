@@ -13,7 +13,7 @@ import java.util.concurrent.CopyOnWriteArraySet;
 /**
  * Created by xc on 2019/6/17.
  */
-@ServerEndpoint("/aa/{sid}")
+@ServerEndpoint("/bb")
 //@Component
 public class WebSocketServer {
     static Logger log = LoggerFactory.getLogger(WebSocketServer.class);
@@ -28,20 +28,12 @@ public class WebSocketServer {
     private String sid = "";
     
     /**
-     * 连接建立成功调用的方法
+     * 连接建立成功调用的方法,
+     * 每一个人连接就是一个session
      */
     @OnOpen
-    public void onOpen(Session session, @PathParam("sid") String sid) {
-        this.session = session;
-        webSocketSet.add(this); //加入set中
-        addOnlineCount(); //在线数加1
-        log.info("有新窗口开始监听:" + sid + ",当前在线人数为" + getOnlineCount());
-        this.sid = sid;
-//        try {
-//            sendMessage("连接成功");
-//        } catch (IOException e) {
-//            log.error("websocket IO异常");
-//        }
+    public void onOpen(Session session) {
+        System.out.println(session.getId()+"111");
     }
     
     /**
@@ -49,9 +41,9 @@ public class WebSocketServer {
      */
     @OnClose
     public void onClose() {
-        webSocketSet.remove(this); //从set中删除
-        subOnlineCount(); //在线数减1
-        log.info("有一连接关闭！当前在线人数为" + getOnlineCount());
+//        webSocketSet.remove(this); //从set中删除
+//        subOnlineCount(); //在线数减1
+//        log.info("有一连接关闭！当前在线人数为" + getOnlineCount());
     }
     
     /**
@@ -60,16 +52,19 @@ public class WebSocketServer {
      * @param message 客户端发送过来的消息
      */
     @OnMessage
-    public void onMessage(String message, Session session) {
-        log.info("收到来自窗口" + sid + "的信息:" + message);
+    public void onMessage(String message) throws Exception{
+
+//        接受消息
+        System.out.println(message+"xiaoxi");
+        this.session.getBasicRemote().sendText(message);//推送消息到远程
         //群发消息
-        for (WebSocketServer item : webSocketSet) {
-            try {
+      /*  for (WebSocketServer item : webSocketSet) {
+                try {
                 item.sendMessage(message);
             } catch (IOException e) {
                 e.printStackTrace();
             }
-        }
+        }*/
     }
     
     /**

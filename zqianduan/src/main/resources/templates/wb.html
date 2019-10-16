@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>wb</title>
+    <script th:src="@{/webjars/jquery/3.3.1/jquery.js}"></script>
+</head>
+<body>
+    <script>
+        var path = 'http://localhost:8081/bb'.replace("http", "ws");
+        var ws;
+        $(function () { //页面刷新  建立了连接
+
+            // var path='[[${#httpServletRequest.getRequestURL()}]]'.replace("http","ws");
+            // alert(path);
+            if ('WebSocket' in window) {
+
+                ws = new WebSocket(path);
+            } else if ('MozWebSocket' in window) {
+                ws = new MozWebSocket(path);
+            } else {
+                alert("该浏览器不支持websocket");
+            }
+
+            ws.onmessage = function (evt) {
+                alert("接收服务器端数据"+evt.data);
+            };
+        })
+        function send() {
+            var element = document.getElementById("msg").value;
+            ws.send(element);
+        }
+    </script>
+
+<!--ddad-->
+</body>
+</html>

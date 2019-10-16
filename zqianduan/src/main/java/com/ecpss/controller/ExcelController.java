@@ -26,10 +26,10 @@ public class ExcelController {
     public Object importSubMerchant(@RequestParam(value = "file",required = false) MultipartFile file, HttpServletRequest request) {
         try {
             System.out.println("1111==========");
-            log.info("a{}",file.getName());
+//            log.info("a{}",file.getName());
             InputStream inputStream = file.getInputStream();
 //            String s = ParseExcelUtil.readExcel(inputStream, file.getOriginalFilename(), 0, 2);
-            log.info("信息{}");
+//            log.info("信息{}");
     
     
         } catch (IOException e) {

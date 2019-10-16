@@ -1,5 +1,6 @@
 package com.ecpss.controller;
 
+import com.ecpss.service.WebSocketServer;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -27,7 +28,9 @@ public class DefaultController {
     
     @RequestMapping("/aa/send")
     public String send(){
-        System.out.println("aaa");
+//        WebSocketServer.sendInfo();
+
+        System.out.println("xcccc");
     return "index";
     }
     

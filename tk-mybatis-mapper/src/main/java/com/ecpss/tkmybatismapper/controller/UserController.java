@@ -22,8 +22,8 @@ public class UserController {
 
     public  static List<User> users=new ArrayList<>();
     static {
-        users.add(new User().setName("aa"));
-        users.add(new User().setName("bb"));
+//        users.add(new User().setName("aa"));
+//        users.add(new User().setName("bb"));
     }
 
     @GetMapping("/users")

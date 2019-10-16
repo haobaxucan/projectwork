@@ -28,14 +28,14 @@ public class IndexController {
     }
     @RequestMapping("/login")
     public String login(@RequestParam("username")String name, HttpServletResponse response){
-        log.info(name+"姓名");
+//        log.info(name+"姓名");
         List<String> strings = Arrays.asList("aa", "cc", "bv");
         response.setContentType("text/html");
         strings.stream().forEach((e)->{
             if(e.equals(name)){
                 try {
                     
-                    log.info(name);
+//                    log.info(name);
                     response.getWriter().print("用户名已经存在");
                 } catch (IOException e1) {
                     e1.printStackTrace();
@@ -49,14 +49,14 @@ public class IndexController {
     
     @RequestMapping("/toLogin")
     public String toLogin(@RequestParam("name")String name,@RequestParam("pass")String pass){
-        log.info("姓名{} ，密码{}",name,pass);
+//        log.info("姓名{} ，密码{}",name,pass);
         return "index";
     }
     @RequestMapping("/ajax")
     public String ajax(@RequestParam(value = "name",required = false)String name,@RequestParam(value = "pass",required = false)String pass
     ,@RequestParam(value = "sel",required = false) String sel,Model model){
 //        model.addAttribute("pays", Pay.values());
-        log.info("姓名{} ，密码{} ,,{}",name,pass,sel);
+//        log.info("姓名{} ，密码{} ,,{}",name,pass,sel);
         System.out.println("进行跳转");
         return "index";
     }
