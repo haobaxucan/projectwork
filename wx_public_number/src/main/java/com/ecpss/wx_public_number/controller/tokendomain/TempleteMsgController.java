@@ -8,7 +8,7 @@ import java.util.Map;
 
 @RestController
 public class TempleteMsgController {
-     String url="https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=ACCESS_TOKEN";
+     String url="https://api.weixin.qq.com/cgi-bin/message/templates/send?access_token=ACCESS_TOKEN";
      private static  final String ACCESS_TOKEN="26_3j28-INbCmmY9q49Q2KclqvGvo2aTz2AV9iD7Z6RsHLPakQcwifQLaxT7VkHotQvRjgCLivZsUdFXM6znO1PZjhn1wM1b6FSxr4Q54kI5Sev2MX6FuM4Dk4HiiYE_lEDX4JJdH6gUeUDQIc7DEVfAEALMD";
     @RequestMapping("/temp")
     public String sendMsg(){

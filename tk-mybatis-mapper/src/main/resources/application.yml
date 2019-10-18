@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+person:
+  first:
+     name: xc
+     age: 12
+     addrs[0]:
+         addr: 湖南
+         city: chengshi
+     addrs[1]:
+          addr: 湖南12
+          city: chengshi12

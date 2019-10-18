@@ -23,11 +23,11 @@ public class IdsController {
     }
     @RequestMapping("/read")
     @ResponseBody
-
-    public String batchReadInMail(Integer cid, String ids[]) {
+    public String batchReadInMail(Integer cid, Integer ids[]) { //这里传入的参数必须为数值
         System.out.println(cid);
         if (ids!=null&&ids.length>0) {
             Arrays.stream(ids).forEach(System.out::println);
+            System.out.println("请求这里");
         }
         return "";
     }

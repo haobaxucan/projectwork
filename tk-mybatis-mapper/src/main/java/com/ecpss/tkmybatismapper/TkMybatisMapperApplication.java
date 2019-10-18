@@ -9,7 +9,8 @@ import org.springframework.cache.annotation.EnableCaching;
 public class TkMybatisMapperApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TkMybatisMapperApplication.class, args);
+        SpringApplication.run(
+                TkMybatisMapperApplication.class, args);
     }
 
 }

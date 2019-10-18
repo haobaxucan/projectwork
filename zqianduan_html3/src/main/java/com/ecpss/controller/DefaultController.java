@@ -4,6 +4,9 @@ import com.ecpss.service.WebSocketServer;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import javax.servlet.http.HttpSession;
+import javax.websocket.Session;
+
 /**
  * Created by xc on 2019/7/9.
  */
@@ -14,7 +17,9 @@ public class DefaultController {
       return "index";
     }
     @RequestMapping("/toTest")
-    public String toTest(){
+    public String toTest(Session session)throws Exception{
+        WebSocketServer ws=new WebSocketServer();
+//        ws.onMessage("xuucuau",session);
         return "/test/test";
     }
     @RequestMapping("/aa/start")

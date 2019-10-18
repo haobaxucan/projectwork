@@ -11,22 +11,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="982b332e-cfa8-4c4c-8a5d-3d72ec10b71b" name="Default" comment="缓存测试">
-      <change afterPath="$PROJECT_DIR$/zqianduan/src/main/java/com/ecpss/websocketdemo/WebSocketConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zqianduan/src/main/java/com/ecpss/websocketdemo/WebSocketController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zqianduan/src/main/java/com/ecpss/websocketdemo/WebSocketServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zqianduan/src/main/resources/templates/wb.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zzjava/src/main/java/com/java_jiji/fanxin/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_binarywang_weixin_java_common_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_binarywang_weixin_java_mp_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_binarywang_wx_java_mp_spring_boot_starter_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/yml_test/Addr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/yml_test/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/yml_test/TestYmlController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tkmybatis/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/bean/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zqianduan/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zqianduan/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zqianduan/src/main/java/com/ecpss/ZqianduanApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/zqianduan/src/main/java/com/ecpss/ZqianduanApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zqianduan/src/main/java/com/ecpss/controller/ExcelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/zqianduan/src/main/java/com/ecpss/controller/ExcelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zqianduan/src/main/java/com/ecpss/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/zqianduan/src/main/java/com/ecpss/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zqianduan/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/zqianduan/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hgood/src/main/resources/static/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/hgood/src/main/resources/static/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hgood/src/main/resources/static/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/hgood/src/main/resources/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrbac/src/main/resources/static/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/hrbac/src/main/resources/static/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrbac/src/main/resources/static/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/hrbac/src/main/resources/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tk-mybatis-mapper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tk-mybatis-mapper/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/TkMybatisMapperApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/TkMybatisMapperApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/controller/IdsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/controller/IdsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tk-mybatis-mapper/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkmybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tkmybatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/com/TestUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/com/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/service/TestMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/service/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkmybatis/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tkmybatis/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkmybatis/src/main/resources/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tkmybatis/src/main/resources/application-test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkmybatis/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tkmybatis/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkmybatis/src/main/resources/mybatis/testUserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkmybatis/src/main/resources/mybatis/userDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkmybatis/src/test/java/com/ecpss/tkmybatis/TkmybatisApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkmybatis/src/test/java/com/ecpss/tkmybatis/service/TestMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wx_login/src/main/webapp/js/plugins/sui/sui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wx_login/src/main/webapp/js/plugins/sui/sui.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wx_login/src/main/webapp/plugins/adminLTE/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/wx_login/src/main/webapp/plugins/adminLTE/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wx_login/src/main/webapp/plugins/adminLTE/js/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/wx_login/src/main/webapp/plugins/adminLTE/js/demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wx_login/src/main/webapp/plugins/adminLTE/js/pages/dashboard2.js" beforeDir="false" afterPath="$PROJECT_DIR$/wx_login/src/main/webapp/plugins/adminLTE/js/pages/dashboard2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wx_login/src/main/webapp/plugins/angularjs/angular.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wx_login/src/main/webapp/plugins/angularjs/angular.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wx_login/src/main/webapp/plugins/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/wx_login/src/main/webapp/plugins/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wx_login/src/main/webapp/plugins/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wx_login/src/main/webapp/plugins/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wx_public_number/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wx_public_number/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/WechatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/WechatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/tokendomain/TempleteMsgController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/tokendomain/TempleteMsgController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zqianduan_html3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zqianduan_html3/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zqianduan_html3/src/main/java/com/ecpss/controller/DefaultController.java" beforeDir="false" afterPath="$PROJECT_DIR$/zqianduan_html3/src/main/java/com/ecpss/controller/DefaultController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zqianduan_html3/src/main/java/com/ecpss/service/WebSocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/zqianduan_html3/src/main/java/com/ecpss/service/WebSocketServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zqianduan_html3/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/zqianduan_html3/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zqianduan_html3/src/main/java/com/ecpss/controller/sub/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/zqianduan_html3/src/main/java/com/ecpss/controller/sub/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zzjava/src/main/java/com/SaoCaoZuo.java" beforeDir="false" afterPath="$PROJECT_DIR$/zzjava/src/main/java/com/SaoCaoZuo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/testweixin/target/" />
     <ignored path="$PROJECT_DIR$/avideo/target/" />
@@ -68,14 +100,14 @@
     <SUITE FILE_PATH="coverage/projectwork$SFTPTest.coverage" NAME="SFTPTest Coverage Results" MODIFIED="1560779616911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.ecpss.util.file.one.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/projectwork$Default_te1.coverage" NAME="Default.te1 Coverage Results" MODIFIED="1564904392447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.ecpss.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/projectwork$beanUtilTest.coverage" NAME="beanUtilTest Coverage Results" MODIFIED="1567845846476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.ecpss.util.bean_util.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/projectwork$MainClass.coverage" NAME="MainClass Coverage Results" MODIFIED="1564024597369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.ecpss.spring.config.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/projectwork$Default_te1.coverage" NAME="Default.te1 Coverage Results" MODIFIED="1564904392447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.ecpss.*</FILTER>
     </SUITE>
   </component>
   <component name="DatabaseView">
@@ -92,82 +124,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zqianduan/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="695">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zqianduan/src/main/java/com/ecpss/controller/IndexController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zqianduan_html3/src/main/resources/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zqianduan/src/main/resources/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-77">
-              <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zqianduan/src/main/resources/templates/wb.html">
+        <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/WechatController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+            <state relative-caret-position="-844">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zqianduan/src/main/java/com/ecpss/websocketdemo/WebSocketController.java">
+        <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/ChatMechaneController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-85">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zqianduan/src/main/java/com/ecpss/websocketdemo/WebSocketConfig.java">
+        <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/TokenController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zqianduan/src/main/java/com/ecpss/websocketdemo/WebSocketServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="946">
-              <caret line="54" column="42" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="42" />
-              <folding>
-                <element signature="e#598#615#0" expanded="true" />
-                <element signature="e#833#834#0" expanded="true" />
-                <element signature="e#874#875#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="297">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -257,7 +236,6 @@
         <option value="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/config/MvcConfig.java" />
         <option value="$PROJECT_DIR$/wx_public_number/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/utils/XmlToMapUtil.java" />
-        <option value="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/WechatController.java" />
         <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/mapper/BookMapper.java" />
         <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/TkMybatisMapperApplicationTests.java" />
         <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/bean/Book.java" />
@@ -290,7 +268,6 @@
         <option value="$PROJECT_DIR$/zqianduan/src/main/java/com/ecpss/controller/ExcelController.java" />
         <option value="$PROJECT_DIR$/zqianduan/src/main/java/com/ecpss/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/zqianduan_html3/src/main/java/com/ecpss/service/WebSocketServer.java" />
-        <option value="$PROJECT_DIR$/zqianduan_html3/src/main/java/com/ecpss/controller/DefaultController.java" />
         <option value="$PROJECT_DIR$/zqianduan/pom.xml" />
         <option value="$PROJECT_DIR$/zqianduan/src/main/java/com/ecpss/websocketdemo/WebSocketConfig.java" />
         <option value="$PROJECT_DIR$/zqianduan_html3/src/main/resources/templates/index.html" />
@@ -298,6 +275,8 @@
         <option value="$PROJECT_DIR$/zqianduan/src/main/java/com/ecpss/websocketdemo/WebSocketServer.java" />
         <option value="$PROJECT_DIR$/zqianduan/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/zqianduan/src/main/resources/templates/wb.html" />
+        <option value="$PROJECT_DIR$/zqianduan_html3/src/main/java/com/ecpss/controller/DefaultController.java" />
+        <option value="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/WechatController.java" />
       </list>
     </option>
   </component>
@@ -352,10 +331,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="476" />
+    <option name="y" value="32" />
+    <option name="width" value="1427" />
+    <option name="height" value="1085" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -502,44 +481,168 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ecpss" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_public_number" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
               <item name="zqianduan" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
               <item name="zqianduan" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
               <item name="zqianduan" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
               <item name="zqianduan" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
               <item name="zqianduan" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -547,8 +650,8 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
               <item name="zqianduan" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -557,8 +660,8 @@
               <item name="ecpss" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
               <item name="zqianduan" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -568,68 +671,27 @@
               <item name="websocketdemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
               <item name="zqianduan" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
               <item name="zqianduan" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="zqianduan_html3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="zqianduan_html3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="zqianduan_html3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="zqianduan_html3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="zqianduan_html3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectwork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectwork1" type="462c0819:PsiDirectoryNode" />
-              <item name="zqianduan_html3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -642,7 +704,7 @@
     <property name="SearchEverywhereHistoryKey" value="执行&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571159608719" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571367634609" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -665,17 +727,17 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workaddress\projectwork\hshiro\src\main\resources\templates" />
+      <recent name="D:\workaddress\projectwork\hshiro\src\main\resources\templates\user" />
+      <recent name="D:\workaddress\projectwork\zzjava\src\main\resources" />
+      <recent name="D:\workaddress\projectwork\ddiancan\src\main\resources\static" />
+      <recent name="D:\workaddress\projectwork\bblog\src\main\resources\templates" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.ecpss.tkmybatismapper" />
       <recent name="com.ecpss" />
       <recent name="com.ecpss.dao" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IdeaWroks\projectwork1\zqianduan\src\main\java\com\ecpss\websocketdemo" />
-      <recent name="D:\workspace\tk-mybatis-mapper\src\main\resources\templates" />
-      <recent name="D:\workspace\tk-mybatis-mapper\src\main\resources" />
-      <recent name="D:\IdeaWroks\projectwork1\wx_public_number\src\main\java\com\ecpss\wx_public_number\utils" />
-      <recent name="D:\workspace\wx_public_number\src\main\resources\templates" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ecpss.wx_public_number.utils" />
@@ -684,12 +746,12 @@
       <recent name="com.ecpss.tkmybatismapper.Base.test.common.utils" />
       <recent name="com.ecpss.tkmybatismapper.bean" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workaddress\projectwork\hshiro\src\main\resources\templates" />
-      <recent name="D:\workaddress\projectwork\hshiro\src\main\resources\templates\user" />
-      <recent name="D:\workaddress\projectwork\zzjava\src\main\resources" />
-      <recent name="D:\workaddress\projectwork\ddiancan\src\main\resources\static" />
-      <recent name="D:\workaddress\projectwork\bblog\src\main\resources\templates" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaWroks\projectwork1\zqianduan\src\main\java\com\ecpss\websocketdemo" />
+      <recent name="D:\workspace\tk-mybatis-mapper\src\main\resources\templates" />
+      <recent name="D:\workspace\tk-mybatis-mapper\src\main\resources" />
+      <recent name="D:\IdeaWroks\projectwork1\wx_public_number\src\main\java\com\ecpss\wx_public_number\utils" />
+      <recent name="D:\workspace\wx_public_number\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1958,6 +2020,8 @@
       <workItem from="1570965030483" duration="2439000" />
       <workItem from="1570970425792" duration="3265000" />
       <workItem from="1571150701016" duration="8841000" />
+      <workItem from="1571188398002" duration="4031000" />
+      <workItem from="1571367176599" duration="586000" />
     </task>
     <task id="LOCAL-00001" summary="secpmd omot o">
       <created>1561358034384</created>
@@ -2116,7 +2180,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1523384000" />
+    <option name="totallyTimeSpent" value="1528001000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -2128,9 +2192,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7775306" visible="true" weight="0.2730711" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7775306" visible="true" weight="0.23134328" />
       <window_info id="Structure" order="1" weight="0.24945135" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Designer" order="3" />
@@ -2173,7 +2238,7 @@
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.32960597" />
       <window_info anchor="right" x="92" y="92" width="1736" height="856" id="Byte Code Viewer" order="11" type="FLOATING" visible="true" />
       <window_info anchor="right" id="Maven Projects" order="12" sideWeight="0.4759036" weight="0.32960597" />
-      <window_info anchor="right" id="Maven" order="13" visible="true" weight="0.055219363" />
+      <window_info anchor="right" id="Maven" order="13" visible="true" weight="0.05490405" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7775306" visible="true" weight="0.22707888" />
@@ -2387,64 +2452,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/WechatController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
-          <caret line="77" column="13" lean-forward="true" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/avideo/src/main/java/com/ecpss/utils/HttpUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/tokendomain/TempleteMsgController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/TokenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hshiro/src/main/resources/ehcache.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hshiro/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/qbcQuery/QbyController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-264">
           <caret line="61" column="3" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/utils/HttpUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2780">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2525,27 +2536,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/service/TestMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="999">
-          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/service/TestMapper.java" />
     <entry file="file://$PROJECT_DIR$/wx_public_number/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/utils/XmlUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2570,24 +2565,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/a_工具/zdc/工具/邮箱和短信验证码/短信/miaodi/Utils/IndustrySMS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53" />
-      </provider>
-    </entry>
-    <entry file="file://D:/a_工具/zdc/工具/邮箱和短信验证码/短信/miaodi/Utils/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243" />
-      </provider>
-    </entry>
-    <entry file="file://D:/a_工具/zdc/工具/邮箱和短信验证码/短信/miaodi/Utils/Config.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/a_工具/zdc/工具/邮箱和短信验证码/短信/miaodi/Utils/HttpUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-324" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../a_工具/zdc/工具/邮箱和短信验证码/短信/miaodi/Utils/IndustrySMS.java" />
+    <entry file="file://$PROJECT_DIR$/../a_工具/zdc/工具/邮箱和短信验证码/短信/miaodi/Utils/Test.java" />
+    <entry file="file://$PROJECT_DIR$/../a_工具/zdc/工具/邮箱和短信验证码/短信/miaodi/Utils/Config.java" />
+    <entry file="file://$PROJECT_DIR$/../a_工具/zdc/工具/邮箱和短信验证码/短信/miaodi/Utils/HttpUtil.java" />
     <entry file="file://$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -2635,13 +2616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zqianduan_html3/src/main/java/com/ecpss/controller/DefaultController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zqianduan_html3/src/main/java/com/ecpss/service/WebSocketConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -2653,20 +2627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zqianduan/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zqianduan/src/main/java/com/ecpss/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -2683,53 +2643,135 @@
     <entry file="file://$PROJECT_DIR$/zqianduan/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/zqianduan_html3/src/main/resources/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/zqianduan/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="2079">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zqianduan/src/main/java/com/ecpss/websocketdemo/WebSocketConfig.java">
+    <entry file="file://$PROJECT_DIR$/zqianduan/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="1287">
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zqianduan/src/main/java/com/ecpss/websocketdemo/WebSocketController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="542">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/zqianduan/src/main/resources/templates/wb.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1023">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zqianduan/src/main/java/com/ecpss/websocketdemo/WebSocketConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/zqianduan/src/main/java/com/ecpss/websocketdemo/WebSocketServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="54" column="42" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="42" />
+        <state relative-caret-position="2211">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
           <folding>
-            <element signature="e#598#615#0" expanded="true" />
             <element signature="e#833#834#0" expanded="true" />
             <element signature="e#874#875#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zqianduan/src/main/resources/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/zqianduan/src/main/java/com/ecpss/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-77">
-          <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        <state relative-caret-position="495">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zqianduan/src/main/resources/templates/wb.html">
+    <entry file="file://$PROJECT_DIR$/zqianduan_html3/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+        <state relative-caret-position="594">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_public_number/src/test/java/com/ecpss/wx_public_number/WxPublicNumberApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1023">
+          <caret line="49" column="19" lean-forward="true" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zqianduan_html3/src/main/java/com/ecpss/controller/DefaultController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/utils/XmlUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/utils/WXSignUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/utils/JuheLiaoTianUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/utils/HttpUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/ChatMechaneController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/TokenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/controller/WechatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-844">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
         </state>
       </provider>
     </entry>

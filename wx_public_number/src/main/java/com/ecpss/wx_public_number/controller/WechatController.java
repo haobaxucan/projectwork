@@ -1,6 +1,5 @@
 package com.ecpss.wx_public_number.controller;
 
-import com.ecpss.wx_public_number.domain.BaseMessage;
 import com.ecpss.wx_public_number.domain.TextMessage;
 import com.ecpss.wx_public_number.utils.XmlUtil;
 import org.springframework.stereotype.Controller;
@@ -15,6 +14,10 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.Map;
 
+/**
+ * 意思为普通用户关注公众号，
+ *然后在公众号发送消息，公众号接收后，进行回复用户消息
+ */
 @Controller
 public class WechatController {
     static final String TOKEN = "wx4";
