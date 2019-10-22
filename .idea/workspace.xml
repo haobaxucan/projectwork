@@ -10,16 +10,9 @@
     <bookmark url="file://$PROJECT_DIR$/hshiro/src/main/java/com/ecpss/boot_shiro/ShiroConfig.java" line="112" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="982b332e-cfa8-4c4c-8a5d-3d72ec10b71b" name="Default" comment="缓存测试">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/controller/json/JsonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/controller/json/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/utils/FastJsonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/utils/HttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/utils/HttpClientUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/utils/RestTemplateConfig.java" afterDir="false" />
+    <list default="true" id="982b332e-cfa8-4c4c-8a5d-3d72ec10b71b" name="Default" comment="rest风格">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkmybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tkmybatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/TkmybatisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/TkmybatisApplication.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/testweixin/target/" />
     <ignored path="$PROJECT_DIR$/avideo/target/" />
@@ -84,7 +77,29 @@
     <favorites_list name="projectwork" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/utils/HttpClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/TkmybatisApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -159,7 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wx_public_number/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/wx_public_number/src/main/java/com/ecpss/wx_public_number/utils/XmlToMapUtil.java" />
         <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/main/java/com/ecpss/tkmybatismapper/mapper/BookMapper.java" />
         <option value="$PROJECT_DIR$/tk-mybatis-mapper/src/test/java/com/ecpss/tkmybatismapper/TkMybatisMapperApplicationTests.java" />
@@ -210,6 +224,7 @@
         <option value="$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/utils/HttpClientUtil.java" />
         <option value="$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/controller/json/JsonController.java" />
         <option value="$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/utils/RestTemplateConfig.java" />
+        <option value="$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/TkmybatisApplication.java" />
       </list>
     </option>
   </component>
@@ -635,7 +650,7 @@
     <property name="SearchEverywhereHistoryKey" value="执行&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571726619554" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571728161754" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -2079,7 +2094,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570859041391</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="rest风格">
+      <created>1571726642202</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1571726642202</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2115,7 +2137,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1543994000" />
+    <option name="totallyTimeSpent" value="1545613000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -2128,6 +2150,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7775306" visible="true" weight="0.18869936" />
       <window_info id="Structure" order="1" weight="0.24945135" />
@@ -2141,7 +2164,7 @@
       <window_info id="Web" order="9" side_tool="true" />
       <window_info id="Database Changes" order="10" weight="0.20121029" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.87821484" visible="true" weight="0.29284164" />
+      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.87821484" weight="0.13991323" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.329718" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
@@ -2152,7 +2175,7 @@
       <window_info anchor="bottom" id="Messages" order="9" weight="0.19956616" />
       <window_info anchor="bottom" id="Application Servers" order="10" sideWeight="0.49924356" weight="0.0" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.12178517" side_tool="true" weight="0.38952535" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.19088937" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.26898047" />
       <window_info anchor="bottom" id="Spring" order="13" sideWeight="0.49924356" weight="0.3289689" />
       <window_info anchor="bottom" id="Problems" order="14" sideWeight="0.50075644" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Find" order="15" weight="0.24222586" />
@@ -2281,7 +2304,8 @@
     <MESSAGE value="jiezhou" />
     <MESSAGE value="temp" />
     <MESSAGE value="缓存测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="缓存测试" />
+    <MESSAGE value="rest风格" />
+    <option name="LAST_COMMIT_MESSAGE" value="rest风格" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2663,13 +2687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/TkmybatisApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wx_login/src/main/java/cn/tx/utils/HttpClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -2743,11 +2760,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/utils/HttpClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="159">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tkmybatis/src/main/java/com/ecpss/tkmybatis/TkmybatisApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
