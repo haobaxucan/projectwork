@@ -7,10 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.*;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.ArrayList;
@@ -73,7 +70,10 @@ public class JsonController {
     @ResponseBody
     @RequestMapping(value = "/psingle", method = RequestMethod.POST)
     public String reqstr(@RequestBody Person person) {
-        System.out.println(person);
+        System.out.println(person.getName());
+
+        Integer age=(person.getAge()==null)?0:person.getAge();
+        System.out.println("age"+age);
         return "s";
     }
 
@@ -93,5 +93,37 @@ public class JsonController {
         return s;
     }
 
+    @ResponseBody
+    @RequestMapping(value = "/wechat", method = RequestMethod.POST)
+    public String test() throws Exception {
+        List<MscAccountInfoDTO> lists=new ArrayList<>();
+        MscAccountInfoDTO mscAccountInfoDTO2 = new MscAccountInfoDTO().
+                setOpenId("ofxzNs-qFdXtrqMM4lO9vyigezEQ1").setMessageContent("------2222-----");
+        MscAccountInfoDTO mscAccountInfoDTO1 = new MscAccountInfoDTO().
+                setOpenId("ofxzNs-qFdXtrqMM4lO9vyigezEQ").setMessageContent("------2222-----");
+        MscAccountInfoDTO mscAccountInfoDTO = new MscAccountInfoDTO().
+                setOpenId("ofxzNs5GfJGyWANvibwe9V-ZSiVE").setMessageContent("---111");
+        lists.add(mscAccountInfoDTO1);
+        lists.add(mscAccountInfoDTO);
 
+        String json = JSONObject.toJSONString(lists);
+        String resp = HttpClientUtil.sendPostRequest("http://192.168.0.44:9090/wechatmessage",json);
+        return resp;
+    }
+
+
+    @ResponseBody
+    @RequestMapping(value = "/inmail", method = RequestMethod.POST)
+
+    public String test1() throws Exception {
+        SendMscContractMessageContentDTO contractMessageContentDTO=new SendMscContractMessageContentDTO();
+        contractMessageContentDTO.setGood_name("test");
+        String json = JSONObject.toJSONString(contractMessageContentDTO);
+
+        MscSendTaskEntity mscSendTaskEntity=new MscSendTaskEntity();
+        mscSendTaskEntity.setCustomerId(1).setContent(json).setContentType("INMAIL");
+        String toJSONString = JSONObject.toJSONString(mscSendTaskEntity);
+        String resp = HttpClientUtil.sendPostRequest("http://192.168.0.44:9090/inmail/send",toJSONString);
+        return resp;
+    }
 }

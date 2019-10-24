@@ -25,13 +25,11 @@ public class Person {
         Person person=new Person();
         person.setName("xx").setAge(12);
         Person person1=new Person();
-        person1.setName("jie").setAge(123);
+        person1.setName("jie");
 
         list.add(person);
         list.add(person1);
         System.out.println(list);
         System.out.println(JSONObject.toJSONString(list));
-
-
     }
 }
