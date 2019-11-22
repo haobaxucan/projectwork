@@ -21,6 +21,7 @@
         <module name="hrbac" />
         <module name="hshiro" />
         <module name="ipayment" />
+        <module name="mybatis_mbg" />
         <module name="tk-mybatis-mapper" />
         <module name="tkmybatis" />
         <module name="websocket_boot" />
@@ -50,6 +51,8 @@
       <module name="hrbac" target="1.8" />
       <module name="hshiro" target="1.8" />
       <module name="ipayment" target="1.8" />
+      <module name="mbg" target="1.5" />
+      <module name="mybatis_mbg" target="1.8" />
       <module name="tk-mybatis-mapper" target="1.8" />
       <module name="tkmybatis" target="1.8" />
       <module name="websocket_boot" target="1.8" />
@@ -78,6 +81,7 @@
       <module name="hrbac" options="-parameters" />
       <module name="hshiro" options="-parameters" />
       <module name="ipayment" options="-parameters" />
+      <module name="mybatis_mbg" options="-parameters" />
       <module name="tk-mybatis-mapper" options="-parameters" />
       <module name="tkmybatis" options="-parameters" />
       <module name="websocket_boot" options="-parameters" />
